@@ -42,6 +42,10 @@ jobs:
           chmod +x generate.sh
           ./generate.sh
 
+      - name: git pull
+        run: |
+          git pull origin main
+
       - name: git add
         run: |
           git add -A
