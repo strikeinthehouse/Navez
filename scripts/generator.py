@@ -6,20 +6,19 @@ import sys
 import streamlink
 
 banner = r'''
-#########################################################################
-#      ____            _           _   __  __                           #
-#     |  _ \ _ __ ___ (_) ___  ___| |_|  \/  | ___   ___  ___  ___      #
-#     | |_) | '__/ _ \| |/ _ \/ __| __| |\/| |/ _ \ / _ \/ __|/ _ \     #
-#     |  __/| | | (_) | |  __/ (__| |_| |  | | (_) | (_) \__ \  __/     #
-#     |_|   |_|  \___// |\___|\___|\__|_|  |_|\___/ \___/|___/\___|     #
-#                   |__/                                                #
-#                                  >> https://github.com/benmoose39     #
-#########################################################################
+######################################################################
+#  _       _                                          _              #
+# (_)     | |                                        | |             # 
+#  _ _ __ | |___   __  __ _  ___ _ __   ___ _ __ __ _| |_ ___  _ __  #
+# | | '_ \| __\ \ / / / _` |/ _ \ '_ \ / _ \ '__/ _` | __/ _ \| '__| #
+# | | |_) | |_ \ V / | (_| |  __/ | | |  __/ | | (_| | || (_) | |    #
+# |_| .__/ \__| \_/   \__, |\___|_| |_|\___|_|  \__,_|\__\___/|_|    #
+#   | |         ______ __/ |                                         #
+#   |_|        |______|___/                                          #
+#                                                                    #
+#                                     >> https://github.com/osgioia  #
+######################################################################
 '''
-
-windows = False
-if 'win' in sys.platform:
-    windows = True
 
 def grab(url):
     try:
@@ -29,7 +28,7 @@ def grab(url):
             return streams["best"].url
         return None
     except streamlink.exceptions.NoPluginError:
-        return None
+        return url
 
 def check_url(url):
     try:
@@ -40,7 +39,7 @@ def check_url(url):
     except requests.exceptions.RequestException:
         return False
 
-print('#EXTM3U x-tvg-url="https://github.com/botallen/epg/releases/download/latest/epg.xml"')
+##print('#EXTM3U x-tvg-url="https://github.com/botallen/epg/releases/download/latest/epg.xml"')
 print(banner)
 
 with open('../channel_info.txt') as f:
@@ -59,7 +58,3 @@ with open('../channel_info.txt') as f:
             youtube_link = grab(line)
             if youtube_link and check_url(youtube_link):
                 print(youtube_link)
-
-if 'temp.txt' in os.listdir():
-    os.system('rm temp.txt')
-    os.system('rm watch*')
