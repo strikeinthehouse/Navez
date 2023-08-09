@@ -38,9 +38,18 @@ def check_url(url):
         response = requests.head(url, timeout=15)
         if response.status_code == 200:
             return True
-        return False
     except requests.exceptions.RequestException:
-        return False
+        pass
+    
+    try:
+        response = requests.head(url, timeout=15, verify=False)
+        if response.status_code == 200:
+            return True
+    except requests.exceptions.RequestException:
+        pass
+    
+    return False
+
 
 print(banner)
 
