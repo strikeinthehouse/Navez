@@ -22,13 +22,16 @@ banner = r'''
 
 def grab(url):
     try:
+        if url.endswith('.m3u') or url.endswith('.m3u8'):
+            return url
+
         session = streamlink.Streamlink()
         streams = session.streams(url)
         if "best" in streams:
             return streams["best"].url
         return None
     except streamlink.exceptions.NoPluginError:
-        return url
+        return None
 
 def check_url(url):
     try:
@@ -39,7 +42,6 @@ def check_url(url):
     except requests.exceptions.RequestException:
         return False
 
-##print('#EXTM3U x-tvg-url="https://github.com/botallen/epg/releases/download/latest/epg.xml"')
 print(banner)
 
 with open('../channel_info.txt') as f:
@@ -55,6 +57,6 @@ with open('../channel_info.txt') as f:
             tvg_id = line[3].strip()
             print(f'\n#EXTINF:-1 group-title="{grp_title}" tvg-logo="{tvg_logo}" tvg-id="{tvg_id}", {ch_name}')
         else:
-            youtube_link = grab(line)
-            if youtube_link and check_url(youtube_link):
-                print(youtube_link)
+            link = grab(line)
+            if link and check_url(link):
+                print(link)
