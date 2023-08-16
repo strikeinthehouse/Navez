@@ -22,7 +22,7 @@ banner = r'''
 
 def grab(url):
     try:
-        if url.endswith('.m3u') or url.endswith('.m3u8'):
+        if url.endswith('.m3u') or url.endswith('.m3u8') or ".ts" in url:
             return url
 
         session = streamlink.Streamlink()
