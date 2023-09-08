@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import requests
 import os
 import sys
@@ -52,6 +50,7 @@ def check_url(url):
 
 
 print(banner)
+print(f'\n#EXTM3U')
 
 with open('../channel_info.txt') as f:
     for line in f:
