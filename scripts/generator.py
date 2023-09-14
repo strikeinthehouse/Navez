@@ -31,7 +31,7 @@ def grab(url):
             return streams["best"].url
         return None
     except streamlink.exceptions.NoPluginError:
-        return None
+        return url
 
 def check_url(url):
     try:
