@@ -2,6 +2,10 @@
 
 This repository contains a generator for an M3U playlist comprising various resources, such as YouTube, Twitch, Dailymotion, and direct URL streaming.
 
+**Disclaimer:**
+
+Please note that the M3U links provided may lead to content sources. It is your responsibility to ensure compliance with copyright laws and usage policies while using this software. The generator and the repository owner are not responsible for the use or misuse of this software, including any links to potentially copyrighted or pirated content.
+
 ## How to Install:
 
 1. Click on the "Use this template" button and create a new public repository.
@@ -25,3 +29,5 @@ https://www.youtube.com/@Channel1/live
 5. Paste the URL in VLC or your preferred media player to enjoy!
 
 **The workflow runs every 3 hours, updating the links.**
+
+
