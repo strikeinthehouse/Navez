@@ -50,9 +50,10 @@ def check_url(url):
     
     return False
 
+# Crear un array para almacenar los datos
+channel_data = []
 
-print(banner)
-print(f'\n#EXTM3U')
+
 
 with open('../channel_info.txt') as f:
     for line in f:
@@ -65,8 +66,33 @@ with open('../channel_info.txt') as f:
             grp_title = line[1].strip().title()
             tvg_logo = line[2].strip()
             tvg_id = line[3].strip()
-            print(f'\n#EXTINF:-1 group-title="{grp_title}" tvg-logo="{tvg_logo}" tvg-id="{tvg_id}", {ch_name}')
+            channel_data.append({
+                'type': 'info',
+                'ch_name': ch_name,
+                'grp_title': grp_title,
+                'tvg_logo': tvg_logo,
+                'tvg_id': tvg_id,
+                'url': ''
+            })
+            
         else:
             link = grab(line)
             if link and check_url(link):
-                print(link)
+                channel_data.append({
+                    'type': 'link',
+                    'url': link
+                })
+
+
+print(banner)
+print(f'\n#EXTM3U')
+
+# Initialize a variable to keep track of the previous item
+prev_item = None
+
+for item in channel_data:
+    if item['type'] == 'info':
+        prev_item = item
+    if item['type'] == 'link' and item['url']:
+        print(f'\n#EXTINF:-1 group-title="{prev_item["grp_title"]}" tvg-logo="{prev_item["tvg_logo"]}" tvg-id="{prev_item["tvg_id"]}", {prev_item["ch_name"]}')
+        print(item['url'])
