@@ -4,6 +4,21 @@ import requests
 import os
 import sys
 import streamlink
+import logging
+from logging.handlers import RotatingFileHandler
+import json
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)  
+
+log_file = "log.txt" 
+file_handler = RotatingFileHandler(log_file)
+file_handler.setLevel(logging.DEBUG) 
+
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+
+logger.addHandler(file_handler)
 
 banner = r'''
 ######################################################################
@@ -16,7 +31,7 @@ banner = r'''
 #   | |         ______ __/ |                                         #
 #   |_|        |______|___/                                          #
 #                                                                    #
-#                                     >> https://github.com/osgioia  #
+#                                                                    #
 ######################################################################
 '''
 
@@ -27,11 +42,17 @@ def grab(url):
 
         session = streamlink.Streamlink()
         streams = session.streams(url)
+        logger.debug("URL Streams %s: %s", url, streams)
         if "best" in streams:
             return streams["best"].url
         return None
-    except streamlink.exceptions.NoPluginError:
+    except streamlink.exceptions.NoPluginError as err:
+        logger.error("URL Error No PluginError %s: %s", url, err)
         return url
+    except streamlink.StreamlinkError as err:
+        logger.error("URL Error %s: %s", url, err)
+        return None
+
 
 def check_url(url):
     try:
@@ -50,12 +71,12 @@ def check_url(url):
     
     return False
 
-# Crear un array para almacenar los datos
 channel_data = []
+channel_data_json = []
 
+channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../channel_info.txt'))
 
-
-with open('../channel_info.txt') as f:
+with open(channel_info) as f:
     for line in f:
         line = line.strip()
         if not line or line.startswith('~~'):
@@ -83,16 +104,49 @@ with open('../channel_info.txt') as f:
                     'url': link
                 })
 
+with open("playlist.m3u", "w") as f:
+    f.write(banner)
+    f.write(f'\n#EXTM3U')
 
-print(banner)
-print(f'\n#EXTM3U')
 
-# Initialize a variable to keep track of the previous item
+    prev_item = None
+
+    for item in channel_data:
+        if item['type'] == 'info':
+            prev_item = item
+        if item['type'] == 'link' and item['url']:
+            f.write(f'\n#EXTINF:-1 group-title="{prev_item["grp_title"]}" tvg-logo="{prev_item["tvg_logo"]}" tvg-id="{prev_item["tvg_id"]}", {prev_item["ch_name"]}')
+            f.write('\n')
+            f.write(item['url'])
+            f.write('\n')
+
+
 prev_item = None
 
 for item in channel_data:
     if item['type'] == 'info':
         prev_item = item
     if item['type'] == 'link' and item['url']:
-        print(f'\n#EXTINF:-1 group-title="{prev_item["grp_title"]}" tvg-logo="{prev_item["tvg_logo"]}" tvg-id="{prev_item["tvg_id"]}", {prev_item["ch_name"]}')
-        print(item['url'])
+        channel_data_json.append( {
+            "id": prev_item["tvg_id"],
+            "name": prev_item["ch_name"],
+            "alt_names": [""],
+            "network": "",
+            "owners": [""],
+            "country": "AR",
+            "subdivision": "",
+            "city": "Buenos Aires",
+            "broadcast_area": [""],
+            "languages": ["spa"],
+            "categories": [prev_item["grp_title"]],
+            "is_nsfw": False,
+            "launched": "2016-07-28",
+            "closed": "2020-05-31",
+            "replaced_by": "",
+            "website": item['url'],
+            "logo": prev_item["tvg_logo"]
+        })
+
+with open("playlist.json", "w") as f:
+    json_data = json.dumps(channel_data_json, indent=2)
+    f.write(json_data)
