@@ -58,6 +58,7 @@ def check_url(url):
     try:
         response = requests.head(url, timeout=15)
         if response.status_code == 200:
+            logger.debug("URL Streams %s: %s", url, response)
             return True
     except requests.exceptions.RequestException as err:
         pass
@@ -65,6 +66,7 @@ def check_url(url):
     try:
         response = requests.head(url, timeout=15, verify=False)
         if response.status_code == 200:
+            logger.debug("URL Streams %s: %s", url, response)
             return True
     except requests.exceptions.RequestException as err:
         logger.error("URL Error %s: %s", url, err)
