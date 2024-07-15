@@ -41,8 +41,10 @@ jobs:
           rm -rf ./log.txt
 
       - name: Run Python script
-        run: pip install beautifulsoup4
-              python abrindobagulho.py
+        run: |
+          pip install beautifulsoup4
+          python abrindobagulho.py
+
         
         
       - name: Main
