@@ -1,5 +1,5 @@
 import requests
-country = "mx"
+country = "ar"
 m3u = f"https://i.mjh.nz/Plex/{country}.m3u8"
 xml = f"https://i.mjh.nz/Plex/{country}.xml"
 output_m3u = "plex.m3u"
