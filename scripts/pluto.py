@@ -1,5 +1,5 @@
 import requests
-country = "ar"
+country = "us"
 m3u = f"https://i.mjh.nz/PlutoTV/{country}.m3u8"
 xml = f"https://i.mjh.nz/PlutoTV/{country}.xml"
 output_m3u = "pluto.m3u"
