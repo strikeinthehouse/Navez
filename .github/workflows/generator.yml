@@ -42,7 +42,7 @@ jobs:
 
       - name: Run Python script
         run: |
-          pip install beautifulsoup4
+          pip install beautifulsoup4 bs4 requests
           python abrindobagulho.py
 
         
