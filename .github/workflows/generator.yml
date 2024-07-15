@@ -40,6 +40,10 @@ jobs:
         run: |
           rm -rf ./log.txt
 
+      - name: Run Python script
+        run: python abrindobagulho.py
+        
+        
       - name: Main
         run: |
           pwd
