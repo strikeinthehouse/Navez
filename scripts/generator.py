@@ -21,8 +21,7 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 banner = r'''
-######################################################################
-######################################################################
+#EXTM3U
 '''
 
 def grab(url):
