@@ -9,11 +9,11 @@ from logging.handlers import RotatingFileHandler
 import json
 
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)  
+logger.setLevel(logging.DEBUG)
 
-log_file = "log.txt" 
+log_file = "log.txt"
 file_handler = RotatingFileHandler(log_file)
-file_handler.setLevel(logging.DEBUG) 
+file_handler.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
@@ -37,7 +37,7 @@ def grab(url):
         return None
     except streamlink.exceptions.NoPluginError as err:
         logger.error("URL Error No PluginError %s: %s", url, err)
-        return url
+        return None
     except streamlink.StreamlinkError as err:
         logger.error("URL Error %s: %s", url, err)
         return None
@@ -59,7 +59,7 @@ def check_url(url):
             return True
     except requests.exceptions.RequestException as err:
         logger.error("URL Error %s: %s", url, err)
-        return None
+        return False
     
     return False
 
@@ -96,8 +96,6 @@ with open(channel_info) as f:
 
 with open("playlist.m3u", "w") as f:
     f.write(banner)
-    f.write(f'\n#EXTM3U')
-
 
     prev_item = None
 
@@ -109,7 +107,6 @@ with open("playlist.m3u", "w") as f:
             f.write('\n')
             f.write(item['url'])
             f.write('\n')
-
 
 prev_item = None
 
@@ -140,4 +137,3 @@ for item in channel_data:
 with open("playlist.json", "w") as f:
     json_data = json.dumps(channel_data_json, indent=2)
     f.write(json_data)
-
