@@ -5,7 +5,6 @@ import os
 import streamlink
 import logging
 from logging.handlers import RotatingFileHandler
-import json
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -86,6 +85,7 @@ with open(channel_info) as f:
                 i += 1
         i += 1
 
+# Agora vamos escrever os canais válidos no arquivo MASTER.m3u
 with open("MASTER.m3u", "w") as f:
     f.write(banner)
 
@@ -95,9 +95,7 @@ with open("MASTER.m3u", "w") as f:
         f.write(channel['url'])
         f.write('\n')
 
-with open("playlist.json", "w") as f:
-    json_data = json.dumps(channel_data, indent=2)
-    f.write(json_data)
+logger.info(f"Total de canais escritos em MASTER.m3u: {len(channel_data)}")
 
 
 
