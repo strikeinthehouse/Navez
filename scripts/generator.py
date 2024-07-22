@@ -1,10 +1,9 @@
-#!/usr/bin/python3
-
 import requests
 import os
 import streamlink
 import logging
 from logging.handlers import RotatingFileHandler
+import json
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -61,6 +60,28 @@ def check_url(url):
     
     return False
 
+def parse_extinf_line(line):
+    # Default values
+    group_title = "Undefined"
+    tvg_logo = "Undefined.png"
+    epg = ""
+    
+    # Split the line to extract metadata
+    meta_info = line.split(',')
+    if len(meta_info) > 1:
+        meta_info = meta_info[1].strip()
+        meta_parts = meta_info.split('|')
+        if len(meta_parts) > 0:
+            ch_name = meta_parts[0].strip()
+        if len(meta_parts) > 1:
+            group_title = meta_parts[1].strip()
+        if len(meta_parts) > 2:
+            tvg_logo = meta_parts[2].strip()
+        if len(meta_parts) > 3:
+            epg = meta_parts[3].strip()
+    
+    return ch_name, group_title, tvg_logo, epg
+
 channel_data = []
 
 channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../MASTER.txt'))
@@ -71,31 +92,39 @@ with open(channel_info) as f:
     while i < len(lines):
         line = lines[i].strip()
         if line.startswith('#EXTINF'):
-            meta_info = line.split(',')
-            if len(meta_info) > 1:
-                meta_info = meta_info[1].strip()
-                ch_name = meta_info.split('|')[0].strip()
-                link = lines[i+1].strip()
-                if link and check_url(link):
-                    channel_data.append({
-                        'name': ch_name,
-                        'url': link
-                    })
-                # Pular para a próxima linha de metadados, já que o link foi verificado
-                i += 1
+            # Extract information from #EXTINF line
+            ch_name, group_title, tvg_logo, epg = parse_extinf_line(line)
+            
+            link = lines[i+1].strip()
+            if link and check_url(link):
+                channel_data.append({
+                    'name': ch_name,
+                    'url': link,
+                    'group': group_title,
+                    'logo': tvg_logo,
+                    'epg': epg
+                })
+            i += 1  # Skip the next line (URL) because it's already processed
         i += 1
 
-# Agora vamos escrever os canais válidos no arquivo MASTER.m3u
 with open("MASTER.m3u", "w") as f:
     f.write(banner)
 
     for channel in channel_data:
-        f.write(f'\n#EXTINF:-1 group-title="Undefined" tvg-logo="Undefined.png", {channel["name"]}')
+        extinf_line = f'\n#EXTINF:-1 group-title="{channel["group"]}" tvg-logo="{channel["logo"]}"'
+        if channel["epg"]:
+            extinf_line += f' tvg-id="{channel["epg"]}"'
+        extinf_line += f', {channel["name"]}'
+        
+        f.write(extinf_line)
         f.write('\n')
         f.write(channel['url'])
         f.write('\n')
 
-logger.info(f"Total de canais escritos em MASTER.m3u: {len(channel_data)}")
+with open("playlist.json", "w") as f:
+    json_data = json.dumps(channel_data, indent=2)
+    f.write(json_data)
+
 
 
 
