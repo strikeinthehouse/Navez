@@ -2,12 +2,10 @@
 
 import requests
 import os
-import sys
 import streamlink
 import logging
 from logging.handlers import RotatingFileHandler
 import json
-import re
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -65,7 +63,6 @@ def check_url(url):
     return False
 
 channel_data = []
-channel_data_json = []
 
 channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../MASTER.txt'))
 
@@ -76,23 +73,14 @@ with open(channel_info) as f:
         line = lines[i].strip()
         if line.startswith('#EXTINF'):
             # Extract information from #EXTINF line
-            match = re.search(r'tvg-logo="(.*?)" group-title="(.*?)" tvg-id="(.*?)"', line)
-            if match:
-                tvg_logo = match.group(1)
-                grp_title = match.group(2)
-                tvg_id = match.group(3)
-                ch_name = lines[i+1].strip()
-                link = grab(ch_name)
+            meta_info = line.split(',')
+            if len(meta_info) > 1:
+                meta_info = meta_info[1].strip()
+                ch_name = meta_info.split('|')[0].strip()
+                link = lines[i+1].strip()
                 if link and check_url(link):
                     channel_data.append({
-                        'type': 'info',
-                        'ch_name': ch_name,
-                        'grp_title': grp_title,
-                        'tvg_logo': tvg_logo,
-                        'tvg_id': tvg_id
-                    })
-                    channel_data.append({
-                        'type': 'link',
+                        'name': ch_name,
                         'url': link
                     })
                 i += 1  # Skip the next line (URL) because it's already processed
@@ -101,46 +89,16 @@ with open(channel_info) as f:
 with open("MASTER.m3u", "w") as f:
     f.write(banner)
 
-    prev_item = None
-
-    for item in channel_data:
-        if item['type'] == 'info':
-            prev_item = item
-        if item['type'] == 'link' and item['url']:
-            f.write(f'\n#EXTINF:-1 group-title="{prev_item["grp_title"]}" tvg-logo="{prev_item["tvg_logo"]}" tvg-id="{prev_item["tvg_id"]}", {prev_item["ch_name"]}')
-            f.write('\n')
-            f.write(item['url'])
-            f.write('\n')
-
-prev_item = None
-
-for item in channel_data:
-    if item['type'] == 'info':
-        prev_item = item
-    if item['type'] == 'link' and item['url']:
-        channel_data_json.append({
-            "id": prev_item["tvg_id"],
-            "name": prev_item["ch_name"],
-            "alt_names": [""],
-            "network": "",
-            "owners": [""],
-            "country": "AR",
-            "subdivision": "",
-            "city": "Buenos Aires",
-            "broadcast_area": [""],
-            "languages": ["spa"],
-            "categories": [prev_item["grp_title"]],
-            "is_nsfw": False,
-            "launched": "2016-07-28",
-            "closed": "2020-05-31",
-            "replaced_by": "",
-            "website": item['url'],
-            "logo": prev_item["tvg_logo"]
-        })
+    for channel in channel_data:
+        f.write(f'\n#EXTINF:-1 group-title="Undefined" tvg-logo="Undefined.png", {channel["name"]}')
+        f.write('\n')
+        f.write(channel['url'])
+        f.write('\n')
 
 with open("playlist.json", "w") as f:
-    json_data = json.dumps(channel_data_json, indent=2)
+    json_data = json.dumps(channel_data, indent=2)
     f.write(json_data)
+
 
 
 
