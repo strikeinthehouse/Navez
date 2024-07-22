@@ -1,34 +1,4 @@
 import requests
-from bs4 import BeautifulSoup
-
-# URL da página que queremos acessar
-url = 'https://www.twitch.tv/search?term=GRAN%20HERMANO'
-
-# Cabeçalho do Google Chrome para simular a requisição
-headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-}
-
-# Fazendo a requisição GET para obter o conteúdo da página
-response = requests.get(url, headers=headers)
-
-# Verifica se a requisição foi bem sucedida (código 200)
-if response.status_code == 200:
-    # Parseando o conteúdo HTML
-    soup = BeautifulSoup(response.content, 'html.parser')
-
-    # Encontrando todos os elementos <a> com as classes específicas
-    links = soup.find_all('a', class_='ScCoreLink-sc-16kq0mq-0 fPPzLm tw-link')
-
-    # Iterando pelos links encontrados
-    for link in links:
-        # Imprimindo o texto dentro da tag <a>
-        print(link.text.strip())
-else:
-    print(f'Erro ao acessar a página: {response.status_code}')
-
-
-import requests
 import os
 import streamlink
 import logging
