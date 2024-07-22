@@ -72,7 +72,6 @@ with open(channel_info) as f:
     while i < len(lines):
         line = lines[i].strip()
         if line.startswith('#EXTINF'):
-            # Extract information from #EXTINF line
             meta_info = line.split(',')
             if len(meta_info) > 1:
                 meta_info = meta_info[1].strip()
@@ -83,7 +82,8 @@ with open(channel_info) as f:
                         'name': ch_name,
                         'url': link
                     })
-                i += 1  # Skip the next line (URL) because it's already processed
+                # Pular para a próxima linha de metadados, já que o link foi verificado
+                i += 1
         i += 1
 
 with open("MASTER.m3u", "w") as f:
@@ -98,7 +98,6 @@ with open("MASTER.m3u", "w") as f:
 with open("playlist.json", "w") as f:
     json_data = json.dumps(channel_data, indent=2)
     f.write(json_data)
-
 
 
 
