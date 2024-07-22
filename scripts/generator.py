@@ -31,7 +31,7 @@ try:
     cards = soup.find_all('div', class_='InjectLayout-sc-1i43xsx-0 fMQokC search-result-card')
 
     # Open the file channel_info.txt in append mode
-    with open('channel_info.txt', 'w', encoding='utf-8') as file:
+    with open('channel_info.txt', 'a', encoding='utf-8') as file:
         # Iterate through the found cards
         for card in cards:
             # Extract channel name
@@ -47,11 +47,11 @@ try:
             tvg_id = card.find('img', class_='search-result-card__img tw-image')['alt']
             
             # Format the output in the desired style
-            output_line = f"#EXTINF:-1 group-title=\"{group_name}\" tvg-logo=\"{logo_url}\" tvg-id=\"\", {channel_name}"
+            output_line = f"{group_name} | {channel_name} | {logo_url}"
             
             # Write to file
-            file.write(output_line + "\n")
-            file.write(f"https://www.twitch.tv/{tvg_id}\n\n")  # Write Twitch URL in the next line
+            file.write(output_line + " | \n")
+            file.write(f"https://www.twitch.tv/{tvg_id}\n\n")   # Write Twitch URL in the next line
 
 except Exception as e:
     print(f"Error: {e}")
