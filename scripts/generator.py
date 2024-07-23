@@ -47,11 +47,19 @@ try:
             tvg_id = card.find('img', class_='search-result-card__img tw-image')['alt']
             
             # Format the output in the desired style
-            output_line = f"{channel_name} | Reality Show'S Live | {logo_url}"
+            output_line = f"{channel_name} | Reality Show's Live | {logo_url}"
             
             # Write to file
             file.write(output_line + " | \n")
-            file.write(f"https://www.twitch.tv/{tvg_id}\n\n")   # Write Twitch URL in the next line
+            
+            # Prepare Twitch URL
+            twitch_url = f"https://www.twitch.tv/{tvg_id}"
+            
+            # Print Twitch URL to console
+            print(twitch_url)
+            
+            # Write Twitch URL to file
+            file.write(twitch_url + "\n\n")
 
 except Exception as e:
     print(f"Error: {e}")
