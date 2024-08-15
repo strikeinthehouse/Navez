@@ -1,543 +1,543 @@
-2024-08-15 14:12:12,590 - debug - URL Streams http://cam104y3.gesell.com.ar/playlist.m3u8: <Response [200]>
-2024-08-15 14:12:13,273 - debug - URL Streams http://cambsasyplaya.gesell.com.ar/playlist.m3u8: <Response [200]>
-2024-08-15 14:12:13,968 - debug - URL Streams http://camlapinocha.gesell.com.ar/playlist.m3u8: <Response [200]>
-2024-08-15 14:12:15,237 - debug - URL Streams https://unlimited1-buenosaires.dps.live/perfiltv/perfiltv.smil/playlist.m3u8: <Response [200]>
-2024-08-15 14:12:15,439 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164871.m3u8: <Response [200]>
-2024-08-15 14:12:15,618 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164880.m3u8: <Response [200]>
-2024-08-15 14:12:17,408 - debug - URL Streams https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/0/playlist.m3u8: <Response [200]>
-2024-08-15 14:13:42,996 - error - URL Error https://bvsat02.cdn.rcs.net.ar/mnp/construiriptv/output.mpd: HTTPSConnectionPool(host='bvsat02.cdn.rcs.net.ar', port=443): Max retries exceeded with url: /mnp/construiriptv/output.mpd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f9ec29fdd80>, 'Connection to bvsat02.cdn.rcs.net.ar timed out. (connect timeout=15)'))
-2024-08-15 14:14:01,137 - error - URL Error https://d3055hobuue3je.cloudfront.net/out/v1/188a8f3baf914a35868453bd5d0b0fd2/index_4.m3u8: HTTPSConnectionPool(host='d3055hobuue3je.cloudfront.net', port=443): Max retries exceeded with url: /out/v1/188a8f3baf914a35868453bd5d0b0fd2/index_4.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9ec29ff3a0>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))
-2024-08-15 14:14:01,996 - debug - URL Streams https://stream1.sersat.com/hls/garagetv.m3u8: <Response [200]>
-2024-08-15 14:14:01,997 - error - URL Error #EXTVLCOPT:http-referrer=https://vmf.edge-apps.net: No connection adapters were found for '#EXTVLCOPT:http-referrer=https://vmf.edge-apps.net'
-2024-08-15 14:14:02,614 - debug - URL Streams https://g1.proy-slo.transport.edge-access.net:443/a07/ngrp:americahls-100056_all/playlist_720p.m3u8: <Response [200]>
-2024-08-15 14:14:02,883 - error - URL Error #EXTVLCOPT:http-referrer=https://vmf.edge-apps.net: No connection adapters were found for '#EXTVLCOPT:http-referrer=https://vmf.edge-apps.net'
-2024-08-15 14:14:03,318 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164881.m3u8: <Response [200]>
-2024-08-15 14:14:03,453 - debug - URL Streams http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5df265697ec3510009df1ef0/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff1d530-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=ec2383fd-6e28-4df5-9d1c-b66eee7000c&userId=&serverSideAds=true: <Response [200]>
-2024-08-15 14:14:03,871 - debug - URL Streams http://168.197.196.98:9981/stream/channelid/1475050013?profile=pass: <Response [200]>
-2024-08-15 14:14:04,293 - debug - URL Streams http://168.197.196.98:9981/stream/channelid/1475050013: <Response [200]>
-2024-08-15 14:14:04,861 - debug - URL Streams https://cntlnk-main-edge-access.dlt.qwilted-cds.cqloud.com/entrypoint/c7_vivo01_dai_source-20001_all_1080p.m3u8: <Response [200]>
-2024-08-15 14:14:05,408 - debug - URL Streams https://cntlnk-main-edge-access.dlt.qwilted-cds.cqloud.com/entrypoint/c7_vivo01_dai_source-20001_all_1080p.m3u8: <Response [200]>
-2024-08-15 14:14:05,784 - debug - URL Streams http://abcnew.site:8880/D12m2692/94245219/49978: <Response [200]>
-2024-08-15 14:14:06,185 - debug - URL Streams http://181.191.140.2:8000/play/a0hd/index.m3u8: <Response [200]>
-2024-08-15 14:14:06,728 - debug - URL Streams https://cntlnk-main-edge-access.dlt.qwilted-cds.cqloud.com/entrypoint/c7_vivo01_dai_source-20001_all_1080p.m3u8: <Response [200]>
-2024-08-15 14:14:07,069 - debug - URL Streams https://live.obslivestream.com/telecolormux/tracks-v1a1/mono.m3u8: <Response [200]>
-2024-08-15 14:14:07,484 - debug - URL Streams http://168.197.196.98:9981/stream/channelid/581244389: <Response [200]>
-2024-08-15 14:14:07,859 - debug - URL Streams http://170.82.37.21:8000/play/a042/index.m3u8: <Response [200]>
-2024-08-15 14:14:37,892 - error - URL Error http://186.148.196.82:8000/play/a016: HTTPConnectionPool(host='186.148.196.82', port=8000): Max retries exceeded with url: /play/a016 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f9ec29ff700>, 'Connection to 186.148.196.82 timed out. (connect timeout=15)'))
-2024-08-15 14:14:38,318 - debug - URL Streams http://181.209.114.13:8000/play/a06c/index.m3u8: <Response [200]>
-2024-08-15 14:14:38,710 - debug - URL Streams http://181.191.140.2:8000/play/a0it/index.m3u8: <Response [200]>
-2024-08-15 14:14:39,110 - debug - URL Streams http://181.191.140.2:8000/play/a0hu/index.m3u8: <Response [200]>
-2024-08-15 14:15:09,135 - error - URL Error http://181.191.140.229:8000/play/a0hu/index.m3u8: HTTPConnectionPool(host='181.191.140.229', port=8000): Max retries exceeded with url: /play/a0hu/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f9ec29fcc10>, 'Connection to 181.191.140.229 timed out. (connect timeout=15)'))
-2024-08-15 14:15:39,168 - error - URL Error http://181.191.140.229:8000/play/a0it/index.m3u8: HTTPConnectionPool(host='181.191.140.229', port=8000): Max retries exceeded with url: /play/a0it/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f9ec29fff10>, 'Connection to 181.191.140.229 timed out. (connect timeout=15)'))
-2024-08-15 14:15:43,616 - debug - URL Streams https://livetrx01.vodgc.net/eltrecetv/index.m3u8: <Response [200]>
-2024-08-15 14:15:44,009 - debug - URL Streams http://181.191.140.2:8000/play/a0ir/index.m3u8: <Response [200]>
-2024-08-15 14:15:45,984 - debug - URL Streams https://live-01-02-eltrece.vodgc.net:443/eltrecetv/tracks-v2a1/mono.m3u8: <Response [200]>
-2024-08-15 14:15:46,882 - debug - URL Streams https://live-01-02-eltrece.vodgc.net/eltrecetv_noti/index.m3u8: <Response [200]>
-2024-08-15 14:15:47,294 - debug - URL Streams http://168.197.196.98:9981/stream/channelid/369719429?profile=pass&checkedby:alliptvlinks.com: <Response [200]>
-2024-08-15 14:16:18,300 - error - URL Error https://bvsat02.cdn.rcs.net.ar/mnp/elnueve/output.mpd: HTTPSConnectionPool(host='bvsat02.cdn.rcs.net.ar', port=443): Max retries exceeded with url: /mnp/elnueve/output.mpd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f9ec29fe1a0>, 'Connection to bvsat02.cdn.rcs.net.ar timed out. (connect timeout=15)'))
-2024-08-15 14:16:18,616 - debug - URL Streams http://lobo-tv.live:8080/Rodolfo01/Rodolfo01/210850: <Response [200]>
-2024-08-15 14:16:18,776 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164869.m3u8: <Response [200]>
-2024-08-15 14:16:19,526 - error - URL Error https://stmvideo2.livecastv.com/canal4/canal4/playlist.m3u8: HTTPSConnectionPool(host='stmvideo2.livecastv.com', port=443): Max retries exceeded with url: /canal4/canal4/playlist.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9ec29feaa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-2024-08-15 14:16:19,987 - debug - URL Streams http://168.197.196.98:9981/stream/channelid/1899762131?profile=pass: <Response [200]>
-2024-08-15 14:16:20,140 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164875.m3u8: <Response [200]>
-2024-08-15 14:16:21,782 - debug - URL Streams http://190.11.130.46/mnp/cronica/output.mpd: <Response [200]>
-2024-08-15 14:16:22,166 - error - URL Error http://tv.dominiotv.xyz:25461/live/Rolando/Rolando2021/52487.ts: HTTPConnectionPool(host='tv.dominiotv.xyz', port=25461): Max retries exceeded with url: /live/Rolando/Rolando2021/52487.ts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9ec2a80a60>: Failed to establish a new connection: [Errno 111] Connection refused'))
-2024-08-15 14:16:53,103 - error - URL Error https://bvsat02.cdn.rcs.net.ar/mnp/encuentro/output.mpd: HTTPSConnectionPool(host='bvsat02.cdn.rcs.net.ar', port=443): Max retries exceeded with url: /mnp/encuentro/output.mpd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f9ec29fccd0>, 'Connection to bvsat02.cdn.rcs.net.ar timed out. (connect timeout=15)'))
-2024-08-15 14:17:11,697 - debug - URL Streams http://190.11.130.46/mnp/encuentro/output.mpd: <Response [200]>
-2024-08-15 14:17:30,022 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164878.m3u8: <Response [200]>
-2024-08-15 14:17:59,456 - debug - URL Streams http://190.11.130.46/mnp/ip/output.mpd: <Response [200]>
-2024-08-15 14:18:29,488 - error - URL Error http://190.11.130.46/mnp/ip/output.mpd: HTTPConnectionPool(host='190.11.130.46', port=80): Max retries exceeded with url: /mnp/ip/output.mpd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f9ec29fef80>, 'Connection to 190.11.130.46 timed out. (connect timeout=15)'))
-2024-08-15 14:18:29,657 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164879.m3u8: <Response [200]>
-2024-08-15 14:18:44,269 - debug - URL Streams http://tutv.online:8080/f7g9h8b7/j3s7x7q8/184400: <Response [200]>
-2024-08-15 14:18:44,420 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164873.m3u8: <Response [200]>
-2024-08-15 14:18:46,015 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164876.m3u8: <Response [200]>
-2024-08-15 14:18:46,794 - debug - URL Streams https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8: <Response [200]>
-2024-08-15 14:18:47,857 - debug - URL Streams https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/nettv/livestream1/chunks.m3u8: <Response [200]>
-2024-08-15 14:18:48,815 - debug - URL Streams https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/playlist.m3u8: <Response [200]>
-2024-08-15 14:19:19,980 - error - URL Error http://190.11.130.46/mnp/canal26/output.mpd: HTTPConnectionPool(host='190.11.130.46', port=80): Max retries exceeded with url: /mnp/canal26/output.mpd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f9ec2a81240>, 'Connection to 190.11.130.46 timed out. (connect timeout=15)'))
-2024-08-15 14:19:21,153 - debug - URL Streams https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8: <Response [200]>
-2024-08-15 14:19:21,525 - error - URL Error http://tv.dominiotv.xyz:25461/live/Rolando/Rolando2021/52509.ts: HTTPConnectionPool(host='tv.dominiotv.xyz', port=25461): Max retries exceeded with url: /live/Rolando/Rolando2021/52509.ts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9ec29fffd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-2024-08-15 14:19:22,261 - error - URL Error https://www.youtube.com/watch?v=ztAU9B_z36g/live: Unable to open URL: https://www.youtube.com/watch?v=ztAU9B_z36g/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DztAU9B_z36g/live&q=EgQ0n4iUGOmc-LUGIjD8bT-RjGT81tymposhpwUB-S8c45LE10Sl2tD60tW5e9lF59hxKRj1rDy2OqUny1YyAXJaAUM)
-2024-08-15 14:19:22,261 - error - URL Error https://www.youtube.com/watch?v=ztAU9B_z36g/live: Unable to open URL: https://www.youtube.com/watch?v=ztAU9B_z36g/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DztAU9B_z36g/live&q=EgQ0n4iUGOmc-LUGIjD8bT-RjGT81tymposhpwUB-S8c45LE10Sl2tD60tW5e9lF59hxKRj1rDy2OqUny1YyAXJaAUM)
-2024-08-15 14:19:22,873 - debug - URL Streams https://www.youtube.com/user/TVPublicaArgentina/live: {}
-2024-08-15 14:19:22,873 - debug - URL Streams https://www.youtube.com/user/TVPublicaArgentina/live: {}
-2024-08-15 14:19:23,385 - debug - URL Streams https://www.youtube.com/channel/UCaU_cKHQ4IFHvBzQ-tKS1-Q/live: {}
-2024-08-15 14:19:23,385 - debug - URL Streams https://www.youtube.com/channel/UCaU_cKHQ4IFHvBzQ-tKS1-Q/live: {}
-2024-08-15 14:19:23,581 - debug - URL Streams https://www.youtube.com/c/MediasetEspa%C3%B1aOficial/live: {}
-2024-08-15 14:19:23,581 - debug - URL Streams https://www.youtube.com/c/MediasetEspa%C3%B1aOficial/live: {}
-2024-08-15 14:19:23,841 - debug - URL Streams https://www.twitch.tv/granhermanochile: {}
-2024-08-15 14:19:23,841 - debug - URL Streams https://www.twitch.tv/granhermanochile: {}
-2024-08-15 14:19:24,061 - debug - URL Streams https://www.twitch.tv/mvrenocl: {}
-2024-08-15 14:19:24,061 - debug - URL Streams https://www.twitch.tv/mvrenocl: {}
-2024-08-15 14:19:24,265 - debug - URL Streams https://www.twitch.tv/jamesreality_mx: {}
-2024-08-15 14:19:24,265 - debug - URL Streams https://www.twitch.tv/jamesreality_mx: {}
-2024-08-15 14:19:24,778 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037602/orlando/stream1/master.m3u8: <Response [200]>
-2024-08-15 14:19:24,778 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037602/orlando/stream1/master.m3u8: <Response [200]>
-2024-08-15 14:19:25,362 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream6/master.m3u8: <Response [200]>
-2024-08-15 14:19:25,362 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream6/master.m3u8: <Response [200]>
-2024-08-15 14:19:25,738 - error - URL Error https://dai2-playlistserver.aws.syncbak.com/cpl/20475903/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDQ3NTkwMyIsImNpZCI6MjA5NzQsInNpZCI6MTU4LCJtZDUiOiJiMTgwM2ExYTIxMzA5ZTEwNzNlOGJjMDQyOGU5NDkzOCIsImlhdCI6MTY1Mjg5MjgyMSwiZXhwIjoxNjg0NDI4ODIxLCJpc3MiOiJTeW5jYmFrIChURykifQ.ngWlxw_iUrju6oMpQl73BYHMCl7c6reypSqqP5nLbL8: Unable to open URL: https://dai2-playlistserver.aws.syncbak.com/cpl/20475903/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDQ3NTkwMyIsImNpZCI6MjA5NzQsInNpZCI6MTU4LCJtZDUiOiJiMTgwM2ExYTIxMzA5ZTEwNzNlOGJjMDQyOGU5NDkzOCIsImlhdCI6MTY1Mjg5MjgyMSwiZXhwIjoxNjg0NDI4ODIxLCJpc3MiOiJTeW5jYmFrIChURykifQ.ngWlxw_iUrju6oMpQl73BYHMCl7c6reypSqqP5nLbL8 (403 Client Error: Forbidden for url: https://dai2-playlistserver.aws.syncbak.com/cpl/20475903/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDQ3NTkwMyIsImNpZCI6MjA5NzQsInNpZCI6MTU4LCJtZDUiOiJiMTgwM2ExYTIxMzA5ZTEwNzNlOGJjMDQyOGU5NDkzOCIsImlhdCI6MTY1Mjg5MjgyMSwiZXhwIjoxNjg0NDI4ODIxLCJpc3MiOiJTeW5jYmFrIChURykifQ.ngWlxw_iUrju6oMpQl73BYHMCl7c6reypSqqP5nLbL8)
-2024-08-15 14:19:25,738 - error - URL Error https://dai2-playlistserver.aws.syncbak.com/cpl/20475903/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDQ3NTkwMyIsImNpZCI6MjA5NzQsInNpZCI6MTU4LCJtZDUiOiJiMTgwM2ExYTIxMzA5ZTEwNzNlOGJjMDQyOGU5NDkzOCIsImlhdCI6MTY1Mjg5MjgyMSwiZXhwIjoxNjg0NDI4ODIxLCJpc3MiOiJTeW5jYmFrIChURykifQ.ngWlxw_iUrju6oMpQl73BYHMCl7c6reypSqqP5nLbL8: Unable to open URL: https://dai2-playlistserver.aws.syncbak.com/cpl/20475903/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDQ3NTkwMyIsImNpZCI6MjA5NzQsInNpZCI6MTU4LCJtZDUiOiJiMTgwM2ExYTIxMzA5ZTEwNzNlOGJjMDQyOGU5NDkzOCIsImlhdCI6MTY1Mjg5MjgyMSwiZXhwIjoxNjg0NDI4ODIxLCJpc3MiOiJTeW5jYmFrIChURykifQ.ngWlxw_iUrju6oMpQl73BYHMCl7c6reypSqqP5nLbL8 (403 Client Error: Forbidden for url: https://dai2-playlistserver.aws.syncbak.com/cpl/20475903/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDQ3NTkwMyIsImNpZCI6MjA5NzQsInNpZCI6MTU4LCJtZDUiOiJiMTgwM2ExYTIxMzA5ZTEwNzNlOGJjMDQyOGU5NDkzOCIsImlhdCI6MTY1Mjg5MjgyMSwiZXhwIjoxNjg0NDI4ODIxLCJpc3MiOiJTeW5jYmFrIChURykifQ.ngWlxw_iUrju6oMpQl73BYHMCl7c6reypSqqP5nLbL8)
-2024-08-15 14:19:26,438 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037601/fresno/stream1/master.m3u8: <Response [200]>
-2024-08-15 14:19:26,438 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037601/fresno/stream1/master.m3u8: <Response [200]>
-2024-08-15 14:19:26,709 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037093/lasvegas/stream1/master.m3u8: <Response [200]>
-2024-08-15 14:19:26,709 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037093/lasvegas/stream1/master.m3u8: <Response [200]>
-2024-08-15 14:19:26,828 - error - URL Error No PluginError https://www.youtube.com/channel/UC6kNHHQl1YY1SRp7AYfxlbw/Live: 
-2024-08-15 14:19:26,828 - error - URL Error No PluginError https://www.youtube.com/channel/UC6kNHHQl1YY1SRp7AYfxlbw/Live: 
-2024-08-15 14:19:27,271 - error - URL Error https://www.youtube.com/watch?v=4rtYenPSjp4/Live: Unable to open URL: https://www.youtube.com/watch?v=4rtYenPSjp4/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D4rtYenPSjp4/Live&q=EgQ0n4iUGO6c-LUGIjA_m4sNoNtK90K7Xi5u1igqe78Y_hfFECKiddUudwNHODuDO95jm8OIhsHqowAsYf4yAXJaAUM)
-2024-08-15 14:19:27,271 - error - URL Error https://www.youtube.com/watch?v=4rtYenPSjp4/Live: Unable to open URL: https://www.youtube.com/watch?v=4rtYenPSjp4/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D4rtYenPSjp4/Live&q=EgQ0n4iUGO6c-LUGIjA_m4sNoNtK90K7Xi5u1igqe78Y_hfFECKiddUudwNHODuDO95jm8OIhsHqowAsYf4yAXJaAUM)
-2024-08-15 14:19:27,580 - error - URL Error https://www.youtube.com/watch?v=0iMpPy0HnkM/Live: Unable to open URL: https://www.youtube.com/watch?v=0iMpPy0HnkM/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D0iMpPy0HnkM/Live&q=EgQ0n4iUGO-c-LUGIjC8EKxzQwTZ71HAQBt9ycT-bMXenPil-3L_P4OByYN3unlpEOaxtrC0hExHiXRlsdYyAXJaAUM)
-2024-08-15 14:19:27,580 - error - URL Error https://www.youtube.com/watch?v=0iMpPy0HnkM/Live: Unable to open URL: https://www.youtube.com/watch?v=0iMpPy0HnkM/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D0iMpPy0HnkM/Live&q=EgQ0n4iUGO-c-LUGIjC8EKxzQwTZ71HAQBt9ycT-bMXenPil-3L_P4OByYN3unlpEOaxtrC0hExHiXRlsdYyAXJaAUM)
-2024-08-15 14:19:27,961 - error - URL Error https://www.youtube.com/watch?v=fdvfSKju3YM/Live: Unable to open URL: https://www.youtube.com/watch?v=fdvfSKju3YM/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DfdvfSKju3YM/Live&q=EgQ0n4iUGO-c-LUGIjA-U5iSjkSSB9BY85QZEQKFWJnFL_ffV22GzieIElA4r6u7BBVaYu7GcBM0-Qq9WwEyAXJaAUM)
-2024-08-15 14:19:27,961 - error - URL Error https://www.youtube.com/watch?v=fdvfSKju3YM/Live: Unable to open URL: https://www.youtube.com/watch?v=fdvfSKju3YM/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DfdvfSKju3YM/Live&q=EgQ0n4iUGO-c-LUGIjA-U5iSjkSSB9BY85QZEQKFWJnFL_ffV22GzieIElA4r6u7BBVaYu7GcBM0-Qq9WwEyAXJaAUM)
-2024-08-15 14:19:28,581 - debug - URL Streams https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q/live: {}
-2024-08-15 14:19:28,581 - debug - URL Streams https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q/live: {}
-2024-08-15 14:19:29,116 - error - URL Error https://www.youtube.com/watch?v=Ove87nZ_1D4/Live: Unable to open URL: https://www.youtube.com/watch?v=Ove87nZ_1D4/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DOve87nZ_1D4/Live&q=EgQ0n4iUGPCc-LUGIjCuMzE2KrSrUDQD3kDzeRQ19guZcYQu1LUeZkhFLHJ1nnvNjvjZxYI1H_PeKj3OyTIyAXJaAUM)
-2024-08-15 14:19:29,116 - error - URL Error https://www.youtube.com/watch?v=Ove87nZ_1D4/Live: Unable to open URL: https://www.youtube.com/watch?v=Ove87nZ_1D4/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DOve87nZ_1D4/Live&q=EgQ0n4iUGPCc-LUGIjCuMzE2KrSrUDQD3kDzeRQ19guZcYQu1LUeZkhFLHJ1nnvNjvjZxYI1H_PeKj3OyTIyAXJaAUM)
-2024-08-15 14:19:29,535 - error - URL Error https://www.youtube.com/watch?v=28Azb5gyTdg/Live: Unable to open URL: https://www.youtube.com/watch?v=28Azb5gyTdg/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D28Azb5gyTdg/Live&q=EgQ0n4iUGPGc-LUGIjBjNKZqOZGssHFIbWMNqNAd9_I5RqLhSe6sWfa0Lo03kDXKqoCa2kzamXUkNm2ILE0yAXJaAUM)
-2024-08-15 14:19:29,535 - error - URL Error https://www.youtube.com/watch?v=28Azb5gyTdg/Live: Unable to open URL: https://www.youtube.com/watch?v=28Azb5gyTdg/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D28Azb5gyTdg/Live&q=EgQ0n4iUGPGc-LUGIjBjNKZqOZGssHFIbWMNqNAd9_I5RqLhSe6sWfa0Lo03kDXKqoCa2kzamXUkNm2ILE0yAXJaAUM)
-2024-08-15 14:19:30,042 - error - URL Error https://www.youtube.com/watch?v=pAw6Ys4s638/Live: Unable to open URL: https://www.youtube.com/watch?v=pAw6Ys4s638/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DpAw6Ys4s638/Live&q=EgQ0n4iUGPGc-LUGIjBkSHRDZ7Wqb8qjd5vFNPj-0D82htVL8on-nEzeCpdTeb089AOOw8DWV1OYnzjYgbcyAXJaAUM)
-2024-08-15 14:19:30,042 - error - URL Error https://www.youtube.com/watch?v=pAw6Ys4s638/Live: Unable to open URL: https://www.youtube.com/watch?v=pAw6Ys4s638/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DpAw6Ys4s638/Live&q=EgQ0n4iUGPGc-LUGIjBkSHRDZ7Wqb8qjd5vFNPj-0D82htVL8on-nEzeCpdTeb089AOOw8DWV1OYnzjYgbcyAXJaAUM)
-2024-08-15 14:19:30,380 - error - URL Error https://www.youtube.com/watch?v=jFQhllVo0_A/Live: Unable to open URL: https://www.youtube.com/watch?v=jFQhllVo0_A/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DjFQhllVo0_A/Live&q=EgQ0n4iUGPKc-LUGIjBt3I81EpS70QC2n3mXi6chm6l5ov7NdbVAGohWxglCDFyv-WYouamjEoBSTZf0B-4yAXJaAUM)
-2024-08-15 14:19:30,380 - error - URL Error https://www.youtube.com/watch?v=jFQhllVo0_A/Live: Unable to open URL: https://www.youtube.com/watch?v=jFQhllVo0_A/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DjFQhllVo0_A/Live&q=EgQ0n4iUGPKc-LUGIjBt3I81EpS70QC2n3mXi6chm6l5ov7NdbVAGohWxglCDFyv-WYouamjEoBSTZf0B-4yAXJaAUM)
-2024-08-15 14:19:30,885 - error - URL Error https://www.youtube.com/watch?v=rjz5-gVhjHI/live: Unable to open URL: https://www.youtube.com/watch?v=rjz5-gVhjHI/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Drjz5-gVhjHI/live&q=EgQ0n4iUGPKc-LUGIjBlJ-7fGe_qBpMxVaDi88OSAG7yW1Vmk50tDas35c7PU3FrvBEKRGq3LZxPVRL25lgyAXJaAUM)
-2024-08-15 14:19:30,885 - error - URL Error https://www.youtube.com/watch?v=rjz5-gVhjHI/live: Unable to open URL: https://www.youtube.com/watch?v=rjz5-gVhjHI/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Drjz5-gVhjHI/live&q=EgQ0n4iUGPKc-LUGIjBlJ-7fGe_qBpMxVaDi88OSAG7yW1Vmk50tDas35c7PU3FrvBEKRGq3LZxPVRL25lgyAXJaAUM)
-2024-08-15 14:19:31,588 - debug - URL Streams https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ/live: {}
-2024-08-15 14:19:31,588 - debug - URL Streams https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ/live: {}
-2024-08-15 14:19:31,754 - error - URL Error No PluginError https://www.youtube.com/channel/UCjwXjnO3BGePtB7gSKEpoqA/Live: 
-2024-08-15 14:19:31,754 - error - URL Error No PluginError https://www.youtube.com/channel/UCjwXjnO3BGePtB7gSKEpoqA/Live: 
-2024-08-15 14:19:32,332 - error - URL Error https://www.youtube.com/watch?v=u_C7Lwe1798/Live: Unable to open URL: https://www.youtube.com/watch?v=u_C7Lwe1798/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Du_C7Lwe1798/Live&q=EgQ0n4iUGPOc-LUGIjDr-pFqRzeYovfX9t7l_U-Fmo8RFDZlJMKsCXSWJ7V_SvMWQREoItF4awGxhCWGGqwyAXJaAUM)
-2024-08-15 14:19:32,332 - error - URL Error https://www.youtube.com/watch?v=u_C7Lwe1798/Live: Unable to open URL: https://www.youtube.com/watch?v=u_C7Lwe1798/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Du_C7Lwe1798/Live&q=EgQ0n4iUGPOc-LUGIjDr-pFqRzeYovfX9t7l_U-Fmo8RFDZlJMKsCXSWJ7V_SvMWQREoItF4awGxhCWGGqwyAXJaAUM)
-2024-08-15 14:19:32,888 - debug - URL Streams https://www.youtube.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg/live: {}
-2024-08-15 14:19:32,888 - debug - URL Streams https://www.youtube.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg/live: {}
-2024-08-15 14:19:33,289 - error - URL Error No PluginError https://www.youtube.com/channel/UCCTTGnP8-QydTBoMXCUduoQ/Live: 
-2024-08-15 14:19:33,289 - error - URL Error No PluginError https://www.youtube.com/channel/UCCTTGnP8-QydTBoMXCUduoQ/Live: 
-2024-08-15 14:19:33,631 - error - URL Error https://www.youtube.com/watch?v=xvGxvwWlnJ8/Live: Unable to open URL: https://www.youtube.com/watch?v=xvGxvwWlnJ8/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DxvGxvwWlnJ8/Live&q=EgQ0n4iUGPWc-LUGIjCTt0Av9Ttm1ilUwqCYowB4-vQXIzhshtXMoZTm0jN5IL1dBZdpN0kgAs8MSmy_Cx8yAXJaAUM)
-2024-08-15 14:19:33,631 - error - URL Error https://www.youtube.com/watch?v=xvGxvwWlnJ8/Live: Unable to open URL: https://www.youtube.com/watch?v=xvGxvwWlnJ8/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DxvGxvwWlnJ8/Live&q=EgQ0n4iUGPWc-LUGIjCTt0Av9Ttm1ilUwqCYowB4-vQXIzhshtXMoZTm0jN5IL1dBZdpN0kgAs8MSmy_Cx8yAXJaAUM)
-2024-08-15 14:19:33,825 - error - URL Error No PluginError https://www.youtube.com/channel/UCjfxDe7In59Jbfw2HmIh_Vg/Live: 
-2024-08-15 14:19:33,825 - error - URL Error No PluginError https://www.youtube.com/channel/UCjfxDe7In59Jbfw2HmIh_Vg/Live: 
-2024-08-15 14:19:34,157 - error - URL Error https://www.youtube.com/watch?v=UKsX8l6f578/Live: Unable to open URL: https://www.youtube.com/watch?v=UKsX8l6f578/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DUKsX8l6f578/Live&q=EgQ0n4iUGPWc-LUGIjAdUE9RIkPBvv9mlsDh_tRJLMFZRAcjuTEDCbtgSzdh_YDxspcGbZFRR0NQbfO6FhUyAXJaAUM)
-2024-08-15 14:19:34,157 - error - URL Error https://www.youtube.com/watch?v=UKsX8l6f578/Live: Unable to open URL: https://www.youtube.com/watch?v=UKsX8l6f578/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DUKsX8l6f578/Live&q=EgQ0n4iUGPWc-LUGIjAdUE9RIkPBvv9mlsDh_tRJLMFZRAcjuTEDCbtgSzdh_YDxspcGbZFRR0NQbfO6FhUyAXJaAUM)
-2024-08-15 14:19:34,537 - error - URL Error No PluginError https://www.youtube.com/channel/UC7k--FhnJzhPTrbtldMSoQQ/Live: 
-2024-08-15 14:19:34,537 - error - URL Error No PluginError https://www.youtube.com/channel/UC7k--FhnJzhPTrbtldMSoQQ/Live: 
-2024-08-15 14:19:35,081 - error - URL Error https://www.youtube.com/watch?v=Sh54vNR2QSo/Live: Unable to open URL: https://www.youtube.com/watch?v=Sh54vNR2QSo/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DSh54vNR2QSo/Live&q=EgQ0n4iUGPac-LUGIjATgwOJESAd15TIx5TUhiMHDe6fTfDuqRwiFApSLnUYxkzVSUicw8Ddtu1fSOcjFMYyAXJaAUM)
-2024-08-15 14:19:35,081 - error - URL Error https://www.youtube.com/watch?v=Sh54vNR2QSo/Live: Unable to open URL: https://www.youtube.com/watch?v=Sh54vNR2QSo/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DSh54vNR2QSo/Live&q=EgQ0n4iUGPac-LUGIjATgwOJESAd15TIx5TUhiMHDe6fTfDuqRwiFApSLnUYxkzVSUicw8Ddtu1fSOcjFMYyAXJaAUM)
-2024-08-15 14:19:35,494 - error - URL Error No PluginError https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ/Live: 
-2024-08-15 14:19:35,494 - error - URL Error No PluginError https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ/Live: 
-2024-08-15 14:19:35,848 - error - URL Error https://www.youtube.com/watch?v=zTZ2s0ArTtU/Live: Unable to open URL: https://www.youtube.com/watch?v=zTZ2s0ArTtU/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DzTZ2s0ArTtU/Live&q=EgQ0n4iUGPec-LUGIjBS21weogA9Bawps_7zJrzXwdAVWootXwzi-BtSFOnEaz-eSjVuZIVgA-vVEm6HXhQyAXJaAUM)
-2024-08-15 14:19:35,848 - error - URL Error https://www.youtube.com/watch?v=zTZ2s0ArTtU/Live: Unable to open URL: https://www.youtube.com/watch?v=zTZ2s0ArTtU/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DzTZ2s0ArTtU/Live&q=EgQ0n4iUGPec-LUGIjBS21weogA9Bawps_7zJrzXwdAVWootXwzi-BtSFOnEaz-eSjVuZIVgA-vVEm6HXhQyAXJaAUM)
-2024-08-15 14:19:36,430 - error - URL Error https://www.youtube.com/watch?v=zcWXboTnous/Live: Unable to open URL: https://www.youtube.com/watch?v=zcWXboTnous/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DzcWXboTnous/Live&q=EgQ0n4iUGPec-LUGIjB0FbVsgAmkoS1eTYiGtdvEg-JWpewTOWMjASP0KEZgXFs_082hbkIvDVdBMRMF-3EyAXJaAUM)
-2024-08-15 14:19:36,430 - error - URL Error https://www.youtube.com/watch?v=zcWXboTnous/Live: Unable to open URL: https://www.youtube.com/watch?v=zcWXboTnous/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DzcWXboTnous/Live&q=EgQ0n4iUGPec-LUGIjB0FbVsgAmkoS1eTYiGtdvEg-JWpewTOWMjASP0KEZgXFs_082hbkIvDVdBMRMF-3EyAXJaAUM)
-2024-08-15 14:19:36,839 - error - URL Error No PluginError https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw/Live: 
-2024-08-15 14:19:36,839 - error - URL Error No PluginError https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw/Live: 
-2024-08-15 14:19:37,378 - error - URL Error https://www.youtube.com/watch?v=6EIZBCYpAlQ/Live: Unable to open URL: https://www.youtube.com/watch?v=6EIZBCYpAlQ/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D6EIZBCYpAlQ/Live&q=EgQ0n4iUGPic-LUGIjCes6NuAzmITlqiKNdqN9Q2AoiRRHRj_nMwnw6Bbm9YIsLdUxAMQoFrmetPMBBiroAyAXJaAUM)
-2024-08-15 14:19:37,378 - error - URL Error https://www.youtube.com/watch?v=6EIZBCYpAlQ/Live: Unable to open URL: https://www.youtube.com/watch?v=6EIZBCYpAlQ/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D6EIZBCYpAlQ/Live&q=EgQ0n4iUGPic-LUGIjCes6NuAzmITlqiKNdqN9Q2AoiRRHRj_nMwnw6Bbm9YIsLdUxAMQoFrmetPMBBiroAyAXJaAUM)
-2024-08-15 14:19:37,490 - error - URL Error No PluginError https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w/Live: 
-2024-08-15 14:19:37,490 - error - URL Error No PluginError https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w/Live: 
-2024-08-15 14:19:37,827 - error - URL Error https://www.youtube.com/watch?v=jN0TnHxhliA/Live: Unable to open URL: https://www.youtube.com/watch?v=jN0TnHxhliA/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DjN0TnHxhliA/Live&q=EgQ0n4iUGPmc-LUGIjCk245eg96b_O1pdzhn7LMgJVJ_jpFZO6QrgV4LtHrF8gN70PGlXNwugNeMcK2Ff5gyAXJaAUM)
-2024-08-15 14:19:37,827 - error - URL Error https://www.youtube.com/watch?v=jN0TnHxhliA/Live: Unable to open URL: https://www.youtube.com/watch?v=jN0TnHxhliA/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DjN0TnHxhliA/Live&q=EgQ0n4iUGPmc-LUGIjCk245eg96b_O1pdzhn7LMgJVJ_jpFZO6QrgV4LtHrF8gN70PGlXNwugNeMcK2Ff5gyAXJaAUM)
-2024-08-15 14:19:38,254 - error - URL Error No PluginError https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w/Live: 
-2024-08-15 14:19:38,254 - error - URL Error No PluginError https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w/Live: 
-2024-08-15 14:19:38,784 - error - URL Error https://www.youtube.com/watch?v=2CN2zI5v5eY/Live: Unable to open URL: https://www.youtube.com/watch?v=2CN2zI5v5eY/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D2CN2zI5v5eY/Live&q=EgQ0n4iUGPqc-LUGIjCp_6xnM5-LbQ6jG2Dm6Uzf1eCuRxccuErXFgXmo8Lc28Ji0HzHUptsl-a3yOIwm-4yAXJaAUM)
-2024-08-15 14:19:38,784 - error - URL Error https://www.youtube.com/watch?v=2CN2zI5v5eY/Live: Unable to open URL: https://www.youtube.com/watch?v=2CN2zI5v5eY/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D2CN2zI5v5eY/Live&q=EgQ0n4iUGPqc-LUGIjCp_6xnM5-LbQ6jG2Dm6Uzf1eCuRxccuErXFgXmo8Lc28Ji0HzHUptsl-a3yOIwm-4yAXJaAUM)
-2024-08-15 14:19:39,206 - error - URL Error No PluginError https://www.youtube.com/channel/UC7QZIf0dta-XPXsp9Hv4dTw/Live: 
-2024-08-15 14:19:39,206 - error - URL Error No PluginError https://www.youtube.com/channel/UC7QZIf0dta-XPXsp9Hv4dTw/Live: 
-2024-08-15 14:19:39,786 - error - URL Error https://www.youtube.com/watch?v=VsdIRJHq2q4/Live: Unable to open URL: https://www.youtube.com/watch?v=VsdIRJHq2q4/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DVsdIRJHq2q4/Live&q=EgQ0n4iUGPuc-LUGIjAF-TbXGFfuOWGZm_SCoJtEac5UeHSw_7CctmFD-DY6s4PnrxZRN3zmcGfdEe7Oe1gyAXJaAUM)
-2024-08-15 14:19:39,786 - error - URL Error https://www.youtube.com/watch?v=VsdIRJHq2q4/Live: Unable to open URL: https://www.youtube.com/watch?v=VsdIRJHq2q4/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DVsdIRJHq2q4/Live&q=EgQ0n4iUGPuc-LUGIjAF-TbXGFfuOWGZm_SCoJtEac5UeHSw_7CctmFD-DY6s4PnrxZRN3zmcGfdEe7Oe1gyAXJaAUM)
-2024-08-15 14:19:39,972 - error - URL Error No PluginError https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/Live: 
-2024-08-15 14:19:39,972 - error - URL Error No PluginError https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/Live: 
-2024-08-15 14:19:40,365 - error - URL Error https://www.youtube.com/watch?v=NNDgdhYg7Ic/live: Unable to open URL: https://www.youtube.com/watch?v=NNDgdhYg7Ic/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DNNDgdhYg7Ic/live&q=EgQ0n4iUGPyc-LUGIjCeLu8MwIYnMzJZqK1nsM3zwauJO0veE89Tga7C1V-Qie8D-yiCoFeMicQCMJAY_RwyAXJaAUM)
-2024-08-15 14:19:40,365 - error - URL Error https://www.youtube.com/watch?v=NNDgdhYg7Ic/live: Unable to open URL: https://www.youtube.com/watch?v=NNDgdhYg7Ic/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DNNDgdhYg7Ic/live&q=EgQ0n4iUGPyc-LUGIjCeLu8MwIYnMzJZqK1nsM3zwauJO0veE89Tga7C1V-Qie8D-yiCoFeMicQCMJAY_RwyAXJaAUM)
-2024-08-15 14:19:40,730 - error - URL Error No PluginError https://www.youtube.com/channel/UC1bBjOZieJWHbsFA0LwjjJA/Live: 
-2024-08-15 14:19:40,730 - error - URL Error No PluginError https://www.youtube.com/channel/UC1bBjOZieJWHbsFA0LwjjJA/Live: 
-2024-08-15 14:19:41,067 - error - URL Error https://www.youtube.com/watch?v=J7bd1GGTf44/Live: Unable to open URL: https://www.youtube.com/watch?v=J7bd1GGTf44/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DJ7bd1GGTf44/Live&q=EgQ0n4iUGPyc-LUGIjBEAIUmvV1825TDF5euRmndM0LUU6WTKGrZXkrO0miv5Cj5af_PteMzPeQmX_PbkZUyAXJaAUM)
-2024-08-15 14:19:41,067 - error - URL Error https://www.youtube.com/watch?v=J7bd1GGTf44/Live: Unable to open URL: https://www.youtube.com/watch?v=J7bd1GGTf44/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DJ7bd1GGTf44/Live&q=EgQ0n4iUGPyc-LUGIjBEAIUmvV1825TDF5euRmndM0LUU6WTKGrZXkrO0miv5Cj5af_PteMzPeQmX_PbkZUyAXJaAUM)
-2024-08-15 14:19:41,199 - debug - URL Streams https://www.youtube.com/channel/UCfJtBtmhnIyfUB6RqXeImMw/live: {}
-2024-08-15 14:19:41,199 - debug - URL Streams https://www.youtube.com/channel/UCfJtBtmhnIyfUB6RqXeImMw/live: {}
-2024-08-15 14:19:41,753 - error - URL Error https://www.youtube.com/watch?v=9DXGrOU5wKQ/Live: Unable to open URL: https://www.youtube.com/watch?v=9DXGrOU5wKQ/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D9DXGrOU5wKQ/Live&q=EgQ0n4iUGP2c-LUGIjA5s3sDkjKXjGs6S9fLBMS8PdGyYg82qW-4-5Qn7utd3B_6S8PLX-lPmC68OZ9tKRMyAXJaAUM)
-2024-08-15 14:19:41,753 - error - URL Error https://www.youtube.com/watch?v=9DXGrOU5wKQ/Live: Unable to open URL: https://www.youtube.com/watch?v=9DXGrOU5wKQ/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D9DXGrOU5wKQ/Live&q=EgQ0n4iUGP2c-LUGIjA5s3sDkjKXjGs6S9fLBMS8PdGyYg82qW-4-5Qn7utd3B_6S8PLX-lPmC68OZ9tKRMyAXJaAUM)
-2024-08-15 14:19:41,867 - error - URL Error No PluginError https://www.youtube.com/channel/UCEIhICHOQOonjE6V0SLdrHQ/Live: 
-2024-08-15 14:19:41,867 - error - URL Error No PluginError https://www.youtube.com/channel/UCEIhICHOQOonjE6V0SLdrHQ/Live: 
-2024-08-15 14:19:42,159 - error - URL Error No PluginError https://www.youtube.com/channel/UCl5JKSQsl-_WSU1rz7_BCJA/Live: 
-2024-08-15 14:19:42,159 - error - URL Error No PluginError https://www.youtube.com/channel/UCl5JKSQsl-_WSU1rz7_BCJA/Live: 
-2024-08-15 14:19:42,470 - error - URL Error https://www.youtube.com/watch?v=grRGtho7dWw/Live: Unable to open URL: https://www.youtube.com/watch?v=grRGtho7dWw/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DgrRGtho7dWw/Live&q=EgQ0n4iUGP6c-LUGIjC1_DyxWriVMXRoZEjnoLxIuFKPP1EIy3BO4oyf7uRccLZdku7BDgjWDDkyJEtncpwyAXJaAUM)
-2024-08-15 14:19:42,470 - error - URL Error https://www.youtube.com/watch?v=grRGtho7dWw/Live: Unable to open URL: https://www.youtube.com/watch?v=grRGtho7dWw/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DgrRGtho7dWw/Live&q=EgQ0n4iUGP6c-LUGIjC1_DyxWriVMXRoZEjnoLxIuFKPP1EIy3BO4oyf7uRccLZdku7BDgjWDDkyJEtncpwyAXJaAUM)
-2024-08-15 14:19:42,892 - error - URL Error No PluginError https://www.youtube.com/channel/UCDUxOvbwu1bnyD7AucP0ESw/Live: 
-2024-08-15 14:19:42,892 - error - URL Error No PluginError https://www.youtube.com/channel/UCDUxOvbwu1bnyD7AucP0ESw/Live: 
-2024-08-15 14:19:43,407 - error - URL Error https://www.youtube.com/watch?v=ewYTDXCeXxU/Live: Unable to open URL: https://www.youtube.com/watch?v=ewYTDXCeXxU/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DewYTDXCeXxU/Live&q=EgQ0n4iUGP6c-LUGIjBRBfDZszBz4adAJkvEkA-dQXtqcCsBQ6QvL0rOns7rKobDRK1YtX3tUQZVbthSdI8yAXJaAUM)
-2024-08-15 14:19:43,407 - error - URL Error https://www.youtube.com/watch?v=ewYTDXCeXxU/Live: Unable to open URL: https://www.youtube.com/watch?v=ewYTDXCeXxU/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DewYTDXCeXxU/Live&q=EgQ0n4iUGP6c-LUGIjBRBfDZszBz4adAJkvEkA-dQXtqcCsBQ6QvL0rOns7rKobDRK1YtX3tUQZVbthSdI8yAXJaAUM)
-2024-08-15 14:19:43,810 - error - URL Error https://www.youtube.com/watch?v=HwDXYSa5GlE/live: Unable to open URL: https://www.youtube.com/watch?v=HwDXYSa5GlE/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DHwDXYSa5GlE/live&q=EgQ0n4iUGP-c-LUGIjA9pGOXeJjaN4OExYx9-C76EIt4iIG3R2vHrcmckWaqFk2-5B2Jr1T0t9q16fFgJ7kyAXJaAUM)
-2024-08-15 14:19:43,810 - error - URL Error https://www.youtube.com/watch?v=HwDXYSa5GlE/live: Unable to open URL: https://www.youtube.com/watch?v=HwDXYSa5GlE/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DHwDXYSa5GlE/live&q=EgQ0n4iUGP-c-LUGIjA9pGOXeJjaN4OExYx9-C76EIt4iIG3R2vHrcmckWaqFk2-5B2Jr1T0t9q16fFgJ7kyAXJaAUM)
-2024-08-15 14:19:44,395 - error - URL Error https://www.youtube.com/watch?v=atp5bj05UyM/live: Unable to open URL: https://www.youtube.com/watch?v=atp5bj05UyM/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Datp5bj05UyM/live&q=EgQ0n4iUGP-c-LUGIjA-gaQw6HPfln4-7exJnyg7x2z17CMIIg5WljqABhWpCdUIVSmU5FYiMpgvqeI2OXsyAXJaAUM)
-2024-08-15 14:19:44,395 - error - URL Error https://www.youtube.com/watch?v=atp5bj05UyM/live: Unable to open URL: https://www.youtube.com/watch?v=atp5bj05UyM/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Datp5bj05UyM/live&q=EgQ0n4iUGP-c-LUGIjA-gaQw6HPfln4-7exJnyg7x2z17CMIIg5WljqABhWpCdUIVSmU5FYiMpgvqeI2OXsyAXJaAUM)
-2024-08-15 14:19:44,773 - error - URL Error https://www.youtube.com/watch?v=MygtOAyBN7M/live: Unable to open URL: https://www.youtube.com/watch?v=MygtOAyBN7M/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DMygtOAyBN7M/live&q=EgQ0n4iUGICd-LUGIjCgBLIATGt2Scdt13_9saXHcqePFL7Xj4nFZhK8JgHJUgvYQFWyYyKR4PKWmEJ9ltcyAXJaAUM)
-2024-08-15 14:19:44,773 - error - URL Error https://www.youtube.com/watch?v=MygtOAyBN7M/live: Unable to open URL: https://www.youtube.com/watch?v=MygtOAyBN7M/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DMygtOAyBN7M/live&q=EgQ0n4iUGICd-LUGIjCgBLIATGt2Scdt13_9saXHcqePFL7Xj4nFZhK8JgHJUgvYQFWyYyKR4PKWmEJ9ltcyAXJaAUM)
-2024-08-15 14:19:45,166 - error - URL Error https://www.youtube.com/watch?v=pM4O3DwIQ2o/live: Unable to open URL: https://www.youtube.com/watch?v=pM4O3DwIQ2o/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DpM4O3DwIQ2o/live&q=EgQ0n4iUGICd-LUGIjC3-YLfXU5LLExUyeCM670eZGLNdKc9W8XPBOpbfJLLC3krZVLbu8J4NW246oBO3nUyAXJaAUM)
-2024-08-15 14:19:45,166 - error - URL Error https://www.youtube.com/watch?v=pM4O3DwIQ2o/live: Unable to open URL: https://www.youtube.com/watch?v=pM4O3DwIQ2o/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DpM4O3DwIQ2o/live&q=EgQ0n4iUGICd-LUGIjC3-YLfXU5LLExUyeCM670eZGLNdKc9W8XPBOpbfJLLC3krZVLbu8J4NW246oBO3nUyAXJaAUM)
-2024-08-15 14:19:45,558 - error - URL Error https://www.youtube.com/watch?v=WXJoE88lS-4/live: Unable to open URL: https://www.youtube.com/watch?v=WXJoE88lS-4/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DWXJoE88lS-4/live&q=EgQ0n4iUGIGd-LUGIjBj7DG4paTfjfkKFzEZi3kFrA6p0UEffs74cmL0muXRKGznU705wYaufTN7S6xC_IcyAXJaAUM)
-2024-08-15 14:19:45,558 - error - URL Error https://www.youtube.com/watch?v=WXJoE88lS-4/live: Unable to open URL: https://www.youtube.com/watch?v=WXJoE88lS-4/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DWXJoE88lS-4/live&q=EgQ0n4iUGIGd-LUGIjBj7DG4paTfjfkKFzEZi3kFrA6p0UEffs74cmL0muXRKGznU705wYaufTN7S6xC_IcyAXJaAUM)
-2024-08-15 14:19:46,010 - error - URL Error https://www.youtube.com/watch?v=bX7yOW-XOWc/live: Unable to open URL: https://www.youtube.com/watch?v=bX7yOW-XOWc/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DbX7yOW-XOWc/live&q=EgQ0n4iUGIGd-LUGIjAH9KoGJDWRa1zAmjodAf1KOZJHpK1Mu9suTyRRu1Uv2QDHWVqkfv9EZSuyHyXrvdYyAXJaAUM)
-2024-08-15 14:19:46,010 - error - URL Error https://www.youtube.com/watch?v=bX7yOW-XOWc/live: Unable to open URL: https://www.youtube.com/watch?v=bX7yOW-XOWc/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DbX7yOW-XOWc/live&q=EgQ0n4iUGIGd-LUGIjAH9KoGJDWRa1zAmjodAf1KOZJHpK1Mu9suTyRRu1Uv2QDHWVqkfv9EZSuyHyXrvdYyAXJaAUM)
-2024-08-15 14:19:46,509 - error - URL Error https://www.youtube.com/watch?v=Ho6s54dgOZw/live: Unable to open URL: https://www.youtube.com/watch?v=Ho6s54dgOZw/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DHo6s54dgOZw/live&q=EgQ0n4iUGIKd-LUGIjAF289ZuXhgcyCfH7Gy4mq2QsKJpYLTZoJBnWOzPcjt0W8dLMiMXtf2qLcyjlzSkaIyAXJaAUM)
-2024-08-15 14:19:46,509 - error - URL Error https://www.youtube.com/watch?v=Ho6s54dgOZw/live: Unable to open URL: https://www.youtube.com/watch?v=Ho6s54dgOZw/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DHo6s54dgOZw/live&q=EgQ0n4iUGIKd-LUGIjAF289ZuXhgcyCfH7Gy4mq2QsKJpYLTZoJBnWOzPcjt0W8dLMiMXtf2qLcyjlzSkaIyAXJaAUM)
-2024-08-15 14:19:46,967 - error - URL Error https://www.youtube.com/watch?v=TbcXvJqd6d8/live: Unable to open URL: https://www.youtube.com/watch?v=TbcXvJqd6d8/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DTbcXvJqd6d8/live&q=EgQ0n4iUGIKd-LUGIjDiPvVu4fK3X5ZwDM1L-HO3cBxZvzEq8A0TT6AM1-Bftlcb-z08O3qmkugZCfvTf1MyAXJaAUM)
-2024-08-15 14:19:46,967 - error - URL Error https://www.youtube.com/watch?v=TbcXvJqd6d8/live: Unable to open URL: https://www.youtube.com/watch?v=TbcXvJqd6d8/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DTbcXvJqd6d8/live&q=EgQ0n4iUGIKd-LUGIjDiPvVu4fK3X5ZwDM1L-HO3cBxZvzEq8A0TT6AM1-Bftlcb-z08O3qmkugZCfvTf1MyAXJaAUM)
-2024-08-15 14:19:47,347 - error - URL Error https://www.youtube.com/watch?v=R0KcCDYj8zU/live: Unable to open URL: https://www.youtube.com/watch?v=R0KcCDYj8zU/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DR0KcCDYj8zU/live&q=EgQ0n4iUGIOd-LUGIjB_e0Z2t4Xr4UH6an4yStNl32RXNR6JNNHnBKEJvxWzKfW5VHEKfaxwEHnCCox5RSMyAXJaAUM)
-2024-08-15 14:19:47,347 - error - URL Error https://www.youtube.com/watch?v=R0KcCDYj8zU/live: Unable to open URL: https://www.youtube.com/watch?v=R0KcCDYj8zU/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DR0KcCDYj8zU/live&q=EgQ0n4iUGIOd-LUGIjB_e0Z2t4Xr4UH6an4yStNl32RXNR6JNNHnBKEJvxWzKfW5VHEKfaxwEHnCCox5RSMyAXJaAUM)
-2024-08-15 14:19:47,705 - error - URL Error No PluginError https://www.youtube.com/channel/UChDKyKQ59fYz3JO2fl0Z6sg/Live: 
-2024-08-15 14:19:47,705 - error - URL Error No PluginError https://www.youtube.com/channel/UChDKyKQ59fYz3JO2fl0Z6sg/Live: 
-2024-08-15 14:19:48,129 - error - URL Error https://www.youtube.com/watch?v=jfYiD4V79l4/Live: Unable to open URL: https://www.youtube.com/watch?v=jfYiD4V79l4/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DjfYiD4V79l4/Live&q=EgQ0n4iUGIOd-LUGIjAv7-cw9Dk3Te-Tvx_5jGSw6N_lQrzyi55Lmk9oejniUuVzA3hNTEPn6o8HdOK3YkcyAXJaAUM)
-2024-08-15 14:19:48,129 - error - URL Error https://www.youtube.com/watch?v=jfYiD4V79l4/Live: Unable to open URL: https://www.youtube.com/watch?v=jfYiD4V79l4/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DjfYiD4V79l4/Live&q=EgQ0n4iUGIOd-LUGIjAv7-cw9Dk3Te-Tvx_5jGSw6N_lQrzyi55Lmk9oejniUuVzA3hNTEPn6o8HdOK3YkcyAXJaAUM)
-2024-08-15 14:19:48,453 - error - URL Error https://www.youtube.com/watch?v=x3yaF3liehk/live: Unable to open URL: https://www.youtube.com/watch?v=x3yaF3liehk/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dx3yaF3liehk/live&q=EgQ0n4iUGISd-LUGIjBeO3Xt1AkY96Y7HkgedqGMTBdNDi1DZogIzkOFEkTBLZJRwP2HI9HC85gnAO7Z8vcyAXJaAUM)
-2024-08-15 14:19:48,453 - error - URL Error https://www.youtube.com/watch?v=x3yaF3liehk/live: Unable to open URL: https://www.youtube.com/watch?v=x3yaF3liehk/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dx3yaF3liehk/live&q=EgQ0n4iUGISd-LUGIjBeO3Xt1AkY96Y7HkgedqGMTBdNDi1DZogIzkOFEkTBLZJRwP2HI9HC85gnAO7Z8vcyAXJaAUM)
-2024-08-15 14:19:49,002 - error - URL Error https://www.youtube.com/watch?v=w_Ma8oQLmSM/Live: Unable to open URL: https://www.youtube.com/watch?v=w_Ma8oQLmSM/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dw_Ma8oQLmSM/Live&q=EgQ0n4iUGISd-LUGIjBErMJxW7sswiXjTRG8Td46-4-9H8MBn1Fig8Kts1jUPznUGOLAJsO5IvUDi0rL4WkyAXJaAUM)
-2024-08-15 14:19:49,002 - error - URL Error https://www.youtube.com/watch?v=w_Ma8oQLmSM/Live: Unable to open URL: https://www.youtube.com/watch?v=w_Ma8oQLmSM/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dw_Ma8oQLmSM/Live&q=EgQ0n4iUGISd-LUGIjBErMJxW7sswiXjTRG8Td46-4-9H8MBn1Fig8Kts1jUPznUGOLAJsO5IvUDi0rL4WkyAXJaAUM)
-2024-08-15 14:19:49,345 - error - URL Error No PluginError https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q/Live: 
-2024-08-15 14:19:49,345 - error - URL Error No PluginError https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q/Live: 
-2024-08-15 14:19:49,836 - error - URL Error https://www.youtube.com/watch?v=HHLZZOyXCvg/Live: Unable to open URL: https://www.youtube.com/watch?v=HHLZZOyXCvg/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DHHLZZOyXCvg/Live&q=EgQ0n4iUGIWd-LUGIjBqG4wLT-RoMtiiSx0POeaESnF0RC8NrrO9qYK7TXYwHWRAeOIdx0PNRFCRbaB7upwyAXJaAUM)
-2024-08-15 14:19:49,836 - error - URL Error https://www.youtube.com/watch?v=HHLZZOyXCvg/Live: Unable to open URL: https://www.youtube.com/watch?v=HHLZZOyXCvg/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DHHLZZOyXCvg/Live&q=EgQ0n4iUGIWd-LUGIjBqG4wLT-RoMtiiSx0POeaESnF0RC8NrrO9qYK7TXYwHWRAeOIdx0PNRFCRbaB7upwyAXJaAUM)
-2024-08-15 14:19:50,208 - error - URL Error No PluginError https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg/Live: 
-2024-08-15 14:19:50,208 - error - URL Error No PluginError https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg/Live: 
-2024-08-15 14:19:50,694 - debug - URL Streams https://www.youtube.com/channel/UCFhbonoFqxg2b9FMRzYAwog/live: {}
-2024-08-15 14:19:50,694 - debug - URL Streams https://www.youtube.com/channel/UCFhbonoFqxg2b9FMRzYAwog/live: {}
-2024-08-15 14:19:51,046 - error - URL Error No PluginError https://www.youtube.com/channel/UChqUTb7kYRX8-EiaN3XFrSQ/Live: 
-2024-08-15 14:19:51,046 - error - URL Error No PluginError https://www.youtube.com/channel/UChqUTb7kYRX8-EiaN3XFrSQ/Live: 
-2024-08-15 14:19:51,491 - error - URL Error https://www.youtube.com/watch?v=Yw9HPSKHO2s/Live: Unable to open URL: https://www.youtube.com/watch?v=Yw9HPSKHO2s/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DYw9HPSKHO2s/Live&q=EgQ0n4iUGIed-LUGIjAzuqt00GkfSfaADcNOAfdqp2cixobHNUPztnm1LcROHmZ_iz4rt6CF11T7e949RbcyAXJaAUM)
-2024-08-15 14:19:51,491 - error - URL Error https://www.youtube.com/watch?v=Yw9HPSKHO2s/Live: Unable to open URL: https://www.youtube.com/watch?v=Yw9HPSKHO2s/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DYw9HPSKHO2s/Live&q=EgQ0n4iUGIed-LUGIjAzuqt00GkfSfaADcNOAfdqp2cixobHNUPztnm1LcROHmZ_iz4rt6CF11T7e949RbcyAXJaAUM)
-2024-08-15 14:19:52,053 - error - URL Error https://www.youtube.com/watch?v=NcoFT4eew0Q/Live: Unable to open URL: https://www.youtube.com/watch?v=NcoFT4eew0Q/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DNcoFT4eew0Q/Live&q=EgQ0n4iUGIed-LUGIjBB71jHQaSLkGcmTaljGEjUgyyPEJC5XDqtWLUKEmh-Hu8PjzvH9qcAChloTBYzwG0yAXJaAUM)
-2024-08-15 14:19:52,053 - error - URL Error https://www.youtube.com/watch?v=NcoFT4eew0Q/Live: Unable to open URL: https://www.youtube.com/watch?v=NcoFT4eew0Q/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DNcoFT4eew0Q/Live&q=EgQ0n4iUGIed-LUGIjBB71jHQaSLkGcmTaljGEjUgyyPEJC5XDqtWLUKEmh-Hu8PjzvH9qcAChloTBYzwG0yAXJaAUM)
-2024-08-15 14:19:52,416 - error - URL Error https://www.youtube.com/watch?v=-upyPouRrB8/Live: Unable to open URL: https://www.youtube.com/watch?v=-upyPouRrB8/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D-upyPouRrB8/Live&q=EgQ0n4iUGIid-LUGIjBaXzlzfIcisL_6VzjvE5hnfk8uM-fz_dmKRAlLfXdAstDklyUmjK3DNUeYbFolKccyAXJaAUM)
-2024-08-15 14:19:52,416 - error - URL Error https://www.youtube.com/watch?v=-upyPouRrB8/Live: Unable to open URL: https://www.youtube.com/watch?v=-upyPouRrB8/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D-upyPouRrB8/Live&q=EgQ0n4iUGIid-LUGIjBaXzlzfIcisL_6VzjvE5hnfk8uM-fz_dmKRAlLfXdAstDklyUmjK3DNUeYbFolKccyAXJaAUM)
-2024-08-15 14:19:52,731 - error - URL Error No PluginError https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg/Live: 
-2024-08-15 14:19:52,731 - error - URL Error No PluginError https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg/Live: 
-2024-08-15 14:19:53,021 - debug - URL Streams https://www.youtube.com/user/AlJazeeraEnglish/live: {}
-2024-08-15 14:19:53,021 - debug - URL Streams https://www.youtube.com/user/AlJazeeraEnglish/live: {}
-2024-08-15 14:19:53,710 - debug - URL Streams https://www.youtube.com/channel/UC_gUM8rL-Lrg6O3adPW9K1g/live: {}
-2024-08-15 14:19:53,710 - debug - URL Streams https://www.youtube.com/channel/UC_gUM8rL-Lrg6O3adPW9K1g/live: {}
-2024-08-15 14:19:53,863 - debug - URL Streams https://www.youtube.com/channel/UCFhbonoFqxg2b9FMRzYAwog/live: {}
-2024-08-15 14:19:53,863 - debug - URL Streams https://www.youtube.com/channel/UCFhbonoFqxg2b9FMRzYAwog/live: {}
-2024-08-15 14:19:54,471 - debug - URL Streams https://www.youtube.com/channel/UC6RJ7-PaXg6TIH2BzZfTV7w/live: {}
-2024-08-15 14:19:54,471 - debug - URL Streams https://www.youtube.com/channel/UC6RJ7-PaXg6TIH2BzZfTV7w/live: {}
-2024-08-15 14:19:55,066 - debug - URL Streams https://www.youtube.com/channel/UCJg9wBPyKMNA5sRDnvzmkdg/live: {}
-2024-08-15 14:19:55,066 - debug - URL Streams https://www.youtube.com/channel/UCJg9wBPyKMNA5sRDnvzmkdg/live: {}
-2024-08-15 14:19:55,724 - debug - URL Streams https://www.youtube.com/channel/UCVgO39Bk5sMo66-6o6Spn6Q/live: {}
-2024-08-15 14:19:55,724 - debug - URL Streams https://www.youtube.com/channel/UCVgO39Bk5sMo66-6o6Spn6Q/live: {}
-2024-08-15 14:19:56,269 - debug - URL Streams https://www.youtube.com/channel/UC-LRBEUet4xX2fRB3JitFxg/live: {}
-2024-08-15 14:19:56,269 - debug - URL Streams https://www.youtube.com/channel/UC-LRBEUet4xX2fRB3JitFxg/live: {}
-2024-08-15 14:19:56,932 - debug - URL Streams https://www.youtube.com/channel/UCx6h-dWzJ5NpAlja1YsApdg/live: {}
-2024-08-15 14:19:56,932 - debug - URL Streams https://www.youtube.com/channel/UCx6h-dWzJ5NpAlja1YsApdg/live: {}
-2024-08-15 14:19:57,527 - debug - URL Streams https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg/live: {}
-2024-08-15 14:19:57,527 - debug - URL Streams https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg/live: {}
-2024-08-15 14:19:58,021 - debug - URL Streams https://www.youtube.com/channel/UCmuTmpLY35O3csvhyA6vrkg/live: {}
-2024-08-15 14:19:58,021 - debug - URL Streams https://www.youtube.com/channel/UCmuTmpLY35O3csvhyA6vrkg/live: {}
-2024-08-15 14:19:58,573 - debug - URL Streams https://www.youtube.com/channel/UCj0TppyxzQWm9JbMg3CP8Rg/live: {}
-2024-08-15 14:19:58,573 - debug - URL Streams https://www.youtube.com/channel/UCj0TppyxzQWm9JbMg3CP8Rg/live: {}
-2024-08-15 14:19:59,248 - debug - URL Streams https://www.youtube.com/channel/UCknLrEdhRCp1aegoMqRaCZg/live: {}
-2024-08-15 14:19:59,248 - debug - URL Streams https://www.youtube.com/channel/UCknLrEdhRCp1aegoMqRaCZg/live: {}
-2024-08-15 14:19:59,896 - debug - URL Streams https://www.youtube.com/user/deutschewelleenglish/live: {}
-2024-08-15 14:19:59,896 - debug - URL Streams https://www.youtube.com/user/deutschewelleenglish/live: {}
-2024-08-15 14:20:00,591 - debug - URL Streams https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ/live: {}
-2024-08-15 14:20:00,591 - debug - URL Streams https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ/live: {}
-2024-08-15 14:20:01,265 - debug - URL Streams https://www.youtube.com/user/skynews/live: {}
-2024-08-15 14:20:01,265 - debug - URL Streams https://www.youtube.com/user/skynews/live: {}
-2024-08-15 14:20:01,830 - debug - URL Streams https://www.youtube.com/channel/UC0vn8ISa4LKMunLbzaXLnOQ/live: {}
-2024-08-15 14:20:01,830 - debug - URL Streams https://www.youtube.com/channel/UC0vn8ISa4LKMunLbzaXLnOQ/live: {}
-2024-08-15 14:20:02,298 - debug - URL Streams https://www.youtube.com/channel/UC7fWeaHhqgM4Ry-RMpM2YYw/live: {}
-2024-08-15 14:20:02,298 - debug - URL Streams https://www.youtube.com/channel/UC7fWeaHhqgM4Ry-RMpM2YYw/live: {}
-2024-08-15 14:20:02,920 - debug - URL Streams https://www.youtube.com/user/Bloomberg/live: {}
-2024-08-15 14:20:02,920 - debug - URL Streams https://www.youtube.com/user/Bloomberg/live: {}
-2024-08-15 14:20:03,553 - debug - URL Streams https://www.youtube.com/channel/UCUMZ7gohGI9HcU9VNsr2FJQ/live: {}
-2024-08-15 14:20:03,553 - debug - URL Streams https://www.youtube.com/channel/UCUMZ7gohGI9HcU9VNsr2FJQ/live: {}
-2024-08-15 14:20:04,178 - debug - URL Streams https://www.youtube.com/channel/UChirEOpgFCupRAk5etXqPaA/live: {}
-2024-08-15 14:20:04,178 - debug - URL Streams https://www.youtube.com/channel/UChirEOpgFCupRAk5etXqPaA/live: {}
-2024-08-15 14:20:04,980 - debug - URL Streams https://www.youtube.com/user/channelnewsasia/live: {}
-2024-08-15 14:20:04,980 - debug - URL Streams https://www.youtube.com/user/channelnewsasia/live: {}
-2024-08-15 14:20:05,333 - error - URL Error https://www.youtube.com/watch?v=ptGbSDn_MnQ/live: Unable to open URL: https://www.youtube.com/watch?v=ptGbSDn_MnQ/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DptGbSDn_MnQ/live&q=EgQ0n4iUGJWd-LUGIjDgx6XNwiA-geECceWN9RPg-NA_tCrP_AqaQDZr21xz4kAxiIW1N_bv208c1f9AXPMyAXJaAUM)
-2024-08-15 14:20:05,333 - error - URL Error https://www.youtube.com/watch?v=ptGbSDn_MnQ/live: Unable to open URL: https://www.youtube.com/watch?v=ptGbSDn_MnQ/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DptGbSDn_MnQ/live&q=EgQ0n4iUGJWd-LUGIjDgx6XNwiA-geECceWN9RPg-NA_tCrP_AqaQDZr21xz4kAxiIW1N_bv208c1f9AXPMyAXJaAUM)
-2024-08-15 14:20:05,746 - error - URL Error https://www.youtube.com/watch?v=ORi4Cx5MlyI/live: Unable to open URL: https://www.youtube.com/watch?v=ORi4Cx5MlyI/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DORi4Cx5MlyI/live&q=EgQ0n4iUGJWd-LUGIjDjgPY0hjR8gmx77wtp8tvy2u2DmzURqvoRdcqUelXFEaaErJkskFZcdDC-QTsD0l8yAXJaAUM)
-2024-08-15 14:20:05,746 - error - URL Error https://www.youtube.com/watch?v=ORi4Cx5MlyI/live: Unable to open URL: https://www.youtube.com/watch?v=ORi4Cx5MlyI/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DORi4Cx5MlyI/live&q=EgQ0n4iUGJWd-LUGIjDjgPY0hjR8gmx77wtp8tvy2u2DmzURqvoRdcqUelXFEaaErJkskFZcdDC-QTsD0l8yAXJaAUM)
-2024-08-15 14:20:06,101 - error - URL Error https://www.youtube.com/watch?v=gsA3-3_Cl8s/live: Unable to open URL: https://www.youtube.com/watch?v=gsA3-3_Cl8s/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DgsA3-3_Cl8s/live&q=EgQ0n4iUGJWd-LUGIjC4KdxD_g9YtMfV9kM68i5vlt_SdEHb2p47PDgfFOdMU_0P-5nbOVXzoubHfUkXvyIyAXJaAUM)
-2024-08-15 14:20:06,101 - error - URL Error https://www.youtube.com/watch?v=gsA3-3_Cl8s/live: Unable to open URL: https://www.youtube.com/watch?v=gsA3-3_Cl8s/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DgsA3-3_Cl8s/live&q=EgQ0n4iUGJWd-LUGIjC4KdxD_g9YtMfV9kM68i5vlt_SdEHb2p47PDgfFOdMU_0P-5nbOVXzoubHfUkXvyIyAXJaAUM)
-2024-08-15 14:20:06,495 - error - URL Error https://www.youtube.com/watch?v=XZ7BWbmvi94/live: Unable to open URL: https://www.youtube.com/watch?v=XZ7BWbmvi94/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DXZ7BWbmvi94/live&q=EgQ0n4iUGJad-LUGIjAr45ZRk3_00jk9Tkg_FTc0l-kAh0DEa83ijEuYRDVyfISex4L5ULqPpnvtQ6Ov6w4yAXJaAUM)
-2024-08-15 14:20:06,495 - error - URL Error https://www.youtube.com/watch?v=XZ7BWbmvi94/live: Unable to open URL: https://www.youtube.com/watch?v=XZ7BWbmvi94/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DXZ7BWbmvi94/live&q=EgQ0n4iUGJad-LUGIjAr45ZRk3_00jk9Tkg_FTc0l-kAh0DEa83ijEuYRDVyfISex4L5ULqPpnvtQ6Ov6w4yAXJaAUM)
-2024-08-15 14:20:06,500 - error - URL Error No PluginError Nat Geo SHARKFEST IS BACK | 24/7 Shark Content | Explore | https://yt3.googleusercontent.com/ytc/APkrFKYumGr54VqQryV2K6gfGULpTJR3z4AauFbnkEjWMg=s176-c-k-c0x00ffffff-no-rj |: 
-2024-08-15 14:20:06,500 - error - URL Error No PluginError Nat Geo SHARKFEST IS BACK | 24/7 Shark Content | Explore | https://yt3.googleusercontent.com/ytc/APkrFKYumGr54VqQryV2K6gfGULpTJR3z4AauFbnkEjWMg=s176-c-k-c0x00ffffff-no-rj |: 
-2024-08-15 14:20:07,015 - error - URL Error https://www.youtube.com/watch?v=lFPG2B7hJs0/live: Unable to open URL: https://www.youtube.com/watch?v=lFPG2B7hJs0/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DlFPG2B7hJs0/live&q=EgQ0n4iUGJad-LUGIjCsYnNfpG0UJcjj-sqVY914LkprlMX3KiA9oy73_djzJuQ03MiF6hxgxkCyJjXY8DEyAXJaAUM)
-2024-08-15 14:20:07,015 - error - URL Error https://www.youtube.com/watch?v=lFPG2B7hJs0/live: Unable to open URL: https://www.youtube.com/watch?v=lFPG2B7hJs0/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DlFPG2B7hJs0/live&q=EgQ0n4iUGJad-LUGIjCsYnNfpG0UJcjj-sqVY914LkprlMX3KiA9oy73_djzJuQ03MiF6hxgxkCyJjXY8DEyAXJaAUM)
-2024-08-15 14:20:07,605 - debug - URL Streams https://www.youtube.com/channel/UCBnZ16ahKA2DZ_T5W0FPUXg/live: {}
-2024-08-15 14:20:07,605 - debug - URL Streams https://www.youtube.com/channel/UCBnZ16ahKA2DZ_T5W0FPUXg/live: {}
-2024-08-15 14:20:07,941 - debug - URL Streams https://www.youtube.com/channel/UCVt43Y46_8DHzwhLau0xVcw/live: {}
-2024-08-15 14:20:07,941 - debug - URL Streams https://www.youtube.com/channel/UCVt43Y46_8DHzwhLau0xVcw/live: {}
-2024-08-15 14:20:08,616 - debug - URL Streams https://youtube.com/c/PowerRangersOfficial/live: {}
-2024-08-15 14:20:08,616 - debug - URL Streams https://youtube.com/c/PowerRangersOfficial/live: {}
-2024-08-15 14:20:09,073 - error - URL Error https://www.youtube.com/watch?v=1R35uh5J4Yg/live: Unable to open URL: https://www.youtube.com/watch?v=1R35uh5J4Yg/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D1R35uh5J4Yg/live&q=EgQ0n4iUGJid-LUGIjBnHxvSafLfIwyIzEHGLHDJ_DELcP-2LtdeWSuKSUfYaK40v1j7rsxNhAmuZxTPwGEyAXJaAUM)
-2024-08-15 14:20:09,073 - error - URL Error https://www.youtube.com/watch?v=1R35uh5J4Yg/live: Unable to open URL: https://www.youtube.com/watch?v=1R35uh5J4Yg/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D1R35uh5J4Yg/live&q=EgQ0n4iUGJid-LUGIjBnHxvSafLfIwyIzEHGLHDJ_DELcP-2LtdeWSuKSUfYaK40v1j7rsxNhAmuZxTPwGEyAXJaAUM)
-2024-08-15 14:20:09,451 - error - URL Error https://www.youtube.com/watch?v=5aglJRVC9ts/live: Unable to open URL: https://www.youtube.com/watch?v=5aglJRVC9ts/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D5aglJRVC9ts/live&q=EgQ0n4iUGJmd-LUGIjCJAqhKsFDnTXEA0sBytMx3hb2WL8Lx9hdyu93_1zIiNZYkBYNTecPpZutxu5YcDGoyAXJaAUM)
-2024-08-15 14:20:09,451 - error - URL Error https://www.youtube.com/watch?v=5aglJRVC9ts/live: Unable to open URL: https://www.youtube.com/watch?v=5aglJRVC9ts/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D5aglJRVC9ts/live&q=EgQ0n4iUGJmd-LUGIjCJAqhKsFDnTXEA0sBytMx3hb2WL8Lx9hdyu93_1zIiNZYkBYNTecPpZutxu5YcDGoyAXJaAUM)
-2024-08-15 14:20:09,955 - error - URL Error https://www.youtube.com/watch?v=XUoMptfVZ2A/live: Unable to open URL: https://www.youtube.com/watch?v=XUoMptfVZ2A/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DXUoMptfVZ2A/live&q=EgQ0n4iUGJmd-LUGIjAKbsI6NK4KcMiCSiS_smouSjC9z4iSxtAzZC0WIZMNL9BH0jmhr6XnIfTZkeaiNToyAXJaAUM)
-2024-08-15 14:20:09,955 - error - URL Error https://www.youtube.com/watch?v=XUoMptfVZ2A/live: Unable to open URL: https://www.youtube.com/watch?v=XUoMptfVZ2A/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DXUoMptfVZ2A/live&q=EgQ0n4iUGJmd-LUGIjAKbsI6NK4KcMiCSiS_smouSjC9z4iSxtAzZC0WIZMNL9BH0jmhr6XnIfTZkeaiNToyAXJaAUM)
-2024-08-15 14:20:10,564 - debug - URL Streams https://www.youtube.com/channel/UCUe6ZpY6TJ0no8jI4l2iLxw/live: {}
-2024-08-15 14:20:10,564 - debug - URL Streams https://www.youtube.com/channel/UCUe6ZpY6TJ0no8jI4l2iLxw/live: {}
-2024-08-15 14:20:11,154 - debug - URL Streams https://www.youtube.com/channel/UCmWZB57dUwFfj847-4y63JA/live: {}
-2024-08-15 14:20:11,154 - debug - URL Streams https://www.youtube.com/channel/UCmWZB57dUwFfj847-4y63JA/live: {}
-2024-08-15 14:20:11,314 - debug - URL Streams https://www.youtube.com/channel/UC5M_h2S8Ldoc9M6f7B-_m6A/live: {}
-2024-08-15 14:20:11,314 - debug - URL Streams https://www.youtube.com/channel/UC5M_h2S8Ldoc9M6f7B-_m6A/live: {}
-2024-08-15 14:20:11,466 - debug - URL Streams https://www.youtube.com/c/DaveAndAva/live: {}
-2024-08-15 14:20:11,466 - debug - URL Streams https://www.youtube.com/c/DaveAndAva/live: {}
-2024-08-15 14:20:12,063 - debug - URL Streams https://www.youtube.com/user/ENGLISHCLASS101/live: {}
-2024-08-15 14:20:12,063 - debug - URL Streams https://www.youtube.com/user/ENGLISHCLASS101/live: {}
-2024-08-15 14:20:12,309 - debug - URL Streams https://www.youtube.com/c/SimplilearnOfficial/live: {}
-2024-08-15 14:20:12,309 - debug - URL Streams https://www.youtube.com/c/SimplilearnOfficial/live: {}
-2024-08-15 14:20:12,810 - error - URL Error https://www.youtube.com/watch?v=djslEyHPpW4/Live: Unable to open URL: https://www.youtube.com/watch?v=djslEyHPpW4/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DdjslEyHPpW4/Live&q=EgQ0n4iUGJyd-LUGIjDX1mUqeY-p0RXUPAUs-HKXafS8VyK2S8t-Od6cl8l4dg14nCWhSfpBiXI1vqx0bdoyAXJaAUM)
-2024-08-15 14:20:12,810 - error - URL Error https://www.youtube.com/watch?v=djslEyHPpW4/Live: Unable to open URL: https://www.youtube.com/watch?v=djslEyHPpW4/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DdjslEyHPpW4/Live&q=EgQ0n4iUGJyd-LUGIjDX1mUqeY-p0RXUPAUs-HKXafS8VyK2S8t-Od6cl8l4dg14nCWhSfpBiXI1vqx0bdoyAXJaAUM)
-2024-08-15 14:20:13,038 - error - URL Error No PluginError https://www.youtube.com/user/TechGuyLabs/Live: 
-2024-08-15 14:20:13,038 - error - URL Error No PluginError https://www.youtube.com/user/TechGuyLabs/Live: 
-2024-08-15 14:20:13,487 - error - URL Error https://www.youtube.com/watch?v=CjtaROG-Ezk/Live: Unable to open URL: https://www.youtube.com/watch?v=CjtaROG-Ezk/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DCjtaROG-Ezk/Live&q=EgQ0n4iUGJ2d-LUGIjCSJDuJL-Y-lUZBLDWY14NKIBfxMl3GjCs6A6KcWQWFnfnBX6KdZBYQKK-R3P8gbN4yAXJaAUM)
-2024-08-15 14:20:13,487 - error - URL Error https://www.youtube.com/watch?v=CjtaROG-Ezk/Live: Unable to open URL: https://www.youtube.com/watch?v=CjtaROG-Ezk/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DCjtaROG-Ezk/Live&q=EgQ0n4iUGJ2d-LUGIjCSJDuJL-Y-lUZBLDWY14NKIBfxMl3GjCs6A6KcWQWFnfnBX6KdZBYQKK-R3P8gbN4yAXJaAUM)
-2024-08-15 14:20:13,784 - error - URL Error No PluginError https://www.youtube.com/channel/UCCU3AYg53YY8tBBtGiuisrw/Live: 
-2024-08-15 14:20:13,784 - error - URL Error No PluginError https://www.youtube.com/channel/UCCU3AYg53YY8tBBtGiuisrw/Live: 
-2024-08-15 14:20:14,195 - error - URL Error No PluginError https://www.youtube.com/channel/UC-7z5DvOhWT4RxeYb3Bh77Q/Live: 
-2024-08-15 14:20:14,195 - error - URL Error No PluginError https://www.youtube.com/channel/UC-7z5DvOhWT4RxeYb3Bh77Q/Live: 
-2024-08-15 14:20:14,672 - error - URL Error https://www.youtube.com/watch?v=9lQ2JCodIeA/Live: Unable to open URL: https://www.youtube.com/watch?v=9lQ2JCodIeA/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D9lQ2JCodIeA/Live&q=EgQ0n4iUGJ6d-LUGIjB1lcerhTphsaGPJxUiN9g8Ve-X-jOW3Rf8CcCDXVoHlMHRX7tMHEtFQufw86sTVCwyAXJaAUM)
-2024-08-15 14:20:14,672 - error - URL Error https://www.youtube.com/watch?v=9lQ2JCodIeA/Live: Unable to open URL: https://www.youtube.com/watch?v=9lQ2JCodIeA/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D9lQ2JCodIeA/Live&q=EgQ0n4iUGJ6d-LUGIjB1lcerhTphsaGPJxUiN9g8Ve-X-jOW3Rf8CcCDXVoHlMHRX7tMHEtFQufw86sTVCwyAXJaAUM)
-2024-08-15 14:20:15,080 - error - URL Error https://www.youtube.com/watch?v=0qfiHGUstk4/Live: Unable to open URL: https://www.youtube.com/watch?v=0qfiHGUstk4/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D0qfiHGUstk4/Live&q=EgQ0n4iUGJ6d-LUGIjA8cuwAxGeCDuGBTZbbl_hyh3QPEwjuCS6_ecu01tzdXmigaacOqCyxk227yloohZoyAXJaAUM)
-2024-08-15 14:20:15,080 - error - URL Error https://www.youtube.com/watch?v=0qfiHGUstk4/Live: Unable to open URL: https://www.youtube.com/watch?v=0qfiHGUstk4/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D0qfiHGUstk4/Live&q=EgQ0n4iUGJ6d-LUGIjA8cuwAxGeCDuGBTZbbl_hyh3QPEwjuCS6_ecu01tzdXmigaacOqCyxk227yloohZoyAXJaAUM)
-2024-08-15 14:20:15,196 - error - URL Error No PluginError https://www.youtube.com/channel/UCMv0gGYxPXDZDSQAS4vhgdg/Live: 
-2024-08-15 14:20:15,196 - error - URL Error No PluginError https://www.youtube.com/channel/UCMv0gGYxPXDZDSQAS4vhgdg/Live: 
-2024-08-15 14:20:15,591 - error - URL Error https://www.youtube.com/watch?v=qoEcy8HS8-8/Live: Unable to open URL: https://www.youtube.com/watch?v=qoEcy8HS8-8/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DqoEcy8HS8-8/Live&q=EgQ0n4iUGJ-d-LUGIjATEQyuyQ10HD-oVvM7Z3R_X7VxySxGrOdfx4_0OQnzUZNi2AWo8Bw58HJLa_TP2t0yAXJaAUM)
-2024-08-15 14:20:15,591 - error - URL Error https://www.youtube.com/watch?v=qoEcy8HS8-8/Live: Unable to open URL: https://www.youtube.com/watch?v=qoEcy8HS8-8/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DqoEcy8HS8-8/Live&q=EgQ0n4iUGJ-d-LUGIjATEQyuyQ10HD-oVvM7Z3R_X7VxySxGrOdfx4_0OQnzUZNi2AWo8Bw58HJLa_TP2t0yAXJaAUM)
-2024-08-15 14:20:16,028 - error - URL Error https://www.youtube.com/watch?v=2cyQPN5xQtU/Live: Unable to open URL: https://www.youtube.com/watch?v=2cyQPN5xQtU/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D2cyQPN5xQtU/Live&q=EgQ0n4iUGJ-d-LUGIjDV2XctHp92ZUU_8qbQZMxjvedBTRn3IRSZeOsfkzfC_3_Nl1EVbZKeyog_NuNSqpwyAXJaAUM)
-2024-08-15 14:20:16,028 - error - URL Error https://www.youtube.com/watch?v=2cyQPN5xQtU/Live: Unable to open URL: https://www.youtube.com/watch?v=2cyQPN5xQtU/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D2cyQPN5xQtU/Live&q=EgQ0n4iUGJ-d-LUGIjDV2XctHp92ZUU_8qbQZMxjvedBTRn3IRSZeOsfkzfC_3_Nl1EVbZKeyog_NuNSqpwyAXJaAUM)
-2024-08-15 14:20:16,414 - error - URL Error https://www.youtube.com/watch?v=AdUw5RdyZxI/Live: Unable to open URL: https://www.youtube.com/watch?v=AdUw5RdyZxI/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DAdUw5RdyZxI/Live&q=EgQ0n4iUGKCd-LUGIjBm9JJ2DcNFfQxjXyZ8G7UDcGzR7lFFheleAp7590HMPFVgGpaILy0V45rTxfXzYnkyAXJaAUM)
-2024-08-15 14:20:16,414 - error - URL Error https://www.youtube.com/watch?v=AdUw5RdyZxI/Live: Unable to open URL: https://www.youtube.com/watch?v=AdUw5RdyZxI/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DAdUw5RdyZxI/Live&q=EgQ0n4iUGKCd-LUGIjBm9JJ2DcNFfQxjXyZ8G7UDcGzR7lFFheleAp7590HMPFVgGpaILy0V45rTxfXzYnkyAXJaAUM)
-2024-08-15 14:20:16,925 - error - URL Error https://www.youtube.com/watch?v=1-iS7LArMPA/live: Unable to open URL: https://www.youtube.com/watch?v=1-iS7LArMPA/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D1-iS7LArMPA/live&q=EgQ0n4iUGKCd-LUGIjBGs3XE0KsJ-IPeP0VNtIRJJUd8JqlMV5e74JDYkN8RxTOOFY9NPsnoCxds8nrRMkcyAXJaAUM)
-2024-08-15 14:20:16,925 - error - URL Error https://www.youtube.com/watch?v=1-iS7LArMPA/live: Unable to open URL: https://www.youtube.com/watch?v=1-iS7LArMPA/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D1-iS7LArMPA/live&q=EgQ0n4iUGKCd-LUGIjBGs3XE0KsJ-IPeP0VNtIRJJUd8JqlMV5e74JDYkN8RxTOOFY9NPsnoCxds8nrRMkcyAXJaAUM)
-2024-08-15 14:20:17,468 - error - URL Error https://www.youtube.com/watch?v=4qyZLflp-sI/live: Unable to open URL: https://www.youtube.com/watch?v=4qyZLflp-sI/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D4qyZLflp-sI/live&q=EgQ0n4iUGKCd-LUGIjC96lyuN7WBU_rCp4ZoG7R_Rg_TinytTh_OurRquDlhX7VMl4ktJgU4YR4eP-_qNSkyAXJaAUM)
-2024-08-15 14:20:17,468 - error - URL Error https://www.youtube.com/watch?v=4qyZLflp-sI/live: Unable to open URL: https://www.youtube.com/watch?v=4qyZLflp-sI/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D4qyZLflp-sI/live&q=EgQ0n4iUGKCd-LUGIjC96lyuN7WBU_rCp4ZoG7R_Rg_TinytTh_OurRquDlhX7VMl4ktJgU4YR4eP-_qNSkyAXJaAUM)
-2024-08-15 14:20:17,891 - error - URL Error https://www.youtube.com/watch?v=x3IRgb5kfpw/Live: Unable to open URL: https://www.youtube.com/watch?v=x3IRgb5kfpw/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dx3IRgb5kfpw/Live&q=EgQ0n4iUGKGd-LUGIjCGFNErWvDztd7IjLk2OZYaTbtlbna6t8kn7fLpOOEPDey9Ri4ZHMoE3F-Dwavwo5AyAXJaAUM)
-2024-08-15 14:20:17,891 - error - URL Error https://www.youtube.com/watch?v=x3IRgb5kfpw/Live: Unable to open URL: https://www.youtube.com/watch?v=x3IRgb5kfpw/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dx3IRgb5kfpw/Live&q=EgQ0n4iUGKGd-LUGIjCGFNErWvDztd7IjLk2OZYaTbtlbna6t8kn7fLpOOEPDey9Ri4ZHMoE3F-Dwavwo5AyAXJaAUM)
-2024-08-15 14:20:18,227 - error - URL Error https://www.youtube.com/watch?v=21X5lGlDOfg/Live: Unable to open URL: https://www.youtube.com/watch?v=21X5lGlDOfg/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D21X5lGlDOfg/Live&q=EgQ0n4iUGKGd-LUGIjD54uU5xuoO2pp4ZuiTmOLORZ-VGPCdTsKfTYdhvMpe2j5ZqEnWHAxua7DVnDExs8YyAXJaAUM)
-2024-08-15 14:20:18,227 - error - URL Error https://www.youtube.com/watch?v=21X5lGlDOfg/Live: Unable to open URL: https://www.youtube.com/watch?v=21X5lGlDOfg/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D21X5lGlDOfg/Live&q=EgQ0n4iUGKGd-LUGIjD54uU5xuoO2pp4ZuiTmOLORZ-VGPCdTsKfTYdhvMpe2j5ZqEnWHAxua7DVnDExs8YyAXJaAUM)
-2024-08-15 14:20:18,468 - error - URL Error No PluginError https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ/Live: 
-2024-08-15 14:20:18,468 - error - URL Error No PluginError https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ/Live: 
-2024-08-15 14:20:18,885 - error - URL Error https://www.youtube.com/watch?v=BhKUpUNICII/Live: Unable to open URL: https://www.youtube.com/watch?v=BhKUpUNICII/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DBhKUpUNICII/Live&q=EgQ0n4iUGKKd-LUGIjDHKMbIoAMtykeFkgtj_ATblSweqTIhhhsElhCe19m4v407CMMbWckn1AXCIttUx9kyAXJaAUM)
-2024-08-15 14:20:18,885 - error - URL Error https://www.youtube.com/watch?v=BhKUpUNICII/Live: Unable to open URL: https://www.youtube.com/watch?v=BhKUpUNICII/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DBhKUpUNICII/Live&q=EgQ0n4iUGKKd-LUGIjDHKMbIoAMtykeFkgtj_ATblSweqTIhhhsElhCe19m4v407CMMbWckn1AXCIttUx9kyAXJaAUM)
-2024-08-15 14:20:19,309 - error - URL Error No PluginError https://www.youtube.com/channel/UCiormkBf3jm6mfb7k0yPbKA/Live: 
-2024-08-15 14:20:19,309 - error - URL Error No PluginError https://www.youtube.com/channel/UCiormkBf3jm6mfb7k0yPbKA/Live: 
-2024-08-15 14:20:19,839 - error - URL Error https://www.youtube.com/watch?v=3t8__aWpVsQ/Live: Unable to open URL: https://www.youtube.com/watch?v=3t8__aWpVsQ/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D3t8__aWpVsQ/Live&q=EgQ0n4iUGKOd-LUGIjAtbCvXSAoDYNEMtI2vRhnb93bLt74wmHDVeG9ffZQnPTsrzc1dQcTQioHQQayPSVcyAXJaAUM)
-2024-08-15 14:20:19,839 - error - URL Error https://www.youtube.com/watch?v=3t8__aWpVsQ/Live: Unable to open URL: https://www.youtube.com/watch?v=3t8__aWpVsQ/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D3t8__aWpVsQ/Live&q=EgQ0n4iUGKOd-LUGIjAtbCvXSAoDYNEMtI2vRhnb93bLt74wmHDVeG9ffZQnPTsrzc1dQcTQioHQQayPSVcyAXJaAUM)
-2024-08-15 14:20:20,113 - error - URL Error No PluginError https://www.youtube.com/channel/UC_WdFDFWB6l8mrUVuKs7gOg/Live: 
-2024-08-15 14:20:20,113 - error - URL Error No PluginError https://www.youtube.com/channel/UC_WdFDFWB6l8mrUVuKs7gOg/Live: 
-2024-08-15 14:20:20,793 - debug - URL Streams https://www.youtube.com/channel/UCqSYig9Cmx6DJ3XaUYg4vpw/live: {}
-2024-08-15 14:20:20,793 - debug - URL Streams https://www.youtube.com/channel/UCqSYig9Cmx6DJ3XaUYg4vpw/live: {}
-2024-08-15 14:20:21,392 - debug - URL Streams https://www.youtube.com/channel/UCtPhR34windpzltylYrj5mg/live: {}
-2024-08-15 14:20:21,392 - debug - URL Streams https://www.youtube.com/channel/UCtPhR34windpzltylYrj5mg/live: {}
-2024-08-15 14:20:21,547 - debug - URL Streams https://www.youtube.com/channel/UCA0bOG0NUfJ855eDtHSxOkw/live: {}
-2024-08-15 14:20:21,547 - debug - URL Streams https://www.youtube.com/channel/UCA0bOG0NUfJ855eDtHSxOkw/live: {}
-2024-08-15 14:20:22,198 - debug - URL Streams https://www.youtube.com/c/BoasNovasbr/live: {}
-2024-08-15 14:20:22,198 - debug - URL Streams https://www.youtube.com/c/BoasNovasbr/live: {}
-2024-08-15 14:20:22,480 - debug - URL Streams https://www.youtube.com/c/TVVERDADE/live: {}
-2024-08-15 14:20:22,480 - debug - URL Streams https://www.youtube.com/c/TVVERDADE/live: {}
-2024-08-15 14:20:22,664 - debug - URL Streams https://www.youtube.com/c/AparecidaAoVivo/live: {}
-2024-08-15 14:20:22,664 - debug - URL Streams https://www.youtube.com/c/AparecidaAoVivo/live: {}
-2024-08-15 14:20:23,214 - debug - URL Streams https://www.youtube.com/channel/UC7E-LYc1wivk33iyt5bR5zQ/live: {}
-2024-08-15 14:20:23,214 - debug - URL Streams https://www.youtube.com/channel/UC7E-LYc1wivk33iyt5bR5zQ/live: {}
-2024-08-15 14:20:23,921 - debug - URL Streams https://www.youtube.com/channel/UCOAjX8pc2fY1S5AqsXvZywg/live: {}
-2024-08-15 14:20:23,921 - debug - URL Streams https://www.youtube.com/channel/UCOAjX8pc2fY1S5AqsXvZywg/live: {}
-2024-08-15 14:20:24,492 - debug - URL Streams https://www.youtube.com/c/LeSanctuaireNotreDamedeLourdes/live: {}
-2024-08-15 14:20:24,492 - debug - URL Streams https://www.youtube.com/c/LeSanctuaireNotreDamedeLourdes/live: {}
-2024-08-15 14:20:25,117 - debug - URL Streams https://www.youtube.com/c/TVACr%C3%ADtica/live: {}
-2024-08-15 14:20:25,117 - debug - URL Streams https://www.youtube.com/c/TVACr%C3%ADtica/live: {}
-2024-08-15 14:20:25,677 - debug - URL Streams https://www.youtube.com/user/diariotv4/live: {}
-2024-08-15 14:20:25,677 - debug - URL Streams https://www.youtube.com/user/diariotv4/live: {}
-2024-08-15 14:20:26,204 - debug - URL Streams https://www.youtube.com/channel/UCoja0MNI4SIvXqJR3szbSfw/live: {}
-2024-08-15 14:20:26,204 - debug - URL Streams https://www.youtube.com/channel/UCoja0MNI4SIvXqJR3szbSfw/live: {}
-2024-08-15 14:20:26,695 - debug - URL Streams https://www.youtube.com/channel/UCP391YRAjSOdM_bwievgaZA/live: {}
-2024-08-15 14:20:26,695 - debug - URL Streams https://www.youtube.com/channel/UCP391YRAjSOdM_bwievgaZA/live: {}
-2024-08-15 14:20:27,372 - debug - URL Streams https://www.youtube.com/channel/UCuiLR4p6wQ3xLEm15pEn1Xw/live: {}
-2024-08-15 14:20:27,372 - debug - URL Streams https://www.youtube.com/channel/UCuiLR4p6wQ3xLEm15pEn1Xw/live: {}
-2024-08-15 14:20:28,006 - debug - URL Streams https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw/live: {}
-2024-08-15 14:20:28,006 - debug - URL Streams https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw/live: {}
-2024-08-15 14:20:28,594 - debug - URL Streams https://www.youtube.com/channel/UCV6zcRug6Hqp1UX_FdyUeBg/live: {}
-2024-08-15 14:20:28,594 - debug - URL Streams https://www.youtube.com/channel/UCV6zcRug6Hqp1UX_FdyUeBg/live: {}
-2024-08-15 14:20:29,183 - debug - URL Streams https://www.youtube.com/channel/UCXIJgqnII2ZOINSWNOGFThA/live: {}
-2024-08-15 14:20:29,183 - debug - URL Streams https://www.youtube.com/channel/UCXIJgqnII2ZOINSWNOGFThA/live: {}
-2024-08-15 14:20:29,765 - debug - URL Streams https://www.youtube.com/channel/UCq9e_hCv2jvgck8WowW1NXg/live: {}
-2024-08-15 14:20:29,765 - debug - URL Streams https://www.youtube.com/channel/UCq9e_hCv2jvgck8WowW1NXg/live: {}
-2024-08-15 14:20:30,042 - debug - URL Streams https://www.youtube.com/channel/UCD9nZ3qeRGbPuHJaJduiQxA/live: {}
-2024-08-15 14:20:30,042 - debug - URL Streams https://www.youtube.com/channel/UCD9nZ3qeRGbPuHJaJduiQxA/live: {}
-2024-08-15 14:20:30,622 - debug - URL Streams https://www.youtube.com/channel/UCJg9wBPyKMNA5sRDnvzmkdg/live: {}
-2024-08-15 14:20:30,622 - debug - URL Streams https://www.youtube.com/channel/UCJg9wBPyKMNA5sRDnvzmkdg/live: {}
-2024-08-15 14:20:31,288 - debug - URL Streams https://www.youtube.com/channel/UCuXT13wiqK56NR7QSfDWpvg/live: {}
-2024-08-15 14:20:31,288 - debug - URL Streams https://www.youtube.com/channel/UCuXT13wiqK56NR7QSfDWpvg/live: {}
-2024-08-15 14:20:31,971 - debug - URL Streams https://www.youtube.com/channel/UC72UssJ1DNQcakZXm-B2-zw/live: {}
-2024-08-15 14:20:31,971 - debug - URL Streams https://www.youtube.com/channel/UC72UssJ1DNQcakZXm-B2-zw/live: {}
-2024-08-15 14:20:32,617 - debug - URL Streams https://www.youtube.com/channel/UCYUbNjkuE4lsr2v1Id2O1oA/live: {}
-2024-08-15 14:20:32,617 - debug - URL Streams https://www.youtube.com/channel/UCYUbNjkuE4lsr2v1Id2O1oA/live: {}
-2024-08-15 14:20:33,260 - debug - URL Streams https://www.youtube.com/channel/UC7Vw6oq2LCbzAhdxF_UcIWg/live: {}
-2024-08-15 14:20:33,260 - debug - URL Streams https://www.youtube.com/channel/UC7Vw6oq2LCbzAhdxF_UcIWg/live: {}
-2024-08-15 14:20:34,511 - debug - URL Streams https://www.youtube.com/channel/UCoIhMkbeDRBImkGiA5mZp5A/live: {}
-2024-08-15 14:20:34,511 - debug - URL Streams https://www.youtube.com/channel/UCoIhMkbeDRBImkGiA5mZp5A/live: {}
-2024-08-15 14:20:35,135 - debug - URL Streams https://www.youtube.com/channel/UCWTkpYvniGIUe1jeCncFzKw/live: {}
-2024-08-15 14:20:35,135 - debug - URL Streams https://www.youtube.com/channel/UCWTkpYvniGIUe1jeCncFzKw/live: {}
-2024-08-15 14:20:35,806 - debug - URL Streams https://www.youtube.com/channel/UCkr9qZ5tj9dGd7JvE3a8X4Q/live: {}
-2024-08-15 14:20:35,806 - debug - URL Streams https://www.youtube.com/channel/UCkr9qZ5tj9dGd7JvE3a8X4Q/live: {}
-2024-08-15 14:20:36,478 - debug - URL Streams https://www.youtube.com/channel/UCwPzlQU2MqEQJWgqM_0VFKQ/live: {}
-2024-08-15 14:20:36,478 - debug - URL Streams https://www.youtube.com/channel/UCwPzlQU2MqEQJWgqM_0VFKQ/live: {}
-2024-08-15 14:20:37,084 - debug - URL Streams https://www.youtube.com/channel/UCrlIS7z20CnVaCrMvdkig_g/live: {}
-2024-08-15 14:20:37,084 - debug - URL Streams https://www.youtube.com/channel/UCrlIS7z20CnVaCrMvdkig_g/live: {}
-2024-08-15 14:20:37,666 - debug - URL Streams https://www.youtube.com/channel/UCMZiahOsO-Ad4IgrD6x4E1A/live: {}
-2024-08-15 14:20:37,666 - debug - URL Streams https://www.youtube.com/channel/UCMZiahOsO-Ad4IgrD6x4E1A/live: {}
-2024-08-15 14:20:38,381 - debug - URL Streams https://www.youtube.com/channel/UC6AG81pAkf6Lbi_1VC5NmPA/live: {}
-2024-08-15 14:20:38,381 - debug - URL Streams https://www.youtube.com/channel/UC6AG81pAkf6Lbi_1VC5NmPA/live: {}
-2024-08-15 14:20:39,034 - debug - URL Streams https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ/live: {}
-2024-08-15 14:20:39,034 - debug - URL Streams https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ/live: {}
-2024-08-15 14:20:39,663 - debug - URL Streams https://www.youtube.com/c/ADN40MX/live: {}
-2024-08-15 14:20:39,663 - debug - URL Streams https://www.youtube.com/c/ADN40MX/live: {}
-2024-08-15 14:20:40,357 - debug - URL Streams https://www.youtube.com/c/nmas/live: {}
-2024-08-15 14:20:40,357 - debug - URL Streams https://www.youtube.com/c/nmas/live: {}
-2024-08-15 14:20:41,060 - debug - URL Streams https://www.youtube.com/c/ajmubasher/live: {}
-2024-08-15 14:20:41,060 - debug - URL Streams https://www.youtube.com/c/ajmubasher/live: {}
-2024-08-15 14:20:41,151 - error - URL Error https://www.youtube.com/c/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B024/live: Unable to open URL: https://www.youtube.com/c/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B024/live (404 Client Error: Not Found for url: https://www.youtube.com/c/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B024/live)
-2024-08-15 14:20:41,151 - error - URL Error https://www.youtube.com/c/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B024/live: Unable to open URL: https://www.youtube.com/c/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B024/live (404 Client Error: Not Found for url: https://www.youtube.com/c/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B024/live)
-2024-08-15 14:20:41,776 - debug - URL Streams https://www.youtube.com/channel/UCbpmfj2g2tYuBezI2kEDhsg/live: {}
-2024-08-15 14:20:41,776 - debug - URL Streams https://www.youtube.com/channel/UCbpmfj2g2tYuBezI2kEDhsg/live: {}
-2024-08-15 14:20:42,311 - debug - URL Streams https://www.youtube.com/c/SBGR-Live/live: {}
-2024-08-15 14:20:42,311 - debug - URL Streams https://www.youtube.com/c/SBGR-Live/live: {}
-2024-08-15 14:20:42,474 - debug - URL Streams https://www.youtube.com/channel/UCsF_WAG6g2cWnFKhcrJAQCQ/live: {}
-2024-08-15 14:20:42,474 - debug - URL Streams https://www.youtube.com/channel/UCsF_WAG6g2cWnFKhcrJAQCQ/live: {}
-2024-08-15 14:20:43,142 - debug - URL Streams https://www.youtube.com/c/AVTVBrasil/live: {}
-2024-08-15 14:20:43,142 - debug - URL Streams https://www.youtube.com/c/AVTVBrasil/live: {}
-2024-08-15 14:20:43,730 - debug - URL Streams https://www.youtube.com/channel/UCFGIPvN1dMn4Bdo8B8WWPDw/live: {}
-2024-08-15 14:20:43,730 - debug - URL Streams https://www.youtube.com/channel/UCFGIPvN1dMn4Bdo8B8WWPDw/live: {}
-2024-08-15 14:20:44,388 - debug - URL Streams https://www.youtube.com/channel/UCpWekERnJ3zwk-0gFlfursg/live: {}
-2024-08-15 14:20:44,388 - debug - URL Streams https://www.youtube.com/channel/UCpWekERnJ3zwk-0gFlfursg/live: {}
-2024-08-15 14:20:44,558 - debug - URL Streams https://www.youtube.com/channel/UCbZEWw8NHAcW9a06s0Q0ZMg/live: {}
-2024-08-15 14:20:44,558 - debug - URL Streams https://www.youtube.com/channel/UCbZEWw8NHAcW9a06s0Q0ZMg/live: {}
-2024-08-15 14:20:44,765 - debug - URL Streams https://www.youtube.com/channel/UCM6-EhR88ZM5TmhHNeBd6UA/live: {}
-2024-08-15 14:20:44,765 - debug - URL Streams https://www.youtube.com/channel/UCM6-EhR88ZM5TmhHNeBd6UA/live: {}
-2024-08-15 14:20:45,351 - debug - URL Streams https://www.youtube.com/channel/UCcjlnrL3_LV4fC9CcrHth7w/live: {}
-2024-08-15 14:20:45,351 - debug - URL Streams https://www.youtube.com/channel/UCcjlnrL3_LV4fC9CcrHth7w/live: {}
-2024-08-15 14:20:45,834 - debug - URL Streams https://www.youtube.com/shoptime/live: {}
-2024-08-15 14:20:45,834 - debug - URL Streams https://www.youtube.com/shoptime/live: {}
-2024-08-15 14:20:46,328 - debug - URL Streams https://www.youtube.com/channel/UCVbQc8XY2Cx-TgMHRHluOoQ/live: {}
-2024-08-15 14:20:46,328 - debug - URL Streams https://www.youtube.com/channel/UCVbQc8XY2Cx-TgMHRHluOoQ/live: {}
-2024-08-15 14:20:46,855 - error - URL Error https://www.youtube.com/watch?v=UqFzfqlb60g/Live: Unable to open URL: https://www.youtube.com/watch?v=UqFzfqlb60g/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DUqFzfqlb60g/Live&q=EgQ0n4iUGL6d-LUGIjDm2sj76DImb78gVTw5mwmvQ8UDbVxUGGNJCB22_NhczfQy1IV6oH7H0BHqPV7GxOQyAXJaAUM)
-2024-08-15 14:20:46,855 - error - URL Error https://www.youtube.com/watch?v=UqFzfqlb60g/Live: Unable to open URL: https://www.youtube.com/watch?v=UqFzfqlb60g/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DUqFzfqlb60g/Live&q=EgQ0n4iUGL6d-LUGIjDm2sj76DImb78gVTw5mwmvQ8UDbVxUGGNJCB22_NhczfQy1IV6oH7H0BHqPV7GxOQyAXJaAUM)
-2024-08-15 14:20:47,208 - error - URL Error https://www.youtube.com/watch?v=_v_wMS-uACE/Live: Unable to open URL: https://www.youtube.com/watch?v=_v_wMS-uACE/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D_v_wMS-uACE/Live&q=EgQ0n4iUGL6d-LUGIjCoEbgvhQNmh8w1hQV5A6iDH-epfDWvduWTUpeIq5OmSctVIMfTO_Za6sIifJ3_1Q8yAXJaAUM)
-2024-08-15 14:20:47,208 - error - URL Error https://www.youtube.com/watch?v=_v_wMS-uACE/Live: Unable to open URL: https://www.youtube.com/watch?v=_v_wMS-uACE/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D_v_wMS-uACE/Live&q=EgQ0n4iUGL6d-LUGIjCoEbgvhQNmh8w1hQV5A6iDH-epfDWvduWTUpeIq5OmSctVIMfTO_Za6sIifJ3_1Q8yAXJaAUM)
-2024-08-15 14:20:47,612 - error - URL Error https://www.youtube.com/watch?v=1ph8qQnjXts/Live: Unable to open URL: https://www.youtube.com/watch?v=1ph8qQnjXts/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D1ph8qQnjXts/Live&q=EgQ0n4iUGL-d-LUGIjCq0pF1OliYxU0ex8XooN2HQlI0bVQgFxglggL6jIBLIqNVhX2l3YPMtPF2OQ3RQKgyAXJaAUM)
-2024-08-15 14:20:47,612 - error - URL Error https://www.youtube.com/watch?v=1ph8qQnjXts/Live: Unable to open URL: https://www.youtube.com/watch?v=1ph8qQnjXts/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D1ph8qQnjXts/Live&q=EgQ0n4iUGL-d-LUGIjCq0pF1OliYxU0ex8XooN2HQlI0bVQgFxglggL6jIBLIqNVhX2l3YPMtPF2OQ3RQKgyAXJaAUM)
-2024-08-15 14:20:47,965 - error - URL Error https://www.youtube.com/watch?v=q-BvtDrTnxc/Live: Unable to open URL: https://www.youtube.com/watch?v=q-BvtDrTnxc/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dq-BvtDrTnxc/Live&q=EgQ0n4iUGL-d-LUGIjBi0OBYsjNOJL0Q8pIGdnhmonALelIgX1JIzQfhLW7hFsALoz6gEk1neHpJsfQbUPAyAXJaAUM)
-2024-08-15 14:20:47,965 - error - URL Error https://www.youtube.com/watch?v=q-BvtDrTnxc/Live: Unable to open URL: https://www.youtube.com/watch?v=q-BvtDrTnxc/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dq-BvtDrTnxc/Live&q=EgQ0n4iUGL-d-LUGIjBi0OBYsjNOJL0Q8pIGdnhmonALelIgX1JIzQfhLW7hFsALoz6gEk1neHpJsfQbUPAyAXJaAUM)
-2024-08-15 14:20:48,459 - error - URL Error https://www.youtube.com/watch?v=1ph8qQnjXts/live: Unable to open URL: https://www.youtube.com/watch?v=1ph8qQnjXts/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D1ph8qQnjXts/live&q=EgQ0n4iUGMCd-LUGIjA4O0dJqFsh_YbpUHt-WLpZjQ0113xPzqdybkScDh_W0Gw3sU3KSBGH0Jh9hPO1r5oyAXJaAUM)
-2024-08-15 14:20:48,459 - error - URL Error https://www.youtube.com/watch?v=1ph8qQnjXts/live: Unable to open URL: https://www.youtube.com/watch?v=1ph8qQnjXts/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D1ph8qQnjXts/live&q=EgQ0n4iUGMCd-LUGIjA4O0dJqFsh_YbpUHt-WLpZjQ0113xPzqdybkScDh_W0Gw3sU3KSBGH0Jh9hPO1r5oyAXJaAUM)
-2024-08-15 14:20:48,769 - error - URL Error https://www.youtube.com/watch?v=q-BvtDrTnxc/live: Unable to open URL: https://www.youtube.com/watch?v=q-BvtDrTnxc/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dq-BvtDrTnxc/live&q=EgQ0n4iUGMCd-LUGIjBb1pllooIMZ2X3CI4VCynlg5lwokL7AsToFZz8hJyrxF7gbVl6a0UHSW13fr3gjf4yAXJaAUM)
-2024-08-15 14:20:48,769 - error - URL Error https://www.youtube.com/watch?v=q-BvtDrTnxc/live: Unable to open URL: https://www.youtube.com/watch?v=q-BvtDrTnxc/live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dq-BvtDrTnxc/live&q=EgQ0n4iUGMCd-LUGIjBb1pllooIMZ2X3CI4VCynlg5lwokL7AsToFZz8hJyrxF7gbVl6a0UHSW13fr3gjf4yAXJaAUM)
-2024-08-15 14:20:49,240 - error - URL Error https://www.youtube.com/watch?v=1ph8qQnjXts/Live: Unable to open URL: https://www.youtube.com/watch?v=1ph8qQnjXts/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D1ph8qQnjXts/Live&q=EgQ0n4iUGMCd-LUGIjAmvIo2yRHgx7k0Hzr1NoH3cxz1i__gXDd6B9u93bCLO9kDEy-r_S5cciR_2bTge4cyAXJaAUM)
-2024-08-15 14:20:49,240 - error - URL Error https://www.youtube.com/watch?v=1ph8qQnjXts/Live: Unable to open URL: https://www.youtube.com/watch?v=1ph8qQnjXts/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D1ph8qQnjXts/Live&q=EgQ0n4iUGMCd-LUGIjAmvIo2yRHgx7k0Hzr1NoH3cxz1i__gXDd6B9u93bCLO9kDEy-r_S5cciR_2bTge4cyAXJaAUM)
-2024-08-15 14:20:49,824 - error - URL Error https://www.youtube.com/watch?v=q-BvtDrTnxc/Live: Unable to open URL: https://www.youtube.com/watch?v=q-BvtDrTnxc/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dq-BvtDrTnxc/Live&q=EgQ0n4iUGMGd-LUGIjCRPAAPa9Nd_XmWioJSdPSOUZY2nsnSrPb9kQb3w1LEPYKatilQlRpto7znB6nYC9kyAXJaAUM)
-2024-08-15 14:20:49,824 - error - URL Error https://www.youtube.com/watch?v=q-BvtDrTnxc/Live: Unable to open URL: https://www.youtube.com/watch?v=q-BvtDrTnxc/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dq-BvtDrTnxc/Live&q=EgQ0n4iUGMGd-LUGIjCRPAAPa9Nd_XmWioJSdPSOUZY2nsnSrPb9kQb3w1LEPYKatilQlRpto7znB6nYC9kyAXJaAUM)
-2024-08-15 14:20:50,357 - error - URL Error https://www.youtube.com/watch?v=UqFzfqlb60g/Live: Unable to open URL: https://www.youtube.com/watch?v=UqFzfqlb60g/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DUqFzfqlb60g/Live&q=EgQ0n4iUGMGd-LUGIjCOC794b11krH3tsW2iC89yLv_ha4J4GbA4ATzCaugDO-umjIDkQsEdbJ_opgpVSKcyAXJaAUM)
-2024-08-15 14:20:50,357 - error - URL Error https://www.youtube.com/watch?v=UqFzfqlb60g/Live: Unable to open URL: https://www.youtube.com/watch?v=UqFzfqlb60g/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DUqFzfqlb60g/Live&q=EgQ0n4iUGMGd-LUGIjCOC794b11krH3tsW2iC89yLv_ha4J4GbA4ATzCaugDO-umjIDkQsEdbJ_opgpVSKcyAXJaAUM)
-2024-08-15 14:20:50,782 - error - URL Error https://www.youtube.com/watch?v=_v_wMS-uACE/Live: Unable to open URL: https://www.youtube.com/watch?v=_v_wMS-uACE/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D_v_wMS-uACE/Live&q=EgQ0n4iUGMKd-LUGIjC875huDZPOJ6vv2Lrx4sjyn9AdA9RMk8pjbfR4qmM7Fyn3VD5QpY6_WjJAXzau-HEyAXJaAUM)
-2024-08-15 14:20:50,782 - error - URL Error https://www.youtube.com/watch?v=_v_wMS-uACE/Live: Unable to open URL: https://www.youtube.com/watch?v=_v_wMS-uACE/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D_v_wMS-uACE/Live&q=EgQ0n4iUGMKd-LUGIjC875huDZPOJ6vv2Lrx4sjyn9AdA9RMk8pjbfR4qmM7Fyn3VD5QpY6_WjJAXzau-HEyAXJaAUM)
-2024-08-15 14:20:51,324 - debug - URL Streams https://www.youtube.com/user/qvcitalia/live: {}
-2024-08-15 14:20:51,324 - debug - URL Streams https://www.youtube.com/user/qvcitalia/live: {}
-2024-08-15 14:20:51,655 - error - URL Error No PluginError https://www.youtube.com/channel/UCXg1nkxv-HywQRsIo3XAFIA/LIVE: 
-2024-08-15 14:20:51,655 - error - URL Error No PluginError https://www.youtube.com/channel/UCXg1nkxv-HywQRsIo3XAFIA/LIVE: 
-2024-08-15 14:20:52,236 - debug - URL Streams https://www.youtube.com/channel/UC9q_4Ljmm0C15j25Bqx1ZOw/live: {}
-2024-08-15 14:20:52,236 - debug - URL Streams https://www.youtube.com/channel/UC9q_4Ljmm0C15j25Bqx1ZOw/live: {}
-2024-08-15 14:20:52,805 - debug - URL Streams https://www.youtube.com/channel/UCyCljI7PbGR7zOIHJXQSK2w/live: {}
-2024-08-15 14:20:52,805 - debug - URL Streams https://www.youtube.com/channel/UCyCljI7PbGR7zOIHJXQSK2w/live: {}
-2024-08-15 14:20:53,460 - debug - URL Streams https://www.youtube.com/channel/UCcst6yHdE5Gdisu5YKCgc1g/live: {}
-2024-08-15 14:20:53,460 - debug - URL Streams https://www.youtube.com/channel/UCcst6yHdE5Gdisu5YKCgc1g/live: {}
-2024-08-15 14:20:53,966 - debug - URL Streams https://www.youtube.com/channel/UCo4sch-fwKIeyzyPIWRXjdw/live: {}
-2024-08-15 14:20:53,966 - debug - URL Streams https://www.youtube.com/channel/UCo4sch-fwKIeyzyPIWRXjdw/live: {}
-2024-08-15 14:20:54,120 - debug - URL Streams https://www.youtube.com/channel/UCSjkdk0uRM3v6Z_4U-hk41Q/live: {}
-2024-08-15 14:20:54,120 - debug - URL Streams https://www.youtube.com/channel/UCSjkdk0uRM3v6Z_4U-hk41Q/live: {}
-2024-08-15 14:20:54,712 - debug - URL Streams https://www.youtube.com/c/createandcraft/live: {}
-2024-08-15 14:20:54,712 - debug - URL Streams https://www.youtube.com/c/createandcraft/live: {}
-2024-08-15 14:20:55,221 - debug - URL Streams https://www.youtube.com/channel/UC9r76Tzp5HxeQG7SqZwV3OA/live: {}
-2024-08-15 14:20:55,221 - debug - URL Streams https://www.youtube.com/channel/UC9r76Tzp5HxeQG7SqZwV3OA/live: {}
-2024-08-15 14:20:55,790 - debug - URL Streams https://www.youtube.com/channel/UCBROhZBlBQTxRW_3h6H-rlg/live: {}
-2024-08-15 14:20:55,790 - debug - URL Streams https://www.youtube.com/channel/UCBROhZBlBQTxRW_3h6H-rlg/live: {}
-2024-08-15 14:20:56,469 - debug - URL Streams https://www.youtube.com/channel/UCJbgGTpBWuC87VFIKTTO4RQ/live: {}
-2024-08-15 14:20:56,469 - debug - URL Streams https://www.youtube.com/channel/UCJbgGTpBWuC87VFIKTTO4RQ/live: {}
-2024-08-15 14:20:57,095 - debug - URL Streams https://www.youtube.com/channel/UCP_T_GqYquLmsIpmDpJvULw/live: {}
-2024-08-15 14:20:57,095 - debug - URL Streams https://www.youtube.com/channel/UCP_T_GqYquLmsIpmDpJvULw/live: {}
-2024-08-15 14:20:57,255 - debug - URL Streams https://www.youtube.com/channel/UCyCljI7PbGR7zOIHJXQSK2w: {}
-2024-08-15 14:20:57,255 - debug - URL Streams https://www.youtube.com/channel/UCyCljI7PbGR7zOIHJXQSK2w: {}
-2024-08-15 14:20:57,790 - debug - URL Streams https://www.youtube.com/channel/UC8dXdHZshMmgDmvFVzjl55Q/live: {}
-2024-08-15 14:20:57,790 - debug - URL Streams https://www.youtube.com/channel/UC8dXdHZshMmgDmvFVzjl55Q/live: {}
-2024-08-15 14:20:58,533 - debug - URL Streams https://www.youtube.com/channel/UCv7IxJXF5EMgzZ77DVSx4IQ/live: {}
-2024-08-15 14:20:58,533 - debug - URL Streams https://www.youtube.com/channel/UCv7IxJXF5EMgzZ77DVSx4IQ/live: {}
-2024-08-15 14:20:58,766 - debug - URL Streams https://www.youtube.com/user/Gemporia/live: {}
-2024-08-15 14:20:58,766 - debug - URL Streams https://www.youtube.com/user/Gemporia/live: {}
-2024-08-15 14:20:58,998 - debug - URL Streams https://www.youtube.com/channel/UCmGXuyddt_xg6ckdbGNPAjg/live: {}
-2024-08-15 14:20:58,998 - debug - URL Streams https://www.youtube.com/channel/UCmGXuyddt_xg6ckdbGNPAjg/live: {}
-2024-08-15 14:20:59,560 - debug - URL Streams https://www.youtube.com/channel/UCGbjb7FYYmj0z3_9iJ7dMPQ/live: {}
-2024-08-15 14:20:59,560 - debug - URL Streams https://www.youtube.com/channel/UCGbjb7FYYmj0z3_9iJ7dMPQ/live: {}
-2024-08-15 14:21:00,075 - debug - URL Streams https://www.youtube.com/channel/UCvpCjGQASCazC-Vxcp9tgPA/live: {}
-2024-08-15 14:21:00,075 - debug - URL Streams https://www.youtube.com/channel/UCvpCjGQASCazC-Vxcp9tgPA/live: {}
-2024-08-15 14:21:00,683 - debug - URL Streams https://www.youtube.com/channel/UCp0urejlDaYz4G8xpTxdIvw/live: {}
-2024-08-15 14:21:00,683 - debug - URL Streams https://www.youtube.com/channel/UCp0urejlDaYz4G8xpTxdIvw/live: {}
-2024-08-15 14:21:01,194 - debug - URL Streams https://www.youtube.com/channel/UCcst6yHdE5Gdisu5YKCgc1g/live: {}
-2024-08-15 14:21:01,194 - debug - URL Streams https://www.youtube.com/channel/UCcst6yHdE5Gdisu5YKCgc1g/live: {}
-2024-08-15 14:21:01,369 - debug - URL Streams https://www.youtube.com/channel/UCWGkK1d7eUmK8XmJ4Kyu4MQ/live: {}
-2024-08-15 14:21:01,369 - debug - URL Streams https://www.youtube.com/channel/UCWGkK1d7eUmK8XmJ4Kyu4MQ/live: {}
-2024-08-15 14:21:01,983 - debug - URL Streams https://www.youtube.com/channel/UCsxo83jFFZNC9woLRVG7d4w/live: {}
-2024-08-15 14:21:01,983 - debug - URL Streams https://www.youtube.com/channel/UCsxo83jFFZNC9woLRVG7d4w/live: {}
-2024-08-15 14:21:02,161 - debug - URL Streams https://www.youtube.com/channel/UCBu0BKbDNL09ihRHK5wWzvQ/live: {}
-2024-08-15 14:21:02,161 - debug - URL Streams https://www.youtube.com/channel/UCBu0BKbDNL09ihRHK5wWzvQ/live: {}
-2024-08-15 14:21:02,719 - debug - URL Streams https://www.youtube.com/channel/UCDhA7JbV2QQ-Ic9FrbeEEHA/live: {}
-2024-08-15 14:21:02,719 - debug - URL Streams https://www.youtube.com/channel/UCDhA7JbV2QQ-Ic9FrbeEEHA/live: {}
-2024-08-15 14:21:03,346 - debug - URL Streams https://www.youtube.com/channel/UC4_WjgHnlKssNxWo0uFzEcw/live: {}
-2024-08-15 14:21:03,346 - debug - URL Streams https://www.youtube.com/channel/UC4_WjgHnlKssNxWo0uFzEcw/live: {}
-2024-08-15 14:21:03,932 - debug - URL Streams https://www.youtube.com/c/HotsaleTV/live: {}
-2024-08-15 14:21:03,932 - debug - URL Streams https://www.youtube.com/c/HotsaleTV/live: {}
-2024-08-15 14:21:04,652 - debug - URL Streams https://www.youtube.com/c/ViVaTVtw/live: {}
-2024-08-15 14:21:04,652 - debug - URL Streams https://www.youtube.com/c/ViVaTVtw/live: {}
-2024-08-15 14:21:04,835 - error - URL Error No PluginError https://www.youtube.com/channel/UCjwXjnO3BGePtB7gSKEpoqA/Live: 
-2024-08-15 14:21:04,835 - error - URL Error No PluginError https://www.youtube.com/channel/UCjwXjnO3BGePtB7gSKEpoqA/Live: 
-2024-08-15 14:21:05,222 - error - URL Error https://www.youtube.com/watch?v=u_C7Lwe1798/Live: Unable to open URL: https://www.youtube.com/watch?v=u_C7Lwe1798/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Du_C7Lwe1798/Live&q=EgQ0n4iUGNCd-LUGIjDOmtXsSCaYGXOYQpPHX-_0yHIGq0alBbNDwkPucqMFMtICbRFLo7OSQJE4qyVHJQAyAXJaAUM)
-2024-08-15 14:21:05,222 - error - URL Error https://www.youtube.com/watch?v=u_C7Lwe1798/Live: Unable to open URL: https://www.youtube.com/watch?v=u_C7Lwe1798/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Du_C7Lwe1798/Live&q=EgQ0n4iUGNCd-LUGIjDOmtXsSCaYGXOYQpPHX-_0yHIGq0alBbNDwkPucqMFMtICbRFLo7OSQJE4qyVHJQAyAXJaAUM)
-2024-08-15 14:21:05,744 - debug - URL Streams https://www.youtube.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg/live: {}
-2024-08-15 14:21:05,744 - debug - URL Streams https://www.youtube.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg/live: {}
-2024-08-15 14:21:06,157 - error - URL Error No PluginError https://www.youtube.com/channel/UCCTTGnP8-QydTBoMXCUduoQ/Live: 
-2024-08-15 14:21:06,157 - error - URL Error No PluginError https://www.youtube.com/channel/UCCTTGnP8-QydTBoMXCUduoQ/Live: 
-2024-08-15 14:21:06,545 - error - URL Error https://www.youtube.com/watch?v=xvGxvwWlnJ8/Live: Unable to open URL: https://www.youtube.com/watch?v=xvGxvwWlnJ8/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DxvGxvwWlnJ8/Live&q=EgQ0n4iUGNKd-LUGIjDEEMtE8O_oCnNq_RNp_Q5jf90tloxUlHqpFz3uiVzdnB49kUxT_CrbahDHssDdGiMyAXJaAUM)
-2024-08-15 14:21:06,545 - error - URL Error https://www.youtube.com/watch?v=xvGxvwWlnJ8/Live: Unable to open URL: https://www.youtube.com/watch?v=xvGxvwWlnJ8/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DxvGxvwWlnJ8/Live&q=EgQ0n4iUGNKd-LUGIjDEEMtE8O_oCnNq_RNp_Q5jf90tloxUlHqpFz3uiVzdnB49kUxT_CrbahDHssDdGiMyAXJaAUM)
-2024-08-15 14:21:06,715 - error - URL Error No PluginError https://www.youtube.com/channel/UCjfxDe7In59Jbfw2HmIh_Vg/Live: 
-2024-08-15 14:21:06,715 - error - URL Error No PluginError https://www.youtube.com/channel/UCjfxDe7In59Jbfw2HmIh_Vg/Live: 
-2024-08-15 14:21:06,876 - error - URL Error No PluginError https://www.youtube.com/c/televisamorelos/Live: 
-2024-08-15 14:21:06,876 - error - URL Error No PluginError https://www.youtube.com/c/televisamorelos/Live: 
-2024-08-15 14:21:07,127 - debug - URL Streams https://www.youtube.com/user/SenadoLXILegislatura/live: {}
-2024-08-15 14:21:07,127 - debug - URL Streams https://www.youtube.com/user/SenadoLXILegislatura/live: {}
-2024-08-15 14:21:07,649 - debug - URL Streams https://www.youtube.com/channel/UC6qrG3W8SMK0jior2olka3g/live: {}
-2024-08-15 14:21:07,649 - debug - URL Streams https://www.youtube.com/channel/UC6qrG3W8SMK0jior2olka3g/live: {}
-2024-08-15 14:21:08,210 - debug - URL Streams https://www.youtube.com/channel/UC1dI_81gsFYkd_EdA0IIBaA/live: {}
-2024-08-15 14:21:08,210 - debug - URL Streams https://www.youtube.com/channel/UC1dI_81gsFYkd_EdA0IIBaA/live: {}
-2024-08-15 14:21:08,889 - debug - URL Streams https://www.youtube.com/channel/UCT_8WtjN20pye20BZ6LdkMQ/live: {}
-2024-08-15 14:21:08,889 - debug - URL Streams https://www.youtube.com/channel/UCT_8WtjN20pye20BZ6LdkMQ/live: {}
-2024-08-15 14:21:09,463 - debug - URL Streams https://www.youtube.com/channel/UC0djAWwMXP22wzocdJR9dWw/live: {}
-2024-08-15 14:21:09,463 - debug - URL Streams https://www.youtube.com/channel/UC0djAWwMXP22wzocdJR9dWw/live: {}
-2024-08-15 14:21:10,020 - debug - URL Streams https://www.youtube.com/channel/UCDmNmxF3ZVMeGyvWE9tOqPQ/live: {}
-2024-08-15 14:21:10,020 - debug - URL Streams https://www.youtube.com/channel/UCDmNmxF3ZVMeGyvWE9tOqPQ/live: {}
-2024-08-15 14:21:10,607 - error - URL Error https://www.youtube.com/watch?v=0qfiHGUstk4/Live: Unable to open URL: https://www.youtube.com/watch?v=0qfiHGUstk4/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D0qfiHGUstk4/Live&q=EgQ0n4iUGNad-LUGIjCL-iaXTj9E6Xuh1AWEanzEMuwUGTADuZzP3_Rap9SqoCqzOvy2T99g_Pq4iQ5Aw5wyAXJaAUM)
-2024-08-15 14:21:10,607 - error - URL Error https://www.youtube.com/watch?v=0qfiHGUstk4/Live: Unable to open URL: https://www.youtube.com/watch?v=0qfiHGUstk4/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D0qfiHGUstk4/Live&q=EgQ0n4iUGNad-LUGIjCL-iaXTj9E6Xuh1AWEanzEMuwUGTADuZzP3_Rap9SqoCqzOvy2T99g_Pq4iQ5Aw5wyAXJaAUM)
-2024-08-15 14:21:10,730 - error - URL Error No PluginError https://www.youtube.com/channel/UCMv0gGYxPXDZDSQAS4vhgdg/Live: 
-2024-08-15 14:21:10,730 - error - URL Error No PluginError https://www.youtube.com/channel/UCMv0gGYxPXDZDSQAS4vhgdg/Live: 
-2024-08-15 14:21:11,327 - error - URL Error https://www.youtube.com/watch?v=qoEcy8HS8-8/Live: Unable to open URL: https://www.youtube.com/watch?v=qoEcy8HS8-8/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DqoEcy8HS8-8/Live&q=EgQ0n4iUGNad-LUGIjA6zFCUc0MFCMMTOy68Lq9GG2iRhUi4Wwq0AreRhm-LMwO9QWSCXmWo8kXu5HKdmpgyAXJaAUM)
-2024-08-15 14:21:11,327 - error - URL Error https://www.youtube.com/watch?v=qoEcy8HS8-8/Live: Unable to open URL: https://www.youtube.com/watch?v=qoEcy8HS8-8/Live (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DqoEcy8HS8-8/Live&q=EgQ0n4iUGNad-LUGIjA6zFCUc0MFCMMTOy68Lq9GG2iRhUi4Wwq0AreRhm-LMwO9QWSCXmWo8kXu5HKdmpgyAXJaAUM)
-2024-08-15 14:21:11,873 - debug - URL Streams https://www.youtube.com/channel/UCwP4zsC0r9eqRQOethu5EFg/live: {}
-2024-08-15 14:21:11,873 - debug - URL Streams https://www.youtube.com/channel/UCwP4zsC0r9eqRQOethu5EFg/live: {}
-2024-08-15 14:21:12,025 - debug - URL Streams https://www.youtube.com/channel/UCfJtBtmhnIyfUB6RqXeImMw/live: {}
-2024-08-15 14:21:12,025 - debug - URL Streams https://www.youtube.com/channel/UCfJtBtmhnIyfUB6RqXeImMw/live: {}
-2024-08-15 14:21:12,581 - debug - URL Streams https://www.youtube.com/channel/UCnsvJeZO4RigQ898WdDNoBw/live: {}
-2024-08-15 14:21:12,581 - debug - URL Streams https://www.youtube.com/channel/UCnsvJeZO4RigQ898WdDNoBw/live: {}
-2024-08-15 14:21:12,821 - debug - URL Streams https://www.youtube.com/channel/UClLLRs_mFTsNT5U-DqTYAGg/live: {}
-2024-08-15 14:21:12,821 - debug - URL Streams https://www.youtube.com/channel/UClLLRs_mFTsNT5U-DqTYAGg/live: {}
-2024-08-15 14:21:12,915 - error - URL Error https://www.youtube.com/user/telesurtv/live: Unable to open URL: https://www.youtube.com/user/telesurtv/live (404 Client Error: Not Found for url: https://www.youtube.com/user/telesurtv/live)
-2024-08-15 14:21:12,915 - error - URL Error https://www.youtube.com/user/telesurtv/live: Unable to open URL: https://www.youtube.com/user/telesurtv/live (404 Client Error: Not Found for url: https://www.youtube.com/user/telesurtv/live)
-2024-08-15 14:21:13,417 - debug - URL Streams https://www.youtube.com/user/telesurenglish/live: {}
-2024-08-15 14:21:13,417 - debug - URL Streams https://www.youtube.com/user/telesurenglish/live: {}
+2024-08-15 16:17:27,132 - debug - URL Streams http://cam104y3.gesell.com.ar/playlist.m3u8: <Response [200]>
+2024-08-15 16:17:27,736 - debug - URL Streams http://cambsasyplaya.gesell.com.ar/playlist.m3u8: <Response [200]>
+2024-08-15 16:17:28,324 - debug - URL Streams http://camlapinocha.gesell.com.ar/playlist.m3u8: <Response [200]>
+2024-08-15 16:17:29,240 - debug - URL Streams https://unlimited1-buenosaires.dps.live/perfiltv/perfiltv.smil/playlist.m3u8: <Response [200]>
+2024-08-15 16:17:29,350 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164871.m3u8: <Response [200]>
+2024-08-15 16:17:29,461 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164880.m3u8: <Response [200]>
+2024-08-15 16:17:31,109 - debug - URL Streams https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/0/playlist.m3u8: <Response [200]>
+2024-08-15 16:18:55,958 - error - URL Error https://bvsat02.cdn.rcs.net.ar/mnp/construiriptv/output.mpd: HTTPSConnectionPool(host='bvsat02.cdn.rcs.net.ar', port=443): Max retries exceeded with url: /mnp/construiriptv/output.mpd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7faa82a59d80>, 'Connection to bvsat02.cdn.rcs.net.ar timed out. (connect timeout=15)'))
+2024-08-15 16:19:13,951 - error - URL Error https://d3055hobuue3je.cloudfront.net/out/v1/188a8f3baf914a35868453bd5d0b0fd2/index_4.m3u8: HTTPSConnectionPool(host='d3055hobuue3je.cloudfront.net', port=443): Max retries exceeded with url: /out/v1/188a8f3baf914a35868453bd5d0b0fd2/index_4.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7faa82a5b3a0>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))
+2024-08-15 16:19:14,646 - debug - URL Streams https://stream1.sersat.com/hls/garagetv.m3u8: <Response [200]>
+2024-08-15 16:19:14,647 - error - URL Error #EXTVLCOPT:http-referrer=https://vmf.edge-apps.net: No connection adapters were found for '#EXTVLCOPT:http-referrer=https://vmf.edge-apps.net'
+2024-08-15 16:19:15,190 - debug - URL Streams https://g1.proy-slo.transport.edge-access.net:443/a07/ngrp:americahls-100056_all/playlist_720p.m3u8: <Response [200]>
+2024-08-15 16:19:15,421 - error - URL Error #EXTVLCOPT:http-referrer=https://vmf.edge-apps.net: No connection adapters were found for '#EXTVLCOPT:http-referrer=https://vmf.edge-apps.net'
+2024-08-15 16:19:15,831 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164881.m3u8: <Response [200]>
+2024-08-15 16:19:15,985 - debug - URL Streams http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5df265697ec3510009df1ef0/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff1d530-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=ec2383fd-6e28-4df5-9d1c-b66eee7000c&userId=&serverSideAds=true: <Response [200]>
+2024-08-15 16:19:16,372 - debug - URL Streams http://168.197.196.98:9981/stream/channelid/1475050013?profile=pass: <Response [200]>
+2024-08-15 16:19:16,747 - debug - URL Streams http://168.197.196.98:9981/stream/channelid/1475050013: <Response [200]>
+2024-08-15 16:19:17,342 - debug - URL Streams https://cntlnk-main-edge-access.dlt.qwilted-cds.cqloud.com/entrypoint/c7_vivo01_dai_source-20001_all_1080p.m3u8: <Response [200]>
+2024-08-15 16:19:17,836 - debug - URL Streams https://cntlnk-main-edge-access.dlt.qwilted-cds.cqloud.com/entrypoint/c7_vivo01_dai_source-20001_all_1080p.m3u8: <Response [200]>
+2024-08-15 16:19:18,127 - debug - URL Streams http://abcnew.site:8880/D12m2692/94245219/49978: <Response [200]>
+2024-08-15 16:19:18,471 - debug - URL Streams http://181.191.140.2:8000/play/a0hd/index.m3u8: <Response [200]>
+2024-08-15 16:19:18,961 - debug - URL Streams https://cntlnk-main-edge-access.dlt.qwilted-cds.cqloud.com/entrypoint/c7_vivo01_dai_source-20001_all_1080p.m3u8: <Response [200]>
+2024-08-15 16:19:19,173 - debug - URL Streams https://live.obslivestream.com/telecolormux/tracks-v1a1/mono.m3u8: <Response [200]>
+2024-08-15 16:19:19,550 - debug - URL Streams http://168.197.196.98:9981/stream/channelid/581244389: <Response [200]>
+2024-08-15 16:19:20,039 - debug - URL Streams http://170.82.37.21:8000/play/a042/index.m3u8: <Response [200]>
+2024-08-15 16:19:50,072 - error - URL Error http://186.148.196.82:8000/play/a016: HTTPConnectionPool(host='186.148.196.82', port=8000): Max retries exceeded with url: /play/a016 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7faa82a5b700>, 'Connection to 186.148.196.82 timed out. (connect timeout=15)'))
+2024-08-15 16:19:50,444 - debug - URL Streams http://181.209.114.13:8000/play/a06c/index.m3u8: <Response [200]>
+2024-08-15 16:19:50,785 - debug - URL Streams http://181.191.140.2:8000/play/a0it/index.m3u8: <Response [200]>
+2024-08-15 16:19:51,128 - debug - URL Streams http://181.191.140.2:8000/play/a0hu/index.m3u8: <Response [200]>
+2024-08-15 16:20:21,160 - error - URL Error http://181.191.140.229:8000/play/a0hu/index.m3u8: HTTPConnectionPool(host='181.191.140.229', port=8000): Max retries exceeded with url: /play/a0hu/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7faa82a58c10>, 'Connection to 181.191.140.229 timed out. (connect timeout=15)'))
+2024-08-15 16:20:51,192 - error - URL Error http://181.191.140.229:8000/play/a0it/index.m3u8: HTTPConnectionPool(host='181.191.140.229', port=8000): Max retries exceeded with url: /play/a0it/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7faa82a5bf10>, 'Connection to 181.191.140.229 timed out. (connect timeout=15)'))
+2024-08-15 16:20:54,953 - debug - URL Streams https://livetrx01.vodgc.net/eltrecetv/index.m3u8: <Response [200]>
+2024-08-15 16:20:55,290 - debug - URL Streams http://181.191.140.2:8000/play/a0ir/index.m3u8: <Response [200]>
+2024-08-15 16:20:57,187 - debug - URL Streams https://live-01-02-eltrece.vodgc.net:443/eltrecetv/tracks-v2a1/mono.m3u8: <Response [200]>
+2024-08-15 16:20:58,230 - debug - URL Streams https://live-01-02-eltrece.vodgc.net/eltrecetv_noti/index.m3u8: <Response [200]>
+2024-08-15 16:20:58,611 - debug - URL Streams http://168.197.196.98:9981/stream/channelid/369719429?profile=pass&checkedby:alliptvlinks.com: <Response [200]>
+2024-08-15 16:21:29,077 - error - URL Error https://bvsat02.cdn.rcs.net.ar/mnp/elnueve/output.mpd: HTTPSConnectionPool(host='bvsat02.cdn.rcs.net.ar', port=443): Max retries exceeded with url: /mnp/elnueve/output.mpd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7faa82a5a1a0>, 'Connection to bvsat02.cdn.rcs.net.ar timed out. (connect timeout=15)'))
+2024-08-15 16:21:29,335 - debug - URL Streams http://lobo-tv.live:8080/Rodolfo01/Rodolfo01/210850: <Response [200]>
+2024-08-15 16:21:29,421 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164869.m3u8: <Response [200]>
+2024-08-15 16:21:30,000 - error - URL Error https://stmvideo2.livecastv.com/canal4/canal4/playlist.m3u8: HTTPSConnectionPool(host='stmvideo2.livecastv.com', port=443): Max retries exceeded with url: /canal4/canal4/playlist.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7faa82a5aaa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-15 16:21:30,383 - debug - URL Streams http://168.197.196.98:9981/stream/channelid/1899762131?profile=pass: <Response [200]>
+2024-08-15 16:21:30,435 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164875.m3u8: <Response [200]>
+2024-08-15 16:21:31,764 - debug - URL Streams http://190.11.130.46/mnp/cronica/output.mpd: <Response [200]>
+2024-08-15 16:21:32,141 - error - URL Error http://tv.dominiotv.xyz:25461/live/Rolando/Rolando2021/52487.ts: HTTPConnectionPool(host='tv.dominiotv.xyz', port=25461): Max retries exceeded with url: /live/Rolando/Rolando2021/52487.ts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7faa82adca60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-15 16:22:02,607 - error - URL Error https://bvsat02.cdn.rcs.net.ar/mnp/encuentro/output.mpd: HTTPSConnectionPool(host='bvsat02.cdn.rcs.net.ar', port=443): Max retries exceeded with url: /mnp/encuentro/output.mpd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7faa82a58cd0>, 'Connection to bvsat02.cdn.rcs.net.ar timed out. (connect timeout=15)'))
+2024-08-15 16:22:20,862 - debug - URL Streams http://190.11.130.46/mnp/encuentro/output.mpd: <Response [200]>
+2024-08-15 16:22:38,829 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164878.m3u8: <Response [200]>
+2024-08-15 16:23:07,973 - debug - URL Streams http://190.11.130.46/mnp/ip/output.mpd: <Response [200]>
+2024-08-15 16:23:38,162 - error - URL Error http://190.11.130.46/mnp/ip/output.mpd: HTTPConnectionPool(host='190.11.130.46', port=80): Max retries exceeded with url: /mnp/ip/output.mpd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7faa82a5a020>, 'Connection to 190.11.130.46 timed out. (connect timeout=15)'))
+2024-08-15 16:23:38,211 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164879.m3u8: <Response [200]>
+2024-08-15 16:23:52,692 - debug - URL Streams http://tutv.online:8080/f7g9h8b7/j3s7x7q8/184400: <Response [200]>
+2024-08-15 16:23:52,740 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164873.m3u8: <Response [200]>
+2024-08-15 16:23:53,785 - debug - URL Streams http://cord-cutter.net:8080/live/j3McKd/673709/164876.m3u8: <Response [200]>
+2024-08-15 16:23:54,429 - debug - URL Streams https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8: <Response [200]>
+2024-08-15 16:23:55,410 - debug - URL Streams https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/nettv/livestream1/chunks.m3u8: <Response [200]>
+2024-08-15 16:23:56,181 - debug - URL Streams https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/playlist.m3u8: <Response [200]>
+2024-08-15 16:24:27,242 - error - URL Error http://190.11.130.46/mnp/canal26/output.mpd: HTTPConnectionPool(host='190.11.130.46', port=80): Max retries exceeded with url: /mnp/canal26/output.mpd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7faa82adc0a0>, 'Connection to 190.11.130.46 timed out. (connect timeout=15)'))
+2024-08-15 16:24:28,124 - debug - URL Streams https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8: <Response [200]>
+2024-08-15 16:24:28,438 - error - URL Error http://tv.dominiotv.xyz:25461/live/Rolando/Rolando2021/52509.ts: HTTPConnectionPool(host='tv.dominiotv.xyz', port=25461): Max retries exceeded with url: /live/Rolando/Rolando2021/52509.ts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7faa82a5b400>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-15 16:24:29,011 - debug - URL Streams https://www.youtube.com/watch?v=ztAU9B_z36g/live: {}
+2024-08-15 16:24:29,011 - debug - URL Streams https://www.youtube.com/watch?v=ztAU9B_z36g/live: {}
+2024-08-15 16:24:29,516 - debug - URL Streams https://www.youtube.com/user/TVPublicaArgentina/live: {}
+2024-08-15 16:24:29,516 - debug - URL Streams https://www.youtube.com/user/TVPublicaArgentina/live: {}
+2024-08-15 16:24:30,008 - debug - URL Streams https://www.youtube.com/channel/UCaU_cKHQ4IFHvBzQ-tKS1-Q/live: {}
+2024-08-15 16:24:30,008 - debug - URL Streams https://www.youtube.com/channel/UCaU_cKHQ4IFHvBzQ-tKS1-Q/live: {}
+2024-08-15 16:24:30,237 - debug - URL Streams https://www.youtube.com/c/MediasetEspa%C3%B1aOficial/live: {}
+2024-08-15 16:24:30,237 - debug - URL Streams https://www.youtube.com/c/MediasetEspa%C3%B1aOficial/live: {}
+2024-08-15 16:24:30,573 - debug - URL Streams https://www.twitch.tv/granhermanochile: {}
+2024-08-15 16:24:30,573 - debug - URL Streams https://www.twitch.tv/granhermanochile: {}
+2024-08-15 16:24:30,846 - debug - URL Streams https://www.twitch.tv/mvrenocl: {}
+2024-08-15 16:24:30,846 - debug - URL Streams https://www.twitch.tv/mvrenocl: {}
+2024-08-15 16:24:31,075 - debug - URL Streams https://www.twitch.tv/jamesreality_mx: {}
+2024-08-15 16:24:31,075 - debug - URL Streams https://www.twitch.tv/jamesreality_mx: {}
+2024-08-15 16:24:31,453 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037602/orlando/stream1/master.m3u8: <Response [200]>
+2024-08-15 16:24:31,453 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037602/orlando/stream1/master.m3u8: <Response [200]>
+2024-08-15 16:24:31,568 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream6/master.m3u8: <Response [200]>
+2024-08-15 16:24:31,568 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream6/master.m3u8: <Response [200]>
+2024-08-15 16:24:31,776 - error - URL Error https://dai2-playlistserver.aws.syncbak.com/cpl/20475903/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDQ3NTkwMyIsImNpZCI6MjA5NzQsInNpZCI6MTU4LCJtZDUiOiJiMTgwM2ExYTIxMzA5ZTEwNzNlOGJjMDQyOGU5NDkzOCIsImlhdCI6MTY1Mjg5MjgyMSwiZXhwIjoxNjg0NDI4ODIxLCJpc3MiOiJTeW5jYmFrIChURykifQ.ngWlxw_iUrju6oMpQl73BYHMCl7c6reypSqqP5nLbL8: Unable to open URL: https://dai2-playlistserver.aws.syncbak.com/cpl/20475903/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDQ3NTkwMyIsImNpZCI6MjA5NzQsInNpZCI6MTU4LCJtZDUiOiJiMTgwM2ExYTIxMzA5ZTEwNzNlOGJjMDQyOGU5NDkzOCIsImlhdCI6MTY1Mjg5MjgyMSwiZXhwIjoxNjg0NDI4ODIxLCJpc3MiOiJTeW5jYmFrIChURykifQ.ngWlxw_iUrju6oMpQl73BYHMCl7c6reypSqqP5nLbL8 (403 Client Error: Forbidden for url: https://dai2-playlistserver.aws.syncbak.com/cpl/20475903/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDQ3NTkwMyIsImNpZCI6MjA5NzQsInNpZCI6MTU4LCJtZDUiOiJiMTgwM2ExYTIxMzA5ZTEwNzNlOGJjMDQyOGU5NDkzOCIsImlhdCI6MTY1Mjg5MjgyMSwiZXhwIjoxNjg0NDI4ODIxLCJpc3MiOiJTeW5jYmFrIChURykifQ.ngWlxw_iUrju6oMpQl73BYHMCl7c6reypSqqP5nLbL8)
+2024-08-15 16:24:31,776 - error - URL Error https://dai2-playlistserver.aws.syncbak.com/cpl/20475903/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDQ3NTkwMyIsImNpZCI6MjA5NzQsInNpZCI6MTU4LCJtZDUiOiJiMTgwM2ExYTIxMzA5ZTEwNzNlOGJjMDQyOGU5NDkzOCIsImlhdCI6MTY1Mjg5MjgyMSwiZXhwIjoxNjg0NDI4ODIxLCJpc3MiOiJTeW5jYmFrIChURykifQ.ngWlxw_iUrju6oMpQl73BYHMCl7c6reypSqqP5nLbL8: Unable to open URL: https://dai2-playlistserver.aws.syncbak.com/cpl/20475903/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDQ3NTkwMyIsImNpZCI6MjA5NzQsInNpZCI6MTU4LCJtZDUiOiJiMTgwM2ExYTIxMzA5ZTEwNzNlOGJjMDQyOGU5NDkzOCIsImlhdCI6MTY1Mjg5MjgyMSwiZXhwIjoxNjg0NDI4ODIxLCJpc3MiOiJTeW5jYmFrIChURykifQ.ngWlxw_iUrju6oMpQl73BYHMCl7c6reypSqqP5nLbL8 (403 Client Error: Forbidden for url: https://dai2-playlistserver.aws.syncbak.com/cpl/20475903/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDQ3NTkwMyIsImNpZCI6MjA5NzQsInNpZCI6MTU4LCJtZDUiOiJiMTgwM2ExYTIxMzA5ZTEwNzNlOGJjMDQyOGU5NDkzOCIsImlhdCI6MTY1Mjg5MjgyMSwiZXhwIjoxNjg0NDI4ODIxLCJpc3MiOiJTeW5jYmFrIChURykifQ.ngWlxw_iUrju6oMpQl73BYHMCl7c6reypSqqP5nLbL8)
+2024-08-15 16:24:32,077 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037601/fresno/stream1/master.m3u8: <Response [200]>
+2024-08-15 16:24:32,077 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037601/fresno/stream1/master.m3u8: <Response [200]>
+2024-08-15 16:24:32,589 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037093/lasvegas/stream1/master.m3u8: <Response [200]>
+2024-08-15 16:24:32,589 - debug - URL Streams https://nbculocallive.akamaized.net/hls/live/2037093/lasvegas/stream1/master.m3u8: <Response [200]>
+2024-08-15 16:24:32,707 - error - URL Error No PluginError https://www.youtube.com/channel/UC6kNHHQl1YY1SRp7AYfxlbw/Live: 
+2024-08-15 16:24:32,707 - error - URL Error No PluginError https://www.youtube.com/channel/UC6kNHHQl1YY1SRp7AYfxlbw/Live: 
+2024-08-15 16:24:32,938 - debug - URL Streams https://www.youtube.com/watch?v=4rtYenPSjp4/Live: {}
+2024-08-15 16:24:32,938 - debug - URL Streams https://www.youtube.com/watch?v=4rtYenPSjp4/Live: {}
+2024-08-15 16:24:33,639 - debug - URL Streams https://www.youtube.com/watch?v=0iMpPy0HnkM/Live: {}
+2024-08-15 16:24:33,639 - debug - URL Streams https://www.youtube.com/watch?v=0iMpPy0HnkM/Live: {}
+2024-08-15 16:24:34,423 - debug - URL Streams https://www.youtube.com/watch?v=fdvfSKju3YM/Live: {}
+2024-08-15 16:24:34,423 - debug - URL Streams https://www.youtube.com/watch?v=fdvfSKju3YM/Live: {}
+2024-08-15 16:24:34,936 - debug - URL Streams https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q/live: {}
+2024-08-15 16:24:34,936 - debug - URL Streams https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q/live: {}
+2024-08-15 16:24:35,118 - debug - URL Streams https://www.youtube.com/watch?v=Ove87nZ_1D4/Live: {}
+2024-08-15 16:24:35,118 - debug - URL Streams https://www.youtube.com/watch?v=Ove87nZ_1D4/Live: {}
+2024-08-15 16:24:35,323 - debug - URL Streams https://www.youtube.com/watch?v=28Azb5gyTdg/Live: {}
+2024-08-15 16:24:35,323 - debug - URL Streams https://www.youtube.com/watch?v=28Azb5gyTdg/Live: {}
+2024-08-15 16:24:35,525 - debug - URL Streams https://www.youtube.com/watch?v=pAw6Ys4s638/Live: {}
+2024-08-15 16:24:35,525 - debug - URL Streams https://www.youtube.com/watch?v=pAw6Ys4s638/Live: {}
+2024-08-15 16:24:36,274 - debug - URL Streams https://www.youtube.com/watch?v=jFQhllVo0_A/Live: {}
+2024-08-15 16:24:36,274 - debug - URL Streams https://www.youtube.com/watch?v=jFQhllVo0_A/Live: {}
+2024-08-15 16:24:37,144 - debug - URL Streams https://www.youtube.com/watch?v=rjz5-gVhjHI/live: {}
+2024-08-15 16:24:37,144 - debug - URL Streams https://www.youtube.com/watch?v=rjz5-gVhjHI/live: {}
+2024-08-15 16:24:37,722 - debug - URL Streams https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ/live: {}
+2024-08-15 16:24:37,722 - debug - URL Streams https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ/live: {}
+2024-08-15 16:24:37,906 - error - URL Error No PluginError https://www.youtube.com/channel/UCjwXjnO3BGePtB7gSKEpoqA/Live: 
+2024-08-15 16:24:37,906 - error - URL Error No PluginError https://www.youtube.com/channel/UCjwXjnO3BGePtB7gSKEpoqA/Live: 
+2024-08-15 16:24:38,090 - debug - URL Streams https://www.youtube.com/watch?v=u_C7Lwe1798/Live: {}
+2024-08-15 16:24:38,090 - debug - URL Streams https://www.youtube.com/watch?v=u_C7Lwe1798/Live: {}
+2024-08-15 16:24:38,582 - debug - URL Streams https://www.youtube.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg/live: {}
+2024-08-15 16:24:38,582 - debug - URL Streams https://www.youtube.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg/live: {}
+2024-08-15 16:24:38,969 - error - URL Error No PluginError https://www.youtube.com/channel/UCCTTGnP8-QydTBoMXCUduoQ/Live: 
+2024-08-15 16:24:38,969 - error - URL Error No PluginError https://www.youtube.com/channel/UCCTTGnP8-QydTBoMXCUduoQ/Live: 
+2024-08-15 16:24:39,192 - debug - URL Streams https://www.youtube.com/watch?v=xvGxvwWlnJ8/Live: {}
+2024-08-15 16:24:39,192 - debug - URL Streams https://www.youtube.com/watch?v=xvGxvwWlnJ8/Live: {}
+2024-08-15 16:24:39,424 - error - URL Error No PluginError https://www.youtube.com/channel/UCjfxDe7In59Jbfw2HmIh_Vg/Live: 
+2024-08-15 16:24:39,424 - error - URL Error No PluginError https://www.youtube.com/channel/UCjfxDe7In59Jbfw2HmIh_Vg/Live: 
+2024-08-15 16:24:40,037 - debug - URL Streams https://www.youtube.com/watch?v=UKsX8l6f578/Live: {}
+2024-08-15 16:24:40,037 - debug - URL Streams https://www.youtube.com/watch?v=UKsX8l6f578/Live: {}
+2024-08-15 16:24:40,420 - error - URL Error No PluginError https://www.youtube.com/channel/UC7k--FhnJzhPTrbtldMSoQQ/Live: 
+2024-08-15 16:24:40,420 - error - URL Error No PluginError https://www.youtube.com/channel/UC7k--FhnJzhPTrbtldMSoQQ/Live: 
+2024-08-15 16:24:40,625 - debug - URL Streams https://www.youtube.com/watch?v=Sh54vNR2QSo/Live: {}
+2024-08-15 16:24:40,625 - debug - URL Streams https://www.youtube.com/watch?v=Sh54vNR2QSo/Live: {}
+2024-08-15 16:24:41,085 - error - URL Error No PluginError https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ/Live: 
+2024-08-15 16:24:41,085 - error - URL Error No PluginError https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ/Live: 
+2024-08-15 16:24:41,819 - debug - URL Streams https://www.youtube.com/watch?v=zTZ2s0ArTtU/Live: {}
+2024-08-15 16:24:41,819 - debug - URL Streams https://www.youtube.com/watch?v=zTZ2s0ArTtU/Live: {}
+2024-08-15 16:24:42,510 - debug - URL Streams https://www.youtube.com/watch?v=zcWXboTnous/Live: {}
+2024-08-15 16:24:42,510 - debug - URL Streams https://www.youtube.com/watch?v=zcWXboTnous/Live: {}
+2024-08-15 16:24:43,002 - error - URL Error No PluginError https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw/Live: 
+2024-08-15 16:24:43,002 - error - URL Error No PluginError https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw/Live: 
+2024-08-15 16:24:43,246 - debug - URL Streams https://www.youtube.com/watch?v=6EIZBCYpAlQ/Live: {}
+2024-08-15 16:24:43,246 - debug - URL Streams https://www.youtube.com/watch?v=6EIZBCYpAlQ/Live: {}
+2024-08-15 16:24:43,369 - error - URL Error No PluginError https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w/Live: 
+2024-08-15 16:24:43,369 - error - URL Error No PluginError https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w/Live: 
+2024-08-15 16:24:43,569 - debug - URL Streams https://www.youtube.com/watch?v=jN0TnHxhliA/Live: {}
+2024-08-15 16:24:43,569 - debug - URL Streams https://www.youtube.com/watch?v=jN0TnHxhliA/Live: {}
+2024-08-15 16:24:44,006 - error - URL Error No PluginError https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w/Live: 
+2024-08-15 16:24:44,006 - error - URL Error No PluginError https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w/Live: 
+2024-08-15 16:24:44,581 - debug - URL Streams https://www.youtube.com/watch?v=2CN2zI5v5eY/Live: {}
+2024-08-15 16:24:44,581 - debug - URL Streams https://www.youtube.com/watch?v=2CN2zI5v5eY/Live: {}
+2024-08-15 16:24:44,987 - error - URL Error No PluginError https://www.youtube.com/channel/UC7QZIf0dta-XPXsp9Hv4dTw/Live: 
+2024-08-15 16:24:44,987 - error - URL Error No PluginError https://www.youtube.com/channel/UC7QZIf0dta-XPXsp9Hv4dTw/Live: 
+2024-08-15 16:24:45,218 - debug - URL Streams https://www.youtube.com/watch?v=VsdIRJHq2q4/Live: {}
+2024-08-15 16:24:45,218 - debug - URL Streams https://www.youtube.com/watch?v=VsdIRJHq2q4/Live: {}
+2024-08-15 16:24:45,419 - error - URL Error No PluginError https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/Live: 
+2024-08-15 16:24:45,419 - error - URL Error No PluginError https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/Live: 
+2024-08-15 16:24:46,038 - debug - URL Streams https://www.youtube.com/watch?v=NNDgdhYg7Ic/live: {}
+2024-08-15 16:24:46,038 - debug - URL Streams https://www.youtube.com/watch?v=NNDgdhYg7Ic/live: {}
+2024-08-15 16:24:46,436 - error - URL Error No PluginError https://www.youtube.com/channel/UC1bBjOZieJWHbsFA0LwjjJA/Live: 
+2024-08-15 16:24:46,436 - error - URL Error No PluginError https://www.youtube.com/channel/UC1bBjOZieJWHbsFA0LwjjJA/Live: 
+2024-08-15 16:24:46,635 - debug - URL Streams https://www.youtube.com/watch?v=J7bd1GGTf44/Live: {}
+2024-08-15 16:24:46,635 - debug - URL Streams https://www.youtube.com/watch?v=J7bd1GGTf44/Live: {}
+2024-08-15 16:24:46,776 - debug - URL Streams https://www.youtube.com/channel/UCfJtBtmhnIyfUB6RqXeImMw/live: {}
+2024-08-15 16:24:46,776 - debug - URL Streams https://www.youtube.com/channel/UCfJtBtmhnIyfUB6RqXeImMw/live: {}
+2024-08-15 16:24:47,715 - debug - URL Streams https://www.youtube.com/watch?v=9DXGrOU5wKQ/Live: {}
+2024-08-15 16:24:47,715 - debug - URL Streams https://www.youtube.com/watch?v=9DXGrOU5wKQ/Live: {}
+2024-08-15 16:24:47,845 - error - URL Error No PluginError https://www.youtube.com/channel/UCEIhICHOQOonjE6V0SLdrHQ/Live: 
+2024-08-15 16:24:47,845 - error - URL Error No PluginError https://www.youtube.com/channel/UCEIhICHOQOonjE6V0SLdrHQ/Live: 
+2024-08-15 16:24:48,150 - error - URL Error No PluginError https://www.youtube.com/channel/UCl5JKSQsl-_WSU1rz7_BCJA/Live: 
+2024-08-15 16:24:48,150 - error - URL Error No PluginError https://www.youtube.com/channel/UCl5JKSQsl-_WSU1rz7_BCJA/Live: 
+2024-08-15 16:24:48,341 - debug - URL Streams https://www.youtube.com/watch?v=grRGtho7dWw/Live: {}
+2024-08-15 16:24:48,341 - debug - URL Streams https://www.youtube.com/watch?v=grRGtho7dWw/Live: {}
+2024-08-15 16:24:48,758 - error - URL Error No PluginError https://www.youtube.com/channel/UCDUxOvbwu1bnyD7AucP0ESw/Live: 
+2024-08-15 16:24:48,758 - error - URL Error No PluginError https://www.youtube.com/channel/UCDUxOvbwu1bnyD7AucP0ESw/Live: 
+2024-08-15 16:24:48,981 - debug - URL Streams https://www.youtube.com/watch?v=ewYTDXCeXxU/Live: {}
+2024-08-15 16:24:48,981 - debug - URL Streams https://www.youtube.com/watch?v=ewYTDXCeXxU/Live: {}
+2024-08-15 16:24:49,177 - debug - URL Streams https://www.youtube.com/watch?v=HwDXYSa5GlE/live: {}
+2024-08-15 16:24:49,177 - debug - URL Streams https://www.youtube.com/watch?v=HwDXYSa5GlE/live: {}
+2024-08-15 16:24:49,399 - debug - URL Streams https://www.youtube.com/watch?v=atp5bj05UyM/live: {}
+2024-08-15 16:24:49,399 - debug - URL Streams https://www.youtube.com/watch?v=atp5bj05UyM/live: {}
+2024-08-15 16:24:49,639 - debug - URL Streams https://www.youtube.com/watch?v=MygtOAyBN7M/live: {}
+2024-08-15 16:24:49,639 - debug - URL Streams https://www.youtube.com/watch?v=MygtOAyBN7M/live: {}
+2024-08-15 16:24:49,857 - debug - URL Streams https://www.youtube.com/watch?v=pM4O3DwIQ2o/live: {}
+2024-08-15 16:24:49,857 - debug - URL Streams https://www.youtube.com/watch?v=pM4O3DwIQ2o/live: {}
+2024-08-15 16:24:50,178 - debug - URL Streams https://www.youtube.com/watch?v=WXJoE88lS-4/live: {}
+2024-08-15 16:24:50,178 - debug - URL Streams https://www.youtube.com/watch?v=WXJoE88lS-4/live: {}
+2024-08-15 16:24:50,934 - debug - URL Streams https://www.youtube.com/watch?v=bX7yOW-XOWc/live: {}
+2024-08-15 16:24:50,934 - debug - URL Streams https://www.youtube.com/watch?v=bX7yOW-XOWc/live: {}
+2024-08-15 16:24:51,525 - debug - URL Streams https://www.youtube.com/watch?v=Ho6s54dgOZw/live: {}
+2024-08-15 16:24:51,525 - debug - URL Streams https://www.youtube.com/watch?v=Ho6s54dgOZw/live: {}
+2024-08-15 16:24:51,731 - debug - URL Streams https://www.youtube.com/watch?v=TbcXvJqd6d8/live: {}
+2024-08-15 16:24:51,731 - debug - URL Streams https://www.youtube.com/watch?v=TbcXvJqd6d8/live: {}
+2024-08-15 16:24:52,326 - debug - URL Streams https://www.youtube.com/watch?v=R0KcCDYj8zU/live: {}
+2024-08-15 16:24:52,326 - debug - URL Streams https://www.youtube.com/watch?v=R0KcCDYj8zU/live: {}
+2024-08-15 16:24:52,693 - error - URL Error No PluginError https://www.youtube.com/channel/UChDKyKQ59fYz3JO2fl0Z6sg/Live: 
+2024-08-15 16:24:52,693 - error - URL Error No PluginError https://www.youtube.com/channel/UChDKyKQ59fYz3JO2fl0Z6sg/Live: 
+2024-08-15 16:24:53,328 - debug - URL Streams https://www.youtube.com/watch?v=jfYiD4V79l4/Live: {}
+2024-08-15 16:24:53,328 - debug - URL Streams https://www.youtube.com/watch?v=jfYiD4V79l4/Live: {}
+2024-08-15 16:24:53,512 - debug - URL Streams https://www.youtube.com/watch?v=x3yaF3liehk/live: {}
+2024-08-15 16:24:53,512 - debug - URL Streams https://www.youtube.com/watch?v=x3yaF3liehk/live: {}
+2024-08-15 16:24:54,169 - debug - URL Streams https://www.youtube.com/watch?v=w_Ma8oQLmSM/Live: {}
+2024-08-15 16:24:54,169 - debug - URL Streams https://www.youtube.com/watch?v=w_Ma8oQLmSM/Live: {}
+2024-08-15 16:24:54,663 - error - URL Error No PluginError https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q/Live: 
+2024-08-15 16:24:54,663 - error - URL Error No PluginError https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q/Live: 
+2024-08-15 16:24:55,282 - debug - URL Streams https://www.youtube.com/watch?v=HHLZZOyXCvg/Live: {}
+2024-08-15 16:24:55,282 - debug - URL Streams https://www.youtube.com/watch?v=HHLZZOyXCvg/Live: {}
+2024-08-15 16:24:55,739 - error - URL Error No PluginError https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg/Live: 
+2024-08-15 16:24:55,739 - error - URL Error No PluginError https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg/Live: 
+2024-08-15 16:24:56,194 - debug - URL Streams https://www.youtube.com/channel/UCFhbonoFqxg2b9FMRzYAwog/live: {}
+2024-08-15 16:24:56,194 - debug - URL Streams https://www.youtube.com/channel/UCFhbonoFqxg2b9FMRzYAwog/live: {}
+2024-08-15 16:24:56,580 - error - URL Error No PluginError https://www.youtube.com/channel/UChqUTb7kYRX8-EiaN3XFrSQ/Live: 
+2024-08-15 16:24:56,580 - error - URL Error No PluginError https://www.youtube.com/channel/UChqUTb7kYRX8-EiaN3XFrSQ/Live: 
+2024-08-15 16:24:57,144 - debug - URL Streams https://www.youtube.com/watch?v=Yw9HPSKHO2s/Live: {}
+2024-08-15 16:24:57,144 - debug - URL Streams https://www.youtube.com/watch?v=Yw9HPSKHO2s/Live: {}
+2024-08-15 16:24:57,713 - debug - URL Streams https://www.youtube.com/watch?v=NcoFT4eew0Q/Live: {}
+2024-08-15 16:24:57,713 - debug - URL Streams https://www.youtube.com/watch?v=NcoFT4eew0Q/Live: {}
+2024-08-15 16:24:57,920 - debug - URL Streams https://www.youtube.com/watch?v=-upyPouRrB8/Live: {}
+2024-08-15 16:24:57,920 - debug - URL Streams https://www.youtube.com/watch?v=-upyPouRrB8/Live: {}
+2024-08-15 16:24:58,269 - error - URL Error No PluginError https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg/Live: 
+2024-08-15 16:24:58,269 - error - URL Error No PluginError https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg/Live: 
+2024-08-15 16:24:59,220 - debug - URL Streams https://www.youtube.com/user/AlJazeeraEnglish/live: {}
+2024-08-15 16:24:59,220 - debug - URL Streams https://www.youtube.com/user/AlJazeeraEnglish/live: {}
+2024-08-15 16:24:59,851 - debug - URL Streams https://www.youtube.com/channel/UC_gUM8rL-Lrg6O3adPW9K1g/live: {}
+2024-08-15 16:24:59,851 - debug - URL Streams https://www.youtube.com/channel/UC_gUM8rL-Lrg6O3adPW9K1g/live: {}
+2024-08-15 16:25:00,020 - debug - URL Streams https://www.youtube.com/channel/UCFhbonoFqxg2b9FMRzYAwog/live: {}
+2024-08-15 16:25:00,020 - debug - URL Streams https://www.youtube.com/channel/UCFhbonoFqxg2b9FMRzYAwog/live: {}
+2024-08-15 16:25:00,714 - debug - URL Streams https://www.youtube.com/channel/UC6RJ7-PaXg6TIH2BzZfTV7w/live: {}
+2024-08-15 16:25:00,714 - debug - URL Streams https://www.youtube.com/channel/UC6RJ7-PaXg6TIH2BzZfTV7w/live: {}
+2024-08-15 16:25:01,394 - debug - URL Streams https://www.youtube.com/channel/UCJg9wBPyKMNA5sRDnvzmkdg/live: {}
+2024-08-15 16:25:01,394 - debug - URL Streams https://www.youtube.com/channel/UCJg9wBPyKMNA5sRDnvzmkdg/live: {}
+2024-08-15 16:25:02,051 - debug - URL Streams https://www.youtube.com/channel/UCVgO39Bk5sMo66-6o6Spn6Q/live: {}
+2024-08-15 16:25:02,051 - debug - URL Streams https://www.youtube.com/channel/UCVgO39Bk5sMo66-6o6Spn6Q/live: {}
+2024-08-15 16:25:02,605 - debug - URL Streams https://www.youtube.com/channel/UC-LRBEUet4xX2fRB3JitFxg/live: {}
+2024-08-15 16:25:02,605 - debug - URL Streams https://www.youtube.com/channel/UC-LRBEUet4xX2fRB3JitFxg/live: {}
+2024-08-15 16:25:03,254 - debug - URL Streams https://www.youtube.com/channel/UCx6h-dWzJ5NpAlja1YsApdg/live: {}
+2024-08-15 16:25:03,254 - debug - URL Streams https://www.youtube.com/channel/UCx6h-dWzJ5NpAlja1YsApdg/live: {}
+2024-08-15 16:25:03,897 - debug - URL Streams https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg/live: {}
+2024-08-15 16:25:03,897 - debug - URL Streams https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg/live: {}
+2024-08-15 16:25:04,455 - debug - URL Streams https://www.youtube.com/channel/UCmuTmpLY35O3csvhyA6vrkg/live: {}
+2024-08-15 16:25:04,455 - debug - URL Streams https://www.youtube.com/channel/UCmuTmpLY35O3csvhyA6vrkg/live: {}
+2024-08-15 16:25:05,021 - debug - URL Streams https://www.youtube.com/channel/UCj0TppyxzQWm9JbMg3CP8Rg/live: {}
+2024-08-15 16:25:05,021 - debug - URL Streams https://www.youtube.com/channel/UCj0TppyxzQWm9JbMg3CP8Rg/live: {}
+2024-08-15 16:25:05,774 - debug - URL Streams https://www.youtube.com/channel/UCknLrEdhRCp1aegoMqRaCZg/live: {}
+2024-08-15 16:25:05,774 - debug - URL Streams https://www.youtube.com/channel/UCknLrEdhRCp1aegoMqRaCZg/live: {}
+2024-08-15 16:25:06,353 - debug - URL Streams https://www.youtube.com/user/deutschewelleenglish/live: {}
+2024-08-15 16:25:06,353 - debug - URL Streams https://www.youtube.com/user/deutschewelleenglish/live: {}
+2024-08-15 16:25:07,113 - debug - URL Streams https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ/live: {}
+2024-08-15 16:25:07,113 - debug - URL Streams https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ/live: {}
+2024-08-15 16:25:07,738 - debug - URL Streams https://www.youtube.com/user/skynews/live: {}
+2024-08-15 16:25:07,738 - debug - URL Streams https://www.youtube.com/user/skynews/live: {}
+2024-08-15 16:25:08,528 - debug - URL Streams https://www.youtube.com/channel/UC0vn8ISa4LKMunLbzaXLnOQ/live: {}
+2024-08-15 16:25:08,528 - debug - URL Streams https://www.youtube.com/channel/UC0vn8ISa4LKMunLbzaXLnOQ/live: {}
+2024-08-15 16:25:09,105 - debug - URL Streams https://www.youtube.com/channel/UC7fWeaHhqgM4Ry-RMpM2YYw/live: {}
+2024-08-15 16:25:09,105 - debug - URL Streams https://www.youtube.com/channel/UC7fWeaHhqgM4Ry-RMpM2YYw/live: {}
+2024-08-15 16:25:09,693 - debug - URL Streams https://www.youtube.com/user/Bloomberg/live: {}
+2024-08-15 16:25:09,693 - debug - URL Streams https://www.youtube.com/user/Bloomberg/live: {}
+2024-08-15 16:25:10,358 - debug - URL Streams https://www.youtube.com/channel/UCUMZ7gohGI9HcU9VNsr2FJQ/live: {}
+2024-08-15 16:25:10,358 - debug - URL Streams https://www.youtube.com/channel/UCUMZ7gohGI9HcU9VNsr2FJQ/live: {}
+2024-08-15 16:25:11,045 - debug - URL Streams https://www.youtube.com/channel/UChirEOpgFCupRAk5etXqPaA/live: {}
+2024-08-15 16:25:11,045 - debug - URL Streams https://www.youtube.com/channel/UChirEOpgFCupRAk5etXqPaA/live: {}
+2024-08-15 16:25:11,852 - debug - URL Streams https://www.youtube.com/user/channelnewsasia/live: {}
+2024-08-15 16:25:11,852 - debug - URL Streams https://www.youtube.com/user/channelnewsasia/live: {}
+2024-08-15 16:25:12,471 - debug - URL Streams https://www.youtube.com/watch?v=ptGbSDn_MnQ/live: {}
+2024-08-15 16:25:12,471 - debug - URL Streams https://www.youtube.com/watch?v=ptGbSDn_MnQ/live: {}
+2024-08-15 16:25:13,377 - debug - URL Streams https://www.youtube.com/watch?v=ORi4Cx5MlyI/live: {}
+2024-08-15 16:25:13,377 - debug - URL Streams https://www.youtube.com/watch?v=ORi4Cx5MlyI/live: {}
+2024-08-15 16:25:13,585 - debug - URL Streams https://www.youtube.com/watch?v=gsA3-3_Cl8s/live: {}
+2024-08-15 16:25:13,585 - debug - URL Streams https://www.youtube.com/watch?v=gsA3-3_Cl8s/live: {}
+2024-08-15 16:25:13,787 - debug - URL Streams https://www.youtube.com/watch?v=XZ7BWbmvi94/live: {}
+2024-08-15 16:25:13,787 - debug - URL Streams https://www.youtube.com/watch?v=XZ7BWbmvi94/live: {}
+2024-08-15 16:25:13,792 - error - URL Error No PluginError Nat Geo SHARKFEST IS BACK | 24/7 Shark Content | Explore | https://yt3.googleusercontent.com/ytc/APkrFKYumGr54VqQryV2K6gfGULpTJR3z4AauFbnkEjWMg=s176-c-k-c0x00ffffff-no-rj |: 
+2024-08-15 16:25:13,792 - error - URL Error No PluginError Nat Geo SHARKFEST IS BACK | 24/7 Shark Content | Explore | https://yt3.googleusercontent.com/ytc/APkrFKYumGr54VqQryV2K6gfGULpTJR3z4AauFbnkEjWMg=s176-c-k-c0x00ffffff-no-rj |: 
+2024-08-15 16:25:13,975 - debug - URL Streams https://www.youtube.com/watch?v=lFPG2B7hJs0/live: {}
+2024-08-15 16:25:13,975 - debug - URL Streams https://www.youtube.com/watch?v=lFPG2B7hJs0/live: {}
+2024-08-15 16:25:14,557 - debug - URL Streams https://www.youtube.com/channel/UCBnZ16ahKA2DZ_T5W0FPUXg/live: {}
+2024-08-15 16:25:14,557 - debug - URL Streams https://www.youtube.com/channel/UCBnZ16ahKA2DZ_T5W0FPUXg/live: {}
+2024-08-15 16:25:14,838 - debug - URL Streams https://www.youtube.com/channel/UCVt43Y46_8DHzwhLau0xVcw/live: {}
+2024-08-15 16:25:14,838 - debug - URL Streams https://www.youtube.com/channel/UCVt43Y46_8DHzwhLau0xVcw/live: {}
+2024-08-15 16:25:15,543 - debug - URL Streams https://youtube.com/c/PowerRangersOfficial/live: {}
+2024-08-15 16:25:15,543 - debug - URL Streams https://youtube.com/c/PowerRangersOfficial/live: {}
+2024-08-15 16:25:15,753 - debug - URL Streams https://www.youtube.com/watch?v=1R35uh5J4Yg/live: {}
+2024-08-15 16:25:15,753 - debug - URL Streams https://www.youtube.com/watch?v=1R35uh5J4Yg/live: {}
+2024-08-15 16:25:15,943 - debug - URL Streams https://www.youtube.com/watch?v=5aglJRVC9ts/live: {}
+2024-08-15 16:25:15,943 - debug - URL Streams https://www.youtube.com/watch?v=5aglJRVC9ts/live: {}
+2024-08-15 16:25:16,496 - debug - URL Streams https://www.youtube.com/watch?v=XUoMptfVZ2A/live: {}
+2024-08-15 16:25:16,496 - debug - URL Streams https://www.youtube.com/watch?v=XUoMptfVZ2A/live: {}
+2024-08-15 16:25:17,050 - debug - URL Streams https://www.youtube.com/channel/UCUe6ZpY6TJ0no8jI4l2iLxw/live: {}
+2024-08-15 16:25:17,050 - debug - URL Streams https://www.youtube.com/channel/UCUe6ZpY6TJ0no8jI4l2iLxw/live: {}
+2024-08-15 16:25:17,687 - debug - URL Streams https://www.youtube.com/channel/UCmWZB57dUwFfj847-4y63JA/live: {}
+2024-08-15 16:25:17,687 - debug - URL Streams https://www.youtube.com/channel/UCmWZB57dUwFfj847-4y63JA/live: {}
+2024-08-15 16:25:17,856 - debug - URL Streams https://www.youtube.com/channel/UC5M_h2S8Ldoc9M6f7B-_m6A/live: {}
+2024-08-15 16:25:17,856 - debug - URL Streams https://www.youtube.com/channel/UC5M_h2S8Ldoc9M6f7B-_m6A/live: {}
+2024-08-15 16:25:18,046 - debug - URL Streams https://www.youtube.com/c/DaveAndAva/live: {}
+2024-08-15 16:25:18,046 - debug - URL Streams https://www.youtube.com/c/DaveAndAva/live: {}
+2024-08-15 16:25:18,597 - debug - URL Streams https://www.youtube.com/user/ENGLISHCLASS101/live: {}
+2024-08-15 16:25:18,597 - debug - URL Streams https://www.youtube.com/user/ENGLISHCLASS101/live: {}
+2024-08-15 16:25:18,831 - debug - URL Streams https://www.youtube.com/c/SimplilearnOfficial/live: {}
+2024-08-15 16:25:18,831 - debug - URL Streams https://www.youtube.com/c/SimplilearnOfficial/live: {}
+2024-08-15 16:25:19,389 - debug - URL Streams https://www.youtube.com/watch?v=djslEyHPpW4/Live: {}
+2024-08-15 16:25:19,389 - debug - URL Streams https://www.youtube.com/watch?v=djslEyHPpW4/Live: {}
+2024-08-15 16:25:19,671 - error - URL Error No PluginError https://www.youtube.com/user/TechGuyLabs/Live: 
+2024-08-15 16:25:19,671 - error - URL Error No PluginError https://www.youtube.com/user/TechGuyLabs/Live: 
+2024-08-15 16:25:20,470 - debug - URL Streams https://www.youtube.com/watch?v=CjtaROG-Ezk/Live: {}
+2024-08-15 16:25:20,470 - debug - URL Streams https://www.youtube.com/watch?v=CjtaROG-Ezk/Live: {}
+2024-08-15 16:25:20,806 - error - URL Error No PluginError https://www.youtube.com/channel/UCCU3AYg53YY8tBBtGiuisrw/Live: 
+2024-08-15 16:25:20,806 - error - URL Error No PluginError https://www.youtube.com/channel/UCCU3AYg53YY8tBBtGiuisrw/Live: 
+2024-08-15 16:25:21,257 - error - URL Error No PluginError https://www.youtube.com/channel/UC-7z5DvOhWT4RxeYb3Bh77Q/Live: 
+2024-08-15 16:25:21,257 - error - URL Error No PluginError https://www.youtube.com/channel/UC-7z5DvOhWT4RxeYb3Bh77Q/Live: 
+2024-08-15 16:25:22,040 - debug - URL Streams https://www.youtube.com/watch?v=9lQ2JCodIeA/Live: {}
+2024-08-15 16:25:22,040 - debug - URL Streams https://www.youtube.com/watch?v=9lQ2JCodIeA/Live: {}
+2024-08-15 16:25:22,267 - debug - URL Streams https://www.youtube.com/watch?v=0qfiHGUstk4/Live: {}
+2024-08-15 16:25:22,267 - debug - URL Streams https://www.youtube.com/watch?v=0qfiHGUstk4/Live: {}
+2024-08-15 16:25:22,397 - error - URL Error No PluginError https://www.youtube.com/channel/UCMv0gGYxPXDZDSQAS4vhgdg/Live: 
+2024-08-15 16:25:22,397 - error - URL Error No PluginError https://www.youtube.com/channel/UCMv0gGYxPXDZDSQAS4vhgdg/Live: 
+2024-08-15 16:25:22,586 - debug - URL Streams https://www.youtube.com/watch?v=qoEcy8HS8-8/Live: {}
+2024-08-15 16:25:22,586 - debug - URL Streams https://www.youtube.com/watch?v=qoEcy8HS8-8/Live: {}
+2024-08-15 16:25:23,147 - debug - URL Streams https://www.youtube.com/watch?v=2cyQPN5xQtU/Live: {}
+2024-08-15 16:25:23,147 - debug - URL Streams https://www.youtube.com/watch?v=2cyQPN5xQtU/Live: {}
+2024-08-15 16:25:23,630 - debug - URL Streams https://www.youtube.com/watch?v=AdUw5RdyZxI/Live: {}
+2024-08-15 16:25:23,630 - debug - URL Streams https://www.youtube.com/watch?v=AdUw5RdyZxI/Live: {}
+2024-08-15 16:25:23,859 - debug - URL Streams https://www.youtube.com/watch?v=1-iS7LArMPA/live: {}
+2024-08-15 16:25:23,859 - debug - URL Streams https://www.youtube.com/watch?v=1-iS7LArMPA/live: {}
+2024-08-15 16:25:24,453 - debug - URL Streams https://www.youtube.com/watch?v=4qyZLflp-sI/live: {}
+2024-08-15 16:25:24,453 - debug - URL Streams https://www.youtube.com/watch?v=4qyZLflp-sI/live: {}
+2024-08-15 16:25:25,074 - debug - URL Streams https://www.youtube.com/watch?v=x3IRgb5kfpw/Live: {}
+2024-08-15 16:25:25,074 - debug - URL Streams https://www.youtube.com/watch?v=x3IRgb5kfpw/Live: {}
+2024-08-15 16:25:25,622 - debug - URL Streams https://www.youtube.com/watch?v=21X5lGlDOfg/Live: {}
+2024-08-15 16:25:25,622 - debug - URL Streams https://www.youtube.com/watch?v=21X5lGlDOfg/Live: {}
+2024-08-15 16:25:25,846 - error - URL Error No PluginError https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ/Live: 
+2024-08-15 16:25:25,846 - error - URL Error No PluginError https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ/Live: 
+2024-08-15 16:25:26,596 - debug - URL Streams https://www.youtube.com/watch?v=BhKUpUNICII/Live: {}
+2024-08-15 16:25:26,596 - debug - URL Streams https://www.youtube.com/watch?v=BhKUpUNICII/Live: {}
+2024-08-15 16:25:26,948 - error - URL Error No PluginError https://www.youtube.com/channel/UCiormkBf3jm6mfb7k0yPbKA/Live: 
+2024-08-15 16:25:26,948 - error - URL Error No PluginError https://www.youtube.com/channel/UCiormkBf3jm6mfb7k0yPbKA/Live: 
+2024-08-15 16:25:27,824 - debug - URL Streams https://www.youtube.com/watch?v=3t8__aWpVsQ/Live: {}
+2024-08-15 16:25:27,824 - debug - URL Streams https://www.youtube.com/watch?v=3t8__aWpVsQ/Live: {}
+2024-08-15 16:25:28,078 - error - URL Error No PluginError https://www.youtube.com/channel/UC_WdFDFWB6l8mrUVuKs7gOg/Live: 
+2024-08-15 16:25:28,078 - error - URL Error No PluginError https://www.youtube.com/channel/UC_WdFDFWB6l8mrUVuKs7gOg/Live: 
+2024-08-15 16:25:28,681 - debug - URL Streams https://www.youtube.com/channel/UCqSYig9Cmx6DJ3XaUYg4vpw/live: {}
+2024-08-15 16:25:28,681 - debug - URL Streams https://www.youtube.com/channel/UCqSYig9Cmx6DJ3XaUYg4vpw/live: {}
+2024-08-15 16:25:29,303 - debug - URL Streams https://www.youtube.com/channel/UCtPhR34windpzltylYrj5mg/live: {}
+2024-08-15 16:25:29,303 - debug - URL Streams https://www.youtube.com/channel/UCtPhR34windpzltylYrj5mg/live: {}
+2024-08-15 16:25:29,461 - debug - URL Streams https://www.youtube.com/channel/UCA0bOG0NUfJ855eDtHSxOkw/live: {}
+2024-08-15 16:25:29,461 - debug - URL Streams https://www.youtube.com/channel/UCA0bOG0NUfJ855eDtHSxOkw/live: {}
+2024-08-15 16:25:29,967 - debug - URL Streams https://www.youtube.com/c/BoasNovasbr/live: {}
+2024-08-15 16:25:29,967 - debug - URL Streams https://www.youtube.com/c/BoasNovasbr/live: {}
+2024-08-15 16:25:30,218 - debug - URL Streams https://www.youtube.com/c/TVVERDADE/live: {}
+2024-08-15 16:25:30,218 - debug - URL Streams https://www.youtube.com/c/TVVERDADE/live: {}
+2024-08-15 16:25:30,400 - debug - URL Streams https://www.youtube.com/c/AparecidaAoVivo/live: {}
+2024-08-15 16:25:30,400 - debug - URL Streams https://www.youtube.com/c/AparecidaAoVivo/live: {}
+2024-08-15 16:25:30,906 - debug - URL Streams https://www.youtube.com/channel/UC7E-LYc1wivk33iyt5bR5zQ/live: {}
+2024-08-15 16:25:30,906 - debug - URL Streams https://www.youtube.com/channel/UC7E-LYc1wivk33iyt5bR5zQ/live: {}
+2024-08-15 16:25:31,494 - debug - URL Streams https://www.youtube.com/channel/UCOAjX8pc2fY1S5AqsXvZywg/live: {}
+2024-08-15 16:25:31,494 - debug - URL Streams https://www.youtube.com/channel/UCOAjX8pc2fY1S5AqsXvZywg/live: {}
+2024-08-15 16:25:32,041 - debug - URL Streams https://www.youtube.com/c/LeSanctuaireNotreDamedeLourdes/live: {}
+2024-08-15 16:25:32,041 - debug - URL Streams https://www.youtube.com/c/LeSanctuaireNotreDamedeLourdes/live: {}
+2024-08-15 16:25:32,712 - debug - URL Streams https://www.youtube.com/c/TVACr%C3%ADtica/live: {}
+2024-08-15 16:25:32,712 - debug - URL Streams https://www.youtube.com/c/TVACr%C3%ADtica/live: {}
+2024-08-15 16:25:33,400 - debug - URL Streams https://www.youtube.com/user/diariotv4/live: {}
+2024-08-15 16:25:33,400 - debug - URL Streams https://www.youtube.com/user/diariotv4/live: {}
+2024-08-15 16:25:34,014 - debug - URL Streams https://www.youtube.com/channel/UCoja0MNI4SIvXqJR3szbSfw/live: {}
+2024-08-15 16:25:34,014 - debug - URL Streams https://www.youtube.com/channel/UCoja0MNI4SIvXqJR3szbSfw/live: {}
+2024-08-15 16:25:34,604 - debug - URL Streams https://www.youtube.com/channel/UCP391YRAjSOdM_bwievgaZA/live: {}
+2024-08-15 16:25:34,604 - debug - URL Streams https://www.youtube.com/channel/UCP391YRAjSOdM_bwievgaZA/live: {}
+2024-08-15 16:25:35,194 - debug - URL Streams https://www.youtube.com/channel/UCuiLR4p6wQ3xLEm15pEn1Xw/live: {}
+2024-08-15 16:25:35,194 - debug - URL Streams https://www.youtube.com/channel/UCuiLR4p6wQ3xLEm15pEn1Xw/live: {}
+2024-08-15 16:25:35,853 - debug - URL Streams https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw/live: {}
+2024-08-15 16:25:35,853 - debug - URL Streams https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw/live: {}
+2024-08-15 16:25:36,374 - debug - URL Streams https://www.youtube.com/channel/UCV6zcRug6Hqp1UX_FdyUeBg/live: {}
+2024-08-15 16:25:36,374 - debug - URL Streams https://www.youtube.com/channel/UCV6zcRug6Hqp1UX_FdyUeBg/live: {}
+2024-08-15 16:25:37,177 - debug - URL Streams https://www.youtube.com/channel/UCXIJgqnII2ZOINSWNOGFThA/live: {}
+2024-08-15 16:25:37,177 - debug - URL Streams https://www.youtube.com/channel/UCXIJgqnII2ZOINSWNOGFThA/live: {}
+2024-08-15 16:25:37,762 - debug - URL Streams https://www.youtube.com/channel/UCq9e_hCv2jvgck8WowW1NXg/live: {}
+2024-08-15 16:25:37,762 - debug - URL Streams https://www.youtube.com/channel/UCq9e_hCv2jvgck8WowW1NXg/live: {}
+2024-08-15 16:25:38,005 - debug - URL Streams https://www.youtube.com/channel/UCD9nZ3qeRGbPuHJaJduiQxA/live: {}
+2024-08-15 16:25:38,005 - debug - URL Streams https://www.youtube.com/channel/UCD9nZ3qeRGbPuHJaJduiQxA/live: {}
+2024-08-15 16:25:38,668 - debug - URL Streams https://www.youtube.com/channel/UCJg9wBPyKMNA5sRDnvzmkdg/live: {}
+2024-08-15 16:25:38,668 - debug - URL Streams https://www.youtube.com/channel/UCJg9wBPyKMNA5sRDnvzmkdg/live: {}
+2024-08-15 16:25:39,346 - debug - URL Streams https://www.youtube.com/channel/UCuXT13wiqK56NR7QSfDWpvg/live: {}
+2024-08-15 16:25:39,346 - debug - URL Streams https://www.youtube.com/channel/UCuXT13wiqK56NR7QSfDWpvg/live: {}
+2024-08-15 16:25:40,151 - debug - URL Streams https://www.youtube.com/channel/UC72UssJ1DNQcakZXm-B2-zw/live: {}
+2024-08-15 16:25:40,151 - debug - URL Streams https://www.youtube.com/channel/UC72UssJ1DNQcakZXm-B2-zw/live: {}
+2024-08-15 16:25:40,834 - debug - URL Streams https://www.youtube.com/channel/UCYUbNjkuE4lsr2v1Id2O1oA/live: {}
+2024-08-15 16:25:40,834 - debug - URL Streams https://www.youtube.com/channel/UCYUbNjkuE4lsr2v1Id2O1oA/live: {}
+2024-08-15 16:25:41,535 - debug - URL Streams https://www.youtube.com/channel/UC7Vw6oq2LCbzAhdxF_UcIWg/live: {}
+2024-08-15 16:25:41,535 - debug - URL Streams https://www.youtube.com/channel/UC7Vw6oq2LCbzAhdxF_UcIWg/live: {}
+2024-08-15 16:25:42,232 - debug - URL Streams https://www.youtube.com/channel/UCoIhMkbeDRBImkGiA5mZp5A/live: {}
+2024-08-15 16:25:42,232 - debug - URL Streams https://www.youtube.com/channel/UCoIhMkbeDRBImkGiA5mZp5A/live: {}
+2024-08-15 16:25:42,845 - debug - URL Streams https://www.youtube.com/channel/UCWTkpYvniGIUe1jeCncFzKw/live: {}
+2024-08-15 16:25:42,845 - debug - URL Streams https://www.youtube.com/channel/UCWTkpYvniGIUe1jeCncFzKw/live: {}
+2024-08-15 16:25:43,541 - debug - URL Streams https://www.youtube.com/channel/UCkr9qZ5tj9dGd7JvE3a8X4Q/live: {}
+2024-08-15 16:25:43,541 - debug - URL Streams https://www.youtube.com/channel/UCkr9qZ5tj9dGd7JvE3a8X4Q/live: {}
+2024-08-15 16:25:44,221 - debug - URL Streams https://www.youtube.com/channel/UCwPzlQU2MqEQJWgqM_0VFKQ/live: {}
+2024-08-15 16:25:44,221 - debug - URL Streams https://www.youtube.com/channel/UCwPzlQU2MqEQJWgqM_0VFKQ/live: {}
+2024-08-15 16:25:44,832 - debug - URL Streams https://www.youtube.com/channel/UCrlIS7z20CnVaCrMvdkig_g/live: {}
+2024-08-15 16:25:44,832 - debug - URL Streams https://www.youtube.com/channel/UCrlIS7z20CnVaCrMvdkig_g/live: {}
+2024-08-15 16:25:45,482 - debug - URL Streams https://www.youtube.com/channel/UCMZiahOsO-Ad4IgrD6x4E1A/live: {}
+2024-08-15 16:25:45,482 - debug - URL Streams https://www.youtube.com/channel/UCMZiahOsO-Ad4IgrD6x4E1A/live: {}
+2024-08-15 16:25:46,183 - debug - URL Streams https://www.youtube.com/channel/UC6AG81pAkf6Lbi_1VC5NmPA/live: {}
+2024-08-15 16:25:46,183 - debug - URL Streams https://www.youtube.com/channel/UC6AG81pAkf6Lbi_1VC5NmPA/live: {}
+2024-08-15 16:25:46,857 - debug - URL Streams https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ/live: {}
+2024-08-15 16:25:46,857 - debug - URL Streams https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ/live: {}
+2024-08-15 16:25:47,437 - debug - URL Streams https://www.youtube.com/c/ADN40MX/live: {}
+2024-08-15 16:25:47,437 - debug - URL Streams https://www.youtube.com/c/ADN40MX/live: {}
+2024-08-15 16:25:48,165 - debug - URL Streams https://www.youtube.com/c/nmas/live: {}
+2024-08-15 16:25:48,165 - debug - URL Streams https://www.youtube.com/c/nmas/live: {}
+2024-08-15 16:25:48,872 - debug - URL Streams https://www.youtube.com/c/ajmubasher/live: {}
+2024-08-15 16:25:48,872 - debug - URL Streams https://www.youtube.com/c/ajmubasher/live: {}
+2024-08-15 16:25:48,973 - error - URL Error https://www.youtube.com/c/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B024/live: Unable to open URL: https://www.youtube.com/c/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B024/live (404 Client Error: Not Found for url: https://www.youtube.com/c/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B024/live)
+2024-08-15 16:25:48,973 - error - URL Error https://www.youtube.com/c/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B024/live: Unable to open URL: https://www.youtube.com/c/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B024/live (404 Client Error: Not Found for url: https://www.youtube.com/c/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B024/live)
+2024-08-15 16:25:49,599 - debug - URL Streams https://www.youtube.com/channel/UCbpmfj2g2tYuBezI2kEDhsg/live: {}
+2024-08-15 16:25:49,599 - debug - URL Streams https://www.youtube.com/channel/UCbpmfj2g2tYuBezI2kEDhsg/live: {}
+2024-08-15 16:25:50,139 - debug - URL Streams https://www.youtube.com/c/SBGR-Live/live: {}
+2024-08-15 16:25:50,139 - debug - URL Streams https://www.youtube.com/c/SBGR-Live/live: {}
+2024-08-15 16:25:50,328 - debug - URL Streams https://www.youtube.com/channel/UCsF_WAG6g2cWnFKhcrJAQCQ/live: {}
+2024-08-15 16:25:50,328 - debug - URL Streams https://www.youtube.com/channel/UCsF_WAG6g2cWnFKhcrJAQCQ/live: {}
+2024-08-15 16:25:50,928 - debug - URL Streams https://www.youtube.com/c/AVTVBrasil/live: {}
+2024-08-15 16:25:50,928 - debug - URL Streams https://www.youtube.com/c/AVTVBrasil/live: {}
+2024-08-15 16:25:51,677 - debug - URL Streams https://www.youtube.com/channel/UCFGIPvN1dMn4Bdo8B8WWPDw/live: {}
+2024-08-15 16:25:51,677 - debug - URL Streams https://www.youtube.com/channel/UCFGIPvN1dMn4Bdo8B8WWPDw/live: {}
+2024-08-15 16:25:52,267 - debug - URL Streams https://www.youtube.com/channel/UCpWekERnJ3zwk-0gFlfursg/live: {}
+2024-08-15 16:25:52,267 - debug - URL Streams https://www.youtube.com/channel/UCpWekERnJ3zwk-0gFlfursg/live: {}
+2024-08-15 16:25:52,459 - debug - URL Streams https://www.youtube.com/channel/UCbZEWw8NHAcW9a06s0Q0ZMg/live: {}
+2024-08-15 16:25:52,459 - debug - URL Streams https://www.youtube.com/channel/UCbZEWw8NHAcW9a06s0Q0ZMg/live: {}
+2024-08-15 16:25:52,624 - debug - URL Streams https://www.youtube.com/channel/UCM6-EhR88ZM5TmhHNeBd6UA/live: {}
+2024-08-15 16:25:52,624 - debug - URL Streams https://www.youtube.com/channel/UCM6-EhR88ZM5TmhHNeBd6UA/live: {}
+2024-08-15 16:25:53,413 - debug - URL Streams https://www.youtube.com/channel/UCcjlnrL3_LV4fC9CcrHth7w/live: {}
+2024-08-15 16:25:53,413 - debug - URL Streams https://www.youtube.com/channel/UCcjlnrL3_LV4fC9CcrHth7w/live: {}
+2024-08-15 16:25:53,875 - debug - URL Streams https://www.youtube.com/shoptime/live: {}
+2024-08-15 16:25:53,875 - debug - URL Streams https://www.youtube.com/shoptime/live: {}
+2024-08-15 16:25:54,517 - debug - URL Streams https://www.youtube.com/channel/UCVbQc8XY2Cx-TgMHRHluOoQ/live: {}
+2024-08-15 16:25:54,517 - debug - URL Streams https://www.youtube.com/channel/UCVbQc8XY2Cx-TgMHRHluOoQ/live: {}
+2024-08-15 16:25:55,063 - debug - URL Streams https://www.youtube.com/watch?v=UqFzfqlb60g/Live: {}
+2024-08-15 16:25:55,063 - debug - URL Streams https://www.youtube.com/watch?v=UqFzfqlb60g/Live: {}
+2024-08-15 16:25:55,823 - debug - URL Streams https://www.youtube.com/watch?v=_v_wMS-uACE/Live: {}
+2024-08-15 16:25:55,823 - debug - URL Streams https://www.youtube.com/watch?v=_v_wMS-uACE/Live: {}
+2024-08-15 16:25:56,764 - debug - URL Streams https://www.youtube.com/watch?v=1ph8qQnjXts/Live: {}
+2024-08-15 16:25:56,764 - debug - URL Streams https://www.youtube.com/watch?v=1ph8qQnjXts/Live: {}
+2024-08-15 16:25:57,439 - debug - URL Streams https://www.youtube.com/watch?v=q-BvtDrTnxc/Live: {}
+2024-08-15 16:25:57,439 - debug - URL Streams https://www.youtube.com/watch?v=q-BvtDrTnxc/Live: {}
+2024-08-15 16:25:58,151 - debug - URL Streams https://www.youtube.com/watch?v=1ph8qQnjXts/live: {}
+2024-08-15 16:25:58,151 - debug - URL Streams https://www.youtube.com/watch?v=1ph8qQnjXts/live: {}
+2024-08-15 16:25:58,733 - debug - URL Streams https://www.youtube.com/watch?v=q-BvtDrTnxc/live: {}
+2024-08-15 16:25:58,733 - debug - URL Streams https://www.youtube.com/watch?v=q-BvtDrTnxc/live: {}
+2024-08-15 16:25:59,338 - debug - URL Streams https://www.youtube.com/watch?v=1ph8qQnjXts/Live: {}
+2024-08-15 16:25:59,338 - debug - URL Streams https://www.youtube.com/watch?v=1ph8qQnjXts/Live: {}
+2024-08-15 16:25:59,902 - debug - URL Streams https://www.youtube.com/watch?v=q-BvtDrTnxc/Live: {}
+2024-08-15 16:25:59,902 - debug - URL Streams https://www.youtube.com/watch?v=q-BvtDrTnxc/Live: {}
+2024-08-15 16:26:00,598 - debug - URL Streams https://www.youtube.com/watch?v=UqFzfqlb60g/Live: {}
+2024-08-15 16:26:00,598 - debug - URL Streams https://www.youtube.com/watch?v=UqFzfqlb60g/Live: {}
+2024-08-15 16:26:01,317 - debug - URL Streams https://www.youtube.com/watch?v=_v_wMS-uACE/Live: {}
+2024-08-15 16:26:01,317 - debug - URL Streams https://www.youtube.com/watch?v=_v_wMS-uACE/Live: {}
+2024-08-15 16:26:01,947 - debug - URL Streams https://www.youtube.com/user/qvcitalia/live: {}
+2024-08-15 16:26:01,947 - debug - URL Streams https://www.youtube.com/user/qvcitalia/live: {}
+2024-08-15 16:26:02,300 - error - URL Error No PluginError https://www.youtube.com/channel/UCXg1nkxv-HywQRsIo3XAFIA/LIVE: 
+2024-08-15 16:26:02,300 - error - URL Error No PluginError https://www.youtube.com/channel/UCXg1nkxv-HywQRsIo3XAFIA/LIVE: 
+2024-08-15 16:26:02,894 - debug - URL Streams https://www.youtube.com/channel/UC9q_4Ljmm0C15j25Bqx1ZOw/live: {}
+2024-08-15 16:26:02,894 - debug - URL Streams https://www.youtube.com/channel/UC9q_4Ljmm0C15j25Bqx1ZOw/live: {}
+2024-08-15 16:26:03,453 - debug - URL Streams https://www.youtube.com/channel/UCyCljI7PbGR7zOIHJXQSK2w/live: {}
+2024-08-15 16:26:03,453 - debug - URL Streams https://www.youtube.com/channel/UCyCljI7PbGR7zOIHJXQSK2w/live: {}
+2024-08-15 16:26:04,006 - debug - URL Streams https://www.youtube.com/channel/UCcst6yHdE5Gdisu5YKCgc1g/live: {}
+2024-08-15 16:26:04,006 - debug - URL Streams https://www.youtube.com/channel/UCcst6yHdE5Gdisu5YKCgc1g/live: {}
+2024-08-15 16:26:04,602 - debug - URL Streams https://www.youtube.com/channel/UCo4sch-fwKIeyzyPIWRXjdw/live: {}
+2024-08-15 16:26:04,602 - debug - URL Streams https://www.youtube.com/channel/UCo4sch-fwKIeyzyPIWRXjdw/live: {}
+2024-08-15 16:26:04,749 - debug - URL Streams https://www.youtube.com/channel/UCSjkdk0uRM3v6Z_4U-hk41Q/live: {}
+2024-08-15 16:26:04,749 - debug - URL Streams https://www.youtube.com/channel/UCSjkdk0uRM3v6Z_4U-hk41Q/live: {}
+2024-08-15 16:26:05,311 - debug - URL Streams https://www.youtube.com/c/createandcraft/live: {}
+2024-08-15 16:26:05,311 - debug - URL Streams https://www.youtube.com/c/createandcraft/live: {}
+2024-08-15 16:26:05,847 - debug - URL Streams https://www.youtube.com/channel/UC9r76Tzp5HxeQG7SqZwV3OA/live: {}
+2024-08-15 16:26:05,847 - debug - URL Streams https://www.youtube.com/channel/UC9r76Tzp5HxeQG7SqZwV3OA/live: {}
+2024-08-15 16:26:06,487 - debug - URL Streams https://www.youtube.com/channel/UCBROhZBlBQTxRW_3h6H-rlg/live: {}
+2024-08-15 16:26:06,487 - debug - URL Streams https://www.youtube.com/channel/UCBROhZBlBQTxRW_3h6H-rlg/live: {}
+2024-08-15 16:26:07,056 - debug - URL Streams https://www.youtube.com/channel/UCJbgGTpBWuC87VFIKTTO4RQ/live: {}
+2024-08-15 16:26:07,056 - debug - URL Streams https://www.youtube.com/channel/UCJbgGTpBWuC87VFIKTTO4RQ/live: {}
+2024-08-15 16:26:07,735 - debug - URL Streams https://www.youtube.com/channel/UCP_T_GqYquLmsIpmDpJvULw/live: {}
+2024-08-15 16:26:07,735 - debug - URL Streams https://www.youtube.com/channel/UCP_T_GqYquLmsIpmDpJvULw/live: {}
+2024-08-15 16:26:07,922 - debug - URL Streams https://www.youtube.com/channel/UCyCljI7PbGR7zOIHJXQSK2w: {}
+2024-08-15 16:26:07,922 - debug - URL Streams https://www.youtube.com/channel/UCyCljI7PbGR7zOIHJXQSK2w: {}
+2024-08-15 16:26:08,615 - debug - URL Streams https://www.youtube.com/channel/UC8dXdHZshMmgDmvFVzjl55Q/live: {}
+2024-08-15 16:26:08,615 - debug - URL Streams https://www.youtube.com/channel/UC8dXdHZshMmgDmvFVzjl55Q/live: {}
+2024-08-15 16:26:09,140 - debug - URL Streams https://www.youtube.com/channel/UCv7IxJXF5EMgzZ77DVSx4IQ/live: {}
+2024-08-15 16:26:09,140 - debug - URL Streams https://www.youtube.com/channel/UCv7IxJXF5EMgzZ77DVSx4IQ/live: {}
+2024-08-15 16:26:09,441 - debug - URL Streams https://www.youtube.com/user/Gemporia/live: {}
+2024-08-15 16:26:09,441 - debug - URL Streams https://www.youtube.com/user/Gemporia/live: {}
+2024-08-15 16:26:09,797 - debug - URL Streams https://www.youtube.com/channel/UCmGXuyddt_xg6ckdbGNPAjg/live: {}
+2024-08-15 16:26:09,797 - debug - URL Streams https://www.youtube.com/channel/UCmGXuyddt_xg6ckdbGNPAjg/live: {}
+2024-08-15 16:26:10,362 - debug - URL Streams https://www.youtube.com/channel/UCGbjb7FYYmj0z3_9iJ7dMPQ/live: {}
+2024-08-15 16:26:10,362 - debug - URL Streams https://www.youtube.com/channel/UCGbjb7FYYmj0z3_9iJ7dMPQ/live: {}
+2024-08-15 16:26:10,928 - debug - URL Streams https://www.youtube.com/channel/UCvpCjGQASCazC-Vxcp9tgPA/live: {}
+2024-08-15 16:26:10,928 - debug - URL Streams https://www.youtube.com/channel/UCvpCjGQASCazC-Vxcp9tgPA/live: {}
+2024-08-15 16:26:11,449 - debug - URL Streams https://www.youtube.com/channel/UCp0urejlDaYz4G8xpTxdIvw/live: {}
+2024-08-15 16:26:11,449 - debug - URL Streams https://www.youtube.com/channel/UCp0urejlDaYz4G8xpTxdIvw/live: {}
+2024-08-15 16:26:11,992 - debug - URL Streams https://www.youtube.com/channel/UCcst6yHdE5Gdisu5YKCgc1g/live: {}
+2024-08-15 16:26:11,992 - debug - URL Streams https://www.youtube.com/channel/UCcst6yHdE5Gdisu5YKCgc1g/live: {}
+2024-08-15 16:26:12,175 - debug - URL Streams https://www.youtube.com/channel/UCWGkK1d7eUmK8XmJ4Kyu4MQ/live: {}
+2024-08-15 16:26:12,175 - debug - URL Streams https://www.youtube.com/channel/UCWGkK1d7eUmK8XmJ4Kyu4MQ/live: {}
+2024-08-15 16:26:12,780 - debug - URL Streams https://www.youtube.com/channel/UCsxo83jFFZNC9woLRVG7d4w/live: {}
+2024-08-15 16:26:12,780 - debug - URL Streams https://www.youtube.com/channel/UCsxo83jFFZNC9woLRVG7d4w/live: {}
+2024-08-15 16:26:12,940 - debug - URL Streams https://www.youtube.com/channel/UCBu0BKbDNL09ihRHK5wWzvQ/live: {}
+2024-08-15 16:26:12,940 - debug - URL Streams https://www.youtube.com/channel/UCBu0BKbDNL09ihRHK5wWzvQ/live: {}
+2024-08-15 16:26:13,627 - debug - URL Streams https://www.youtube.com/channel/UCDhA7JbV2QQ-Ic9FrbeEEHA/live: {}
+2024-08-15 16:26:13,627 - debug - URL Streams https://www.youtube.com/channel/UCDhA7JbV2QQ-Ic9FrbeEEHA/live: {}
+2024-08-15 16:26:14,293 - debug - URL Streams https://www.youtube.com/channel/UC4_WjgHnlKssNxWo0uFzEcw/live: {}
+2024-08-15 16:26:14,293 - debug - URL Streams https://www.youtube.com/channel/UC4_WjgHnlKssNxWo0uFzEcw/live: {}
+2024-08-15 16:26:14,896 - debug - URL Streams https://www.youtube.com/c/HotsaleTV/live: {}
+2024-08-15 16:26:14,896 - debug - URL Streams https://www.youtube.com/c/HotsaleTV/live: {}
+2024-08-15 16:26:15,686 - debug - URL Streams https://www.youtube.com/c/ViVaTVtw/live: {}
+2024-08-15 16:26:15,686 - debug - URL Streams https://www.youtube.com/c/ViVaTVtw/live: {}
+2024-08-15 16:26:15,881 - error - URL Error No PluginError https://www.youtube.com/channel/UCjwXjnO3BGePtB7gSKEpoqA/Live: 
+2024-08-15 16:26:15,881 - error - URL Error No PluginError https://www.youtube.com/channel/UCjwXjnO3BGePtB7gSKEpoqA/Live: 
+2024-08-15 16:26:16,094 - debug - URL Streams https://www.youtube.com/watch?v=u_C7Lwe1798/Live: {}
+2024-08-15 16:26:16,094 - debug - URL Streams https://www.youtube.com/watch?v=u_C7Lwe1798/Live: {}
+2024-08-15 16:26:16,658 - debug - URL Streams https://www.youtube.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg/live: {}
+2024-08-15 16:26:16,658 - debug - URL Streams https://www.youtube.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg/live: {}
+2024-08-15 16:26:16,990 - error - URL Error No PluginError https://www.youtube.com/channel/UCCTTGnP8-QydTBoMXCUduoQ/Live: 
+2024-08-15 16:26:16,990 - error - URL Error No PluginError https://www.youtube.com/channel/UCCTTGnP8-QydTBoMXCUduoQ/Live: 
+2024-08-15 16:26:17,199 - debug - URL Streams https://www.youtube.com/watch?v=xvGxvwWlnJ8/Live: {}
+2024-08-15 16:26:17,199 - debug - URL Streams https://www.youtube.com/watch?v=xvGxvwWlnJ8/Live: {}
+2024-08-15 16:26:17,412 - error - URL Error No PluginError https://www.youtube.com/channel/UCjfxDe7In59Jbfw2HmIh_Vg/Live: 
+2024-08-15 16:26:17,412 - error - URL Error No PluginError https://www.youtube.com/channel/UCjfxDe7In59Jbfw2HmIh_Vg/Live: 
+2024-08-15 16:26:17,578 - error - URL Error No PluginError https://www.youtube.com/c/televisamorelos/Live: 
+2024-08-15 16:26:17,578 - error - URL Error No PluginError https://www.youtube.com/c/televisamorelos/Live: 
+2024-08-15 16:26:17,833 - debug - URL Streams https://www.youtube.com/user/SenadoLXILegislatura/live: {}
+2024-08-15 16:26:17,833 - debug - URL Streams https://www.youtube.com/user/SenadoLXILegislatura/live: {}
+2024-08-15 16:26:18,450 - debug - URL Streams https://www.youtube.com/channel/UC6qrG3W8SMK0jior2olka3g/live: {}
+2024-08-15 16:26:18,450 - debug - URL Streams https://www.youtube.com/channel/UC6qrG3W8SMK0jior2olka3g/live: {}
+2024-08-15 16:26:19,029 - debug - URL Streams https://www.youtube.com/channel/UC1dI_81gsFYkd_EdA0IIBaA/live: {}
+2024-08-15 16:26:19,029 - debug - URL Streams https://www.youtube.com/channel/UC1dI_81gsFYkd_EdA0IIBaA/live: {}
+2024-08-15 16:26:19,732 - debug - URL Streams https://www.youtube.com/channel/UCT_8WtjN20pye20BZ6LdkMQ/live: {}
+2024-08-15 16:26:19,732 - debug - URL Streams https://www.youtube.com/channel/UCT_8WtjN20pye20BZ6LdkMQ/live: {}
+2024-08-15 16:26:20,301 - debug - URL Streams https://www.youtube.com/channel/UC0djAWwMXP22wzocdJR9dWw/live: {}
+2024-08-15 16:26:20,301 - debug - URL Streams https://www.youtube.com/channel/UC0djAWwMXP22wzocdJR9dWw/live: {}
+2024-08-15 16:26:20,891 - debug - URL Streams https://www.youtube.com/channel/UCDmNmxF3ZVMeGyvWE9tOqPQ/live: {}
+2024-08-15 16:26:20,891 - debug - URL Streams https://www.youtube.com/channel/UCDmNmxF3ZVMeGyvWE9tOqPQ/live: {}
+2024-08-15 16:26:21,078 - debug - URL Streams https://www.youtube.com/watch?v=0qfiHGUstk4/Live: {}
+2024-08-15 16:26:21,078 - debug - URL Streams https://www.youtube.com/watch?v=0qfiHGUstk4/Live: {}
+2024-08-15 16:26:21,187 - error - URL Error No PluginError https://www.youtube.com/channel/UCMv0gGYxPXDZDSQAS4vhgdg/Live: 
+2024-08-15 16:26:21,187 - error - URL Error No PluginError https://www.youtube.com/channel/UCMv0gGYxPXDZDSQAS4vhgdg/Live: 
+2024-08-15 16:26:21,386 - debug - URL Streams https://www.youtube.com/watch?v=qoEcy8HS8-8/Live: {}
+2024-08-15 16:26:21,386 - debug - URL Streams https://www.youtube.com/watch?v=qoEcy8HS8-8/Live: {}
+2024-08-15 16:26:21,890 - debug - URL Streams https://www.youtube.com/channel/UCwP4zsC0r9eqRQOethu5EFg/live: {}
+2024-08-15 16:26:21,890 - debug - URL Streams https://www.youtube.com/channel/UCwP4zsC0r9eqRQOethu5EFg/live: {}
+2024-08-15 16:26:22,046 - debug - URL Streams https://www.youtube.com/channel/UCfJtBtmhnIyfUB6RqXeImMw/live: {}
+2024-08-15 16:26:22,046 - debug - URL Streams https://www.youtube.com/channel/UCfJtBtmhnIyfUB6RqXeImMw/live: {}
+2024-08-15 16:26:22,574 - debug - URL Streams https://www.youtube.com/channel/UCnsvJeZO4RigQ898WdDNoBw/live: {}
+2024-08-15 16:26:22,574 - debug - URL Streams https://www.youtube.com/channel/UCnsvJeZO4RigQ898WdDNoBw/live: {}
+2024-08-15 16:26:22,888 - debug - URL Streams https://www.youtube.com/channel/UClLLRs_mFTsNT5U-DqTYAGg/live: {}
+2024-08-15 16:26:22,888 - debug - URL Streams https://www.youtube.com/channel/UClLLRs_mFTsNT5U-DqTYAGg/live: {}
+2024-08-15 16:26:22,972 - error - URL Error https://www.youtube.com/user/telesurtv/live: Unable to open URL: https://www.youtube.com/user/telesurtv/live (404 Client Error: Not Found for url: https://www.youtube.com/user/telesurtv/live)
+2024-08-15 16:26:22,972 - error - URL Error https://www.youtube.com/user/telesurtv/live: Unable to open URL: https://www.youtube.com/user/telesurtv/live (404 Client Error: Not Found for url: https://www.youtube.com/user/telesurtv/live)
+2024-08-15 16:26:23,436 - debug - URL Streams https://www.youtube.com/user/telesurenglish/live: {}
+2024-08-15 16:26:23,436 - debug - URL Streams https://www.youtube.com/user/telesurenglish/live: {}
