@@ -48,16 +48,7 @@ def check_url(url):
             logger.debug("URL Streams %s: %s", url, response)
             return True
     except requests.exceptions.RequestException as err:
-        pass
-    
-    try:
-        response = requests.head(url, timeout=15, verify=False)
-        if response.status_code == 200:
-            logger.debug("URL Streams %s: %s", url, response)
-            return True
-    except requests.exceptions.RequestException as err:
         logger.error("URL Error %s: %s", url, err)
-        return False
     
     return False
 
@@ -79,6 +70,25 @@ def parse_extinf_line(line):
     return ch_name, group_title, tvg_logo, epg
 
 channel_data = []
+existing_channels = {}
+
+# Read existing MASTER.m3u to update data
+if os.path.exists("MASTER.m3u"):
+    with open("MASTER.m3u") as f:
+        lines = f.readlines()
+        i = 0
+        while i < len(lines):
+            line = lines[i].strip()
+            if line.startswith('#EXTINF'):
+                ch_name, group_title, tvg_logo, epg = parse_extinf_line(line)
+                link = lines[i+1].strip()
+                existing_channels[link] = {
+                    'name': ch_name,
+                    'group': group_title,
+                    'logo': tvg_logo,
+                    'epg': epg
+                }
+            i += 1
 
 channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../MASTER.txt'))
 
@@ -88,44 +98,51 @@ with open(channel_info) as f:
     while i < len(lines):
         line = lines[i].strip()
         if line.startswith('#EXTINF'):
-            # Extract information from #EXTINF line
             ch_name, group_title, tvg_logo, epg = parse_extinf_line(line)
-            
             link = lines[i+1].strip()
             if link and check_url(link):
-                channel_data.append({
-                    'name': ch_name,
-                    'url': link,
-                    'group': group_title,
-                    'logo': tvg_logo,
-                    'epg': epg
-                })
+                if link in existing_channels:
+                    # Update existing channel information
+                    existing_channels[link].update({
+                        'name': ch_name,
+                        'group': group_title,
+                        'logo': tvg_logo,
+                        'epg': epg
+                    })
+                else:
+                    # Add new channel
+                    existing_channels[link] = {
+                        'name': ch_name,
+                        'group': group_title,
+                        'logo': tvg_logo,
+                        'epg': epg
+                    }
             i += 1  # Skip the next line (URL) because it's already processed
         i += 1
 
 # Write to MASTER.m3u
 with open("MASTER.m3u", "w") as f:
     f.write(banner)
-
-    for channel in channel_data:
+    for link, data in existing_channels.items():
         extinf_line = '#EXTINF:-1'
-        if channel["group"]:
-            extinf_line += f' group-title="{channel["group"]}"'
-        if channel["logo"]:
-            extinf_line += f' tvg-logo="{channel["logo"]}"'
-        if channel["epg"]:
-            extinf_line += f' tvg-id="{channel["epg"]}"'
-        extinf_line += f', {channel["name"]}'
+        if data["group"]:
+            extinf_line += f' group-title="{data["group"]}"'
+        if data["logo"]:
+            extinf_line += f' tvg-logo="{data["logo"]}"'
+        if data["epg"]:
+            extinf_line += f' tvg-id="{data["epg"]}"'
+        extinf_line += f', {data["name"]}'
         
         f.write(extinf_line)
         f.write('\n')
-        f.write(channel['url'])
+        f.write(link)
         f.write('\n')
 
 # Write to playlist.json
-with open("playlist.json", "a") as f:
-    json_data = json.dumps(channel_data, indent=2)
+with open("playlist.json", "w") as f:
+    json_data = json.dumps([{'name': data['name'], 'url': link, 'group': data['group'], 'logo': data['logo'], 'epg': data['epg']} for link, data in existing_channels.items()], indent=2)
     f.write(json_data)
+
 
 
 
