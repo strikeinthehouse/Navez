@@ -4,7 +4,9 @@ import streamlink
 import logging
 from logging.handlers import RotatingFileHandler
 import json
+import re
 
+# Set up logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
@@ -39,7 +41,6 @@ def grab(url):
         logger.error("URL Error %s: %s", url, err)
         return None
 
-
 def check_url(url):
     try:
         response = requests.head(url, timeout=15)
@@ -62,23 +63,18 @@ def check_url(url):
 
 def parse_extinf_line(line):
     # Default values
+    ch_name = "Undefined"
     group_title = "Undefined"
     tvg_logo = "Undefined.png"
     epg = ""
     
-    # Split the line to extract metadata
-    meta_info = line.split(',')
-    if len(meta_info) > 1:
-        meta_info = meta_info[1].strip()
-        meta_parts = meta_info.split('|')
-        if len(meta_parts) > 0:
-            ch_name = meta_parts[0].strip()
-        if len(meta_parts) > 1:
-            group_title = meta_parts[1].strip()
-        if len(meta_parts) > 2:
-            tvg_logo = meta_parts[2].strip()
-        if len(meta_parts) > 3:
-            epg = meta_parts[3].strip()
+    # Use regex to extract metadata
+    match = re.match(r'#EXTINF:-1(?: group-title="([^"]*)")?(?: tvg-logo="([^"]*)")?(?: tvg-id="([^"]*)")?,(.*)', line)
+    if match:
+        group_title = match.group(1) or group_title
+        tvg_logo = match.group(2) or tvg_logo
+        epg = match.group(3) or epg
+        ch_name = match.group(4).strip() or ch_name
     
     return ch_name, group_title, tvg_logo, epg
 
@@ -107,11 +103,16 @@ with open(channel_info) as f:
             i += 1  # Skip the next line (URL) because it's already processed
         i += 1
 
+# Write to MASTER.m3u
 with open("MASTER.m3u", "w") as f:
     f.write(banner)
 
     for channel in channel_data:
-        extinf_line = f'\n#EXTINF:-1 group-title="{channel["group"]}" tvg-logo="{channel["logo"]}"'
+        extinf_line = '#EXTINF:-1'
+        if channel["group"]:
+            extinf_line += f' group-title="{channel["group"]}"'
+        if channel["logo"]:
+            extinf_line += f' tvg-logo="{channel["logo"]}"'
         if channel["epg"]:
             extinf_line += f' tvg-id="{channel["epg"]}"'
         extinf_line += f', {channel["name"]}'
@@ -121,9 +122,11 @@ with open("MASTER.m3u", "w") as f:
         f.write(channel['url'])
         f.write('\n')
 
+# Write to playlist.json
 with open("playlist.json", "a") as f:
     json_data = json.dumps(channel_data, indent=2)
     f.write(json_data)
+
 
 
 
