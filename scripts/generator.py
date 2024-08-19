@@ -60,12 +60,12 @@ def parse_extinf_line(line):
     epg = ""
     
     # Use regex to extract metadata
-    match = re.match(r'#EXTINF:-1(?: group-title="([^"]*)")?(?: tvg-logo="([^"]*)")?(?: tvg-id="([^"]*)")?,(.*)', line)
+    match = re.match(r'#EXTINF:-1(?: tvg-id="([^"]*)")?(?: tvg-name="([^"]*)")?(?: tvg-logo="([^"]*)")?(?: group-title="([^"]*)")?,(.*)', line)
     if match:
-        group_title = match.group(1) or group_title
-        tvg_logo = match.group(2) or tvg_logo
-        epg = match.group(3) or epg
-        ch_name = match.group(4).strip() or ch_name
+        epg = match.group(1) or epg
+        ch_name = match.group(2).strip() or ch_name
+        tvg_logo = match.group(3) or tvg_logo
+        group_title = match.group(4) or group_title
     
     return ch_name, group_title, tvg_logo, epg
 
@@ -125,12 +125,14 @@ with open("MASTER.m3u", "w") as f:
     f.write(banner)
     for link, data in existing_channels.items():
         extinf_line = '#EXTINF:-1'
-        if data["group"]:
-            extinf_line += f' group-title="{data["group"]}"'
-        if data["logo"]:
-            extinf_line += f' tvg-logo="{data["logo"]}"'
         if data["epg"]:
             extinf_line += f' tvg-id="{data["epg"]}"'
+        if data["name"]:
+            extinf_line += f' tvg-name="{data["name"]}"'
+        if data["logo"]:
+            extinf_line += f' tvg-logo="{data["logo"]}"'
+        if data["group"]:
+            extinf_line += f' group-title="{data["group"]}"'
         extinf_line += f', {data["name"]}'
         
         f.write(extinf_line)
