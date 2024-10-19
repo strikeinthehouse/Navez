@@ -63,10 +63,12 @@ def parse_extinf_line(line):
     match = re.match(r'#EXTINF:-1(?: tvg-id="([^"]*)")?(?: tvg-name="([^"]*)")?(?: tvg-logo="([^"]*)")?(?: group-title="([^"]*)")?,(.*)', line)
     if match:
         epg = match.group(1) or epg
-        ch_name = match.group(2).strip() or ch_name
+        ch_name = match.group(2).strip() if match.group(2) else ch_name
         tvg_logo = match.group(3) or tvg_logo
         group_title = match.group(4) or group_title
-    
+    else:
+        logger.warning("No match for line: %s", line)
+
     return ch_name, group_title, tvg_logo, epg
 
 channel_data = []
