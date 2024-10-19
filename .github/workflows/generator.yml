@@ -1,8 +1,5 @@
-# This is a basic workflow to help you get started with Actions
-
 name: M3U generator
 
-# Controls when the action will run. 
 on:
   schedule:
     - cron: '0 0/2 * * *'
@@ -16,18 +13,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repositório
-      uses: actions/checkout@v3  # Updated to use a newer version
+    - name: Checkout Repository
+      uses: actions/checkout@v3
 
-    - name: Configurar Ambiente Virtual
-      run: |
-        python3 -m venv venv
-        source venv/bin/activate
-        pip install --upgrade pip  # Upgrade pip within the virtual environment
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'  # Specify your Python version
 
-    - name: Instalando Dependências Python
+    - name: Install dependencies
       run: |
+        python -m venv venv
         source venv/bin/activate
+        pip install --upgrade pip
         pip install streamlink selenium requests beautifulsoup4 lxml python-dateutil yt-dlp youtube-dl pytz
 
     - name: Install ffmpeg
@@ -36,24 +34,25 @@ jobs:
         sudo apt-get install -y ffmpeg      
 
     - name: Delete log
-      run: |
-        rm -rf ./log.txt
+      run: rm -rf ./log.txt
 
-    - name: Main
+    - name: Run the script
       run: |
         chmod +x generate.sh
         ./generate.sh
 
-    - name: git pull
+    - name: Configure Git
+      run: |
+        git config --global user.name "Your Name"
+        git config --global user.email "you@example.com"
+
+    - name: Check for changes
       run: |
         git pull origin main
-
-    - name: git add
-      run: |
         git add -A
-        ls -la
-
-    - name: commit & push
-      run: |
-        git commit -m "links are updated"
-        git push
+        if [ -n "$(git diff --cached)" ]; then
+          git commit -m "links are updated"
+          git push origin main
+        else
+          echo "No changes to commit."
+        fi
