@@ -14,7 +14,7 @@ log_file = "log.txt"
 file_handler = RotatingFileHandler(log_file)
 file_handler.setLevel(logging.DEBUG)
 
-formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
@@ -25,7 +25,7 @@ banner = r'''
 
 def grab(url):
     try:
-        if url.endswith(".m3u") or url.endswith(".m3u8") or ".ts" in url:
+        if url.endswith('.m3u') or url.endswith('.m3u8') or ".ts" in url:
             return url
 
         session = streamlink.Streamlink()
@@ -35,35 +35,20 @@ def grab(url):
             return streams["best"].url
         return None
     except streamlink.exceptions.NoPluginError as err:
-        logger.error("Streamlink Error (No Plugin) for %s: %s", url, err)
+        logger.error("URL Error No PluginError %s: %s", url, err)
         return None
-    except streamlink.exceptions.StreamlinkError as err:
-        # Catch general Streamlink errors, which include LOGIN_REQUIRED, Video unavailable, UNPLAYABLE
-        logger.error("Streamlink Error for %s: %s", url, err)
-        return None
-    except Exception as err:
-        # Catch any other unexpected errors during streamlink processing
-        logger.error("An unexpected error occurred with Streamlink for %s: %s", url, err)
+    except streamlink.StreamlinkError as err:
+        logger.error("URL Error %s: %s", url, err)
         return None
 
 def check_url(url):
     try:
         response = requests.head(url, timeout=15)
         if response.status_code == 200:
-            logger.debug("URL Check (200 OK) for %s: %s", url, response.status_code)
+            logger.debug("URL Streams %s: %s", url, response)
             return True
     except requests.exceptions.RequestException as err:
-        logger.warning("RequestException during initial URL check for %s: %s", url, err)
-    
-    # Try again with verify=False for SSL issues, as in original script
-    try:
-        response = requests.head(url, timeout=15, verify=False)
-        if response.status_code == 200:
-            logger.debug("URL Check (200 OK, verify=False) for %s: %s", url, response.status_code)
-            return True
-    except requests.exceptions.RequestException as err:
-        logger.error("RequestException during URL check (with verify=False) for %s: %s", url, err)
-        return False
+        logger.error("URL Error %s: %s", url, err)
     
     return False
 
@@ -96,43 +81,43 @@ if os.path.exists("MASTER.m3u"):
         i = 0
         while i < len(lines):
             line = lines[i].strip()
-            if line.startswith("#EXTINF"):
+            if line.startswith('#EXTINF'):
                 ch_name, group_title, tvg_logo, epg = parse_extinf_line(line)
                 link = lines[i+1].strip()
                 existing_channels[link] = {
-                    "name": ch_name,
-                    "group": group_title,
-                    "logo": tvg_logo,
-                    "epg": epg
+                    'name': ch_name,
+                    'group': group_title,
+                    'logo': tvg_logo,
+                    'epg': epg
                 }
             i += 1
 
-channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), "../MASTER.txt"))
+channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../MASTER.txt'))
 
 with open(channel_info) as f:
     lines = f.readlines()
     i = 0
     while i < len(lines):
         line = lines[i].strip()
-        if line.startswith("#EXTINF"):
+        if line.startswith('#EXTINF'):
             ch_name, group_title, tvg_logo, epg = parse_extinf_line(line)
             link = lines[i+1].strip()
             if link and check_url(link):
                 if link in existing_channels:
                     # Update existing channel information
                     existing_channels[link].update({
-                        "name": ch_name,
-                        "group": group_title,
-                        "logo": tvg_logo,
-                        "epg": epg
+                        'name': ch_name,
+                        'group': group_title,
+                        'logo': tvg_logo,
+                        'epg': epg
                     })
                 else:
                     # Add new channel
                     existing_channels[link] = {
-                        "name": ch_name,
-                        "group": group_title,
-                        "logo": tvg_logo,
-                        "epg": epg
+                        'name': ch_name,
+                        'group': group_title,
+                        'logo': tvg_logo,
+                        'epg': epg
                     }
             i += 1  # Skip the next line (URL) because it's already processed
         i += 1
@@ -141,7 +126,7 @@ with open(channel_info) as f:
 with open("MASTER.m3u", "w") as f:
     f.write(banner)
     for link, data in existing_channels.items():
-        extinf_line = "#EXTINF:-1"
+        extinf_line = '#EXTINF:-1'
         if data["epg"]:
             extinf_line += f' tvg-id="{data["epg"]}"'
         if data["name"]:
@@ -185,7 +170,7 @@ log_file = "log.txt"
 file_handler = RotatingFileHandler(log_file)
 file_handler.setLevel(logging.DEBUG)
 
-formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
@@ -196,7 +181,7 @@ banner = r'''
 
 def grab(url):
     try:
-        if url.endswith(".m3u") or url.endswith(".m3u8") or ".ts" in url:
+        if url.endswith('.m3u') or url.endswith('.m3u8') or ".ts" in url:
             return url
 
         session = streamlink.Streamlink()
@@ -206,15 +191,10 @@ def grab(url):
             return streams["best"].url
         return None
     except streamlink.exceptions.NoPluginError as err:
-        logger.error("Streamlink Error (No Plugin) for %s: %s", url, err)
+        logger.error("URL Error No PluginError %s: %s", url, err)
         return None
-    except streamlink.exceptions.StreamlinkError as err:
-        # Catch general Streamlink errors, which include LOGIN_REQUIRED, Video unavailable, UNPLAYABLE
-        logger.error("Streamlink Error for %s: %s", url, err)
-        return None
-    except Exception as err:
-        # Catch any other unexpected errors during streamlink processing
-        logger.error("An unexpected error occurred with Streamlink for %s: %s", url, err)
+    except streamlink.StreamlinkError as err:
+        logger.error("URL Error %s: %s", url, err)
         return None
 
 
@@ -222,19 +202,18 @@ def check_url(url):
     try:
         response = requests.head(url, timeout=15)
         if response.status_code == 200:
-            logger.debug("URL Check (200 OK) for %s: %s", url, response.status_code)
+            logger.debug("URL Streams %s: %s", url, response)
             return True
     except requests.exceptions.RequestException as err:
-        logger.warning("RequestException during initial URL check for %s: %s", url, err)
+        pass
     
-    # Try again with verify=False for SSL issues, as in original script
     try:
         response = requests.head(url, timeout=15, verify=False)
         if response.status_code == 200:
-            logger.debug("URL Check (200 OK, verify=False) for %s: %s", url, response.status_code)
+            logger.debug("URL Streams %s: %s", url, response)
             return True
     except requests.exceptions.RequestException as err:
-        logger.error("RequestException during URL check (with verify=False) for %s: %s", url, err)
+        logger.error("URL Error %s: %s", url, err)
         return False
     
     return False
@@ -242,32 +221,32 @@ def check_url(url):
 channel_data = []
 channel_data_json = []
 
-channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), "../channel_info.txt"))
+channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../channel_info.txt'))
 
 with open(channel_info) as f:
     for line in f:
         line = line.strip()
-        if not line or line.startswith("~~"):
+        if not line or line.startswith('~~'):
             continue
-        if not line.startswith("http:") and len(line.split("|")) == 4:
-            line = line.split("|")
+        if not line.startswith('http:') and len(line.split("|")) == 4:
+            line = line.split('|')
             ch_name = line[0].strip()
             grp_title = line[1].strip().title()
             tvg_logo = line[2].strip()
             tvg_id = line[3].strip()
             channel_data.append({
-                "type": "info",
-                "ch_name": ch_name,
-                "grp_title": grp_title,
-                "tvg_logo": tvg_logo,
-                "tvg_id": tvg_id
+                'type': 'info',
+                'ch_name': ch_name,
+                'grp_title': grp_title,
+                'tvg_logo': tvg_logo,
+                'tvg_id': tvg_id
             })
         else:
             link = grab(line)
             if link and check_url(link):
                 channel_data.append({
-                    "type": "link",
-                    "url": link
+                    'type': 'link',
+                    'url': link
                 })
 
 with open("playlist.m3u", "w") as f:
@@ -276,9 +255,9 @@ with open("playlist.m3u", "w") as f:
     prev_item = None
 
     for item in channel_data:
-        if item["type"] == "info":
+        if item['type'] == 'info':
             prev_item = item
-        if item["type"] == "link" and item["url"]:
+        if item['type'] == 'link' and item['url']:
             f.write(f'\n#EXTINF:-1 group-title="{prev_item["grp_title"]}" tvg-logo="{prev_item["tvg_logo"]}" tvg-id="{prev_item["tvg_id"]}", {prev_item["ch_name"]}')
             f.write('\n')
             f.write(item['url'])
@@ -287,9 +266,9 @@ with open("playlist.m3u", "w") as f:
 prev_item = None
 
 for item in channel_data:
-    if item["type"] == "info":
+    if item['type'] == 'info':
         prev_item = item
-    if item["type"] == "link" and item["url"]:
+    if item['type'] == 'link' and item['url']:
         channel_data_json.append( {
             "id": prev_item["tvg_id"],
             "name": prev_item["ch_name"],
@@ -313,5 +292,3 @@ for item in channel_data:
 with open("playlist.json", "w") as f:
     json_data = json.dumps(channel_data_json, indent=2)
     f.write(json_data)
-
-
